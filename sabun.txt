@@ -1,0 +1,232 @@
+------------------------------------------------------------------
+Const FOLDER_A_PATH As String = "/Users/iamcontra/Downloads"
+
+Function IsWorkbookInFolderA(wb As Workbook) As Boolean
+    If InStr(1, wb.Path, FOLDER_A_PATH, vbTextCompare) = 1 Then
+        IsWorkbookInFolderA = True
+    Else
+        IsWorkbookInFolderA = False
+    End If
+End Function
+
+Sub HighlightTextInOtherWorkbook()
+    Dim wb As Workbook
+    Dim ws As Worksheet
+    Dim otherWb As Workbook
+    Dim otherWs As Worksheet
+    Dim searchStr As String
+    Dim highlightPartStr As String
+    Dim sheetName As String
+    Dim openCount As Integer
+
+    ' ThisWorkbook以外のワークブック数をカウント
+    For Each wb In Application.Workbooks
+        If Not wb Is ThisWorkbook Then
+            Set otherWb = wb
+            openCount = openCount + 1
+        End If
+    Next wb
+
+    ' 1つだけ開かれているか確認
+    If openCount <> 1 Then
+        MsgBox "ThisWorkbook以外のワークブックを1つだけ開いてください。"
+        Exit Sub
+    End If
+
+    ' 検索の要件を取得
+    With ThisWorkbook.Sheets("書式と文字の置換")
+        sheetName = .Range("A3").Value
+        searchStr = .Range("A5").Value
+        highlightPartStr = .Range("A7").Value
+    End With
+
+    On Error Resume Next
+    Set otherWs = otherWb.Sheets(sheetName)
+    On Error GoTo 0
+
+    If otherWs Is Nothing Then
+        MsgBox "指定されたシート名'" & sheetName & "'が見つかりませんでした。"
+        Exit Sub
+    End If
+
+    ' 文字ハイライト処理
+    Dim rng As Range, cell As Range, pos As Integer, lengthSearch As Integer, lengthHighlight As Integer, highlightPos As Integer
+
+    lengthSearch = Len(searchStr)
+    lengthHighlight = Len(highlightPartStr)
+
+    Set rng = otherWs.UsedRange
+
+For Each cell In rng
+    pos = InStr(1, cell.Value, searchStr)
+    Do While pos > 0
+        If highlightPartStr <> "" Then
+            highlightPos = InStr(pos, cell.Value, highlightPartStr)
+            If highlightPos > 0 And highlightPos >= pos And highlightPos <= pos + Len(searchStr) - Len(highlightPartStr) Then
+                cell.Characters(highlightPos, lengthHighlight).Font.Color = vbRed
+            End If
+        Else
+            cell.Characters(pos, lengthSearch).Font.Color = vbRed
+        End If
+        pos = InStr(pos + 1, cell.Value, searchStr)
+    Loop
+Next cell
+End Sub
+------------------------------------------------------------------
+ファイル名取得
+
+Sub ListAllOpenWorkbooks()
+
+    Dim ws As Worksheet
+    Dim i As Integer
+    Dim lastRow As Long
+
+    Set ws = ThisWorkbook.Sheets(ファイル名取得) 'ファイル名取得シートを対象とする
+
+    ' A列の最終行を取得
+    lastRow = ws.Cells(ws.Rows.Count, "A").End(xlUp).Row
+
+    ' A3から開始
+    If lastRow < 3 Then
+        lastRow = 2
+    End If
+
+    ' 開かれているすべてのブックのファイル名をリストする
+    For i = 1 To Workbooks.Count
+        ws.Cells(lastRow + i, 1).Value = Workbooks(i).Name
+    Next i
+
+End Sub
+
+
+
+
+------------------------------------------------------------------
+書式の差分比較
+
+Const FOLDER_A_PATH As String = "/Users/iamcontra/Downloads"
+
+Function IsWorkbookInFolderA(wb As Workbook) As Boolean
+    If InStr(1, wb.Path, FOLDER_A_PATH, vbTextCompare) = 1 Then
+        IsWorkbookInFolderA = True
+    Else
+        IsWorkbookInFolderA = False
+    End If
+End Function
+
+Function CompareSheets(wsA As Worksheet, wsB As Worksheet)
+    Dim diffWs As Worksheet
+    Dim cellA As Range
+    Dim cellB As Range
+    Dim charIndex As Integer
+    Dim diffRow As Long
+    Dim hasDifference As Boolean
+
+    ' ThisWorkbook内の"差分"シートを設定
+    ' 注意: "差分"という名前のシートが存在していることを想定しています
+    Set diffWs = ThisWorkbook.Sheets("差分比較")
+    
+    ' A10から差分を記録開始
+    diffRow = 10
+
+    ' Aシートの各セルをループして比較
+    For Each cellA In wsA.UsedRange
+        ' Bシートの対応するセルを取得
+        Set cellB = wsB.Cells(cellA.Row, cellA.Column)
+        hasDifference = False
+
+        ' 文字列の長さが同じでなければ比較をスキップ
+        If Len(cellA.Value) <> Len(cellB.Value) Then
+            GoTo RecordDifference
+        End If
+
+        ' 文字ごとの取り消し線と色の確認
+        For charIndex = 1 To Len(cellA.Value)
+            If cellA.Characters(charIndex, 1).Font.Strikethrough <> cellB.Characters(charIndex, 1).Font.Strikethrough Or _
+               cellA.Characters(charIndex, 1).Font.Color <> cellB.Characters(charIndex, 1).Font.Color Then
+
+                hasDifference = True
+                Exit For
+            End If
+        Next charIndex
+
+        If Not hasDifference Then
+            GoTo NextIteration
+        End If
+
+RecordDifference:
+        diffWs.Cells(diffRow, 1).Value = cellA.Address
+        cellA.Copy diffWs.Cells(diffRow, 2)
+        cellB.Copy diffWs.Cells(diffRow, 3)
+
+' ハイパーリンクを追加
+diffWs.Hyperlinks.Add _
+    Anchor:=diffWs.Cells(diffRow, 4), _
+    Address:="file://" & wsA.Parent.Path & "\" & wsA.Parent.Name, _
+    SubAddress:=wsA.Name & "!" & cellA.Address, _
+    TextToDisplay:="ジャンプA"
+
+diffWs.Hyperlinks.Add _
+    Anchor:=diffWs.Cells(diffRow, 5), _
+    Address:="file://" & wsB.Parent.Path & "\" & wsB.Parent.Name, _
+    SubAddress:=wsB.Name & "!" & cellB.Address, _
+    TextToDisplay:="ジャンプB"
+
+
+
+        diffWs.Cells(diffRow, 6).Value = "書式の差分あり"
+
+        diffRow = diffRow + 1
+
+NextIteration:
+    Next cellA
+End Function
+
+Sub CompareSheetsForDifferencesInText()
+    Dim wb As Workbook
+
+    ' 全ての開いているワークブックをループ
+    For Each wb In Application.Workbooks
+        ' このワークブックが指定したフォルダ内にあるかどうかをチェック
+        If IsWorkbookInFolderA(wb) Then
+        Else
+            ' このワークブックはフォルダA内にはありません
+            MsgBox wb.Name & " はフォルダA内にはありません"
+            Exit Sub
+        End If
+    Next wb
+    Dim wb1 As Workbook, wb2 As Workbook
+    Dim ws1 As Worksheet, ws2 As Worksheet
+    Dim sheetName As String
+    Dim otherWbs As Collection
+    Set otherWbs = New Collection
+    
+    ' ThisWorkbook以外のワークブックを検索
+    For Each wb In Application.Workbooks
+        If Not wb Is ThisWorkbook Then
+            otherWbs.Add wb
+        End If
+    Next wb
+    
+    ' 2つのワークブックのみが開いていることを確認
+    If otherWbs.Count <> 2 Then
+        MsgBox "2つのワークブックを開いてください。"
+        Exit Sub
+    End If
+    
+    Set wb1 = otherWbs(1)
+    Set wb2 = otherWbs(2)
+    
+    ' 同名のシートを検索して比較
+    For Each ws1 In wb1.Worksheets
+        For Each ws2 In wb2.Worksheets
+            If ws1.Name = ws2.Name Then
+                ' 同名のシートが見つかった場合、比較処理を実行
+                Call CompareSheets(ws1, ws2)
+            End If
+        Next ws2
+    Next ws1
+End Sub
+
+
+
