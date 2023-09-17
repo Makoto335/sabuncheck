@@ -1,0 +1,37 @@
+Sub SearchAndReplaceInAllActiveSheets()
+    Const FOLDER_A_PATH As String = "/Users/iamcontra/Downloads" ' パスを必要に応じて変更してください
+    
+    Dim sourceWb As Workbook
+    Dim targetWb As Workbook
+    Dim searchString As String
+    Dim replaceString As String
+    Dim ws As Worksheet
+    Dim resultRow As Long
+
+    ' 置換情報を保存するための行を初期化
+    resultRow = 10
+
+    Set sourceWb = ThisWorkbook
+    searchString = sourceWb.Sheets("一括置換").Range("A3").Value
+    replaceString = sourceWb.Sheets("一括置換").Range("A5").Value
+
+    For Each targetWb In Application.Workbooks
+        If InStr(1, targetWb.Path, FOLDER_A_PATH, vbTextCompare) = 1 And Not targetWb Is sourceWb Then
+            Set ws = targetWb.ActiveSheet
+            
+            ' 検索・置換を実行
+            ws.Cells.Replace What:=searchString, Replacement:=replaceString, LookAt:=xlPart, _
+            SearchOrder:=xlByRows, MatchCase:=False, SearchFormat:=False, _
+            ReplaceFormat:=False
+
+            ' 結果をsourceWbに記録
+            sourceWb.Sheets("一括置換").Cells(resultRow, 2).Value = targetWb.Name
+            sourceWb.Sheets("一括置換").Cells(resultRow, 3).Value = ws.Name
+            sourceWb.Sheets("一括置換").Cells(resultRow, 4).Value = searchString
+            sourceWb.Sheets("一括置換").Cells(resultRow, 5).Value = replaceString
+            resultRow = resultRow + 1
+        End If
+    Next targetWb
+End Sub
+
+
