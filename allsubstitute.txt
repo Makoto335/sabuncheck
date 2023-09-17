@@ -1,5 +1,5 @@
 Sub SearchAndReplaceInAllActiveSheets()
-    Const FOLDER_A_PATH As String = "/Users/iamcontra/Downloads" ' パスを必要に応じて変更してください
+    Const FOLDER_A_PATH As String = "<フォルダ>" ' パスを必要に応じて変更してください
     
     Dim sourceWb As Workbook
     Dim targetWb As Workbook
