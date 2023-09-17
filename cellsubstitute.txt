@@ -1,4 +1,4 @@
-Const FOLDER_A_PATH As String = "/Users/iamcontra/Downloads"
+Const FOLDER_A_PATH As String = "＜フォルダ＞"
 
 Function IsWorkbookInFolderA(wb As Workbook) As Boolean
     If InStr(1, wb.Path, FOLDER_A_PATH, vbTextCompare) = 1 Then
