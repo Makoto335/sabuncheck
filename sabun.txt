@@ -1,5 +1,5 @@
 ------------------------------------------------------------------
-Const FOLDER_A_PATH As String = "/Users/iamcontra/Downloads"
+Const FOLDER_A_PATH As String = "<指定のフォルダ>"
 
 Function IsWorkbookInFolderA(wb As Workbook) As Boolean
     If InStr(1, wb.Path, FOLDER_A_PATH, vbTextCompare) = 1 Then
@@ -104,7 +104,7 @@ End Sub
 ------------------------------------------------------------------
 書式の差分比較
 
-Const FOLDER_A_PATH As String = "/Users/iamcontra/Downloads"
+Const FOLDER_A_PATH As String = "<指定のフォルダｆ>"
 
 Function IsWorkbookInFolderA(wb As Workbook) As Boolean
     If InStr(1, wb.Path, FOLDER_A_PATH, vbTextCompare) = 1 Then
