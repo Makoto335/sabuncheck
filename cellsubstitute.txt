@@ -1,4 +1,4 @@
-Const FOLDER_A_PATH As String = "<指定のフォルダ>"
+Const FOLDER_A_PATH As String = "/Users/iamcontra/Downloads"
 
 Function IsWorkbookInFolderA(wb As Workbook) As Boolean
     If InStr(1, wb.Path, FOLDER_A_PATH, vbTextCompare) = 1 Then
@@ -11,9 +11,12 @@ End Function
 Sub ReplaceInAllOpenWorkbooks()
     Dim sourceWb As Workbook
     Dim wb As Workbook
+    Dim targetCellAddress As String
+    Dim replacementValue As String
+    Dim targetCell As Range
     
-        ' 全ての開いているワークブックをループ
-    For Each wb In Application.Workbooks
+    
+        For Each wb In Application.Workbooks
         ' このワークブックが指定したフォルダ内にあるかどうかをチェック
         If IsWorkbookInFolderA(wb) Then
         Else
@@ -22,27 +25,32 @@ Sub ReplaceInAllOpenWorkbooks()
             Exit Sub
         End If
     Next wb
-    
-    Dim targetCellAddress As String
-    Dim replacementValue As String
-    Dim targetCell As Range
 
-     ' マクロが格納されているワークブックを設定
+    ' マクロが格納されているワークブックを設定
     Set sourceWb = ThisWorkbook
     
+    ' 置換情報を保存するための行を初期化
+    resultRow = 10
+
     ' セルA3から目的のセルアドレスを取得
     targetCellAddress = sourceWb.Sheets("セルの置換").Range("A3").Value
-    
+
     ' セルA5から置換後の文字列を取得
     replacementValue = sourceWb.Sheets("セルの置換").Range("A5").Value
-    
-        ' 他のすべての開いているワークブックをループで回る
+
+    ' 他のすべての開いているワークブックをループで回る
     For Each wb In Application.Workbooks
         ' マクロが格納されているワークブックとAフォルダにあるワークブックだけを対象とする
         If InStr(1, wb.Path, FOLDER_A_PATH, vbTextCompare) = 1 And Not wb Is sourceWb Then
             ' アクティブシートの指定されたセルを置換
             Set targetCell = wb.ActiveSheet.Range(targetCellAddress)
+            originalValue = targetCell.Value ' 置換前の値を保存
             targetCell.Value = replacementValue
+            sourceWb.Sheets("セルの置換").Cells(resultRow, 2).Value = wb.Name
+                sourceWb.Sheets("セルの置換").Cells(resultRow, 3).Value = targetSheetName
+                sourceWb.Sheets("セルの置換").Cells(resultRow, 4).Value = originalValue
+                sourceWb.Sheets("セルの置換").Cells(resultRow, 5).Value = replacementValue
+                resultRow = resultRow + 1
         End If
     Next wb
 
