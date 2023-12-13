@@ -1,0 +1,186 @@
+
+
+
+=========================================================================================
+#!/bin/bash
+
+# コマンドを実行し、出力を変数に保存
+output=$(command_to_run)
+status=$?
+
+# コマンドの終了ステータスが0で、かつ出力に特定の文字列が含まれているかチェック
+if [ $status -eq 0 ] && echo "$output" | grep -q "Success"; then
+    echo "Success: Command succeeded and output contains 'Success'"
+else
+    echo "Error: Command failed or output does not contain 'Success'"
+fi
+
+
+=========================================================================================
+#!/bin/bash
+
+command1
+if [ $? -ne 0 ]; then
+    echo "Error in command1"
+    exit 1
+fi
+
+command2
+if [ $? -ne 0 ]; then
+    echo "Error in command2"
+    exit 1
+fi
+
+=========================================================================================
+#!/bin/bash
+
+# CSVファイルの読み込み
+csv_file="path/to/yourfile.csv"
+
+# CSVファイルを行ごとに処理
+while IFS=, read -r owner group read_user write_user target_dir test_number; do
+    echo "### Test Number: $test_number ###"
+    echo "Checking as root..."
+    if [ "$(whoami)" != "root" ]; then
+        echo "Error: Not running as root."
+        continue
+    fi
+
+    # マウント情報のチェック
+    mount | grep "$target_dir" || continue
+
+    # ディレクトリの所有者とグループをチェック
+    ls -ld "$target_dir"
+    dir_owner=$(ls -ld "$target_dir" | awk '{print $3}')
+    dir_group=$(ls -ld "$target_dir" | awk '{print $4}')
+    if [ "$dir_owner" != "$owner" ] || [ "$dir_group" != "$group" ]; then
+        echo "Owner or group does not match."
+        continue
+    fi
+
+    # リード/ライトユーザーのチェック
+    for user in $read_user $write_user; do
+        su -c "whoami && ls -l $target_dir" $user
+        if [ "$user" = "$write_user" ]; then
+            # 書き込みテスト
+            su -c "touch $target_dir/testfile && rm -rf $target_dir/testfile" $user
+        fi
+    done
+
+    echo "Back to root user..."
+    if [ "$(whoami)" != "root" ]; then
+        echo "Error: Not running as root after tests."
+    fi
+done < "$csv_file"
+
+=========================================================================================
+#!/bin/bash
+
+# ファイルパスの設定
+file_to_remove="path/to/your/file"
+
+# ユーザーに確認を求める
+read -p "Are you sure you want to remove $file_to_remove? (y/n) " -n 1 -r
+echo    # 改行を追加
+
+if [[ $REPLY =~ ^[Yy]$ ]]
+then
+    # 'y' が入力された場合、ファイルを削除
+    rm "$file_to_remove"
+    echo "File removed."
+else
+    # 'y' 以外が入力された場合、削除をキャンセル
+    echo "File removal cancelled."
+fi
+
+
+=========================================================================================
+#!/bin/bash
+
+# CSVファイルの読み込み
+csv_file="path/to/yourfile.csv"
+
+# CSVファイルを行ごとに処理
+while IFS=, read -r owner group read_user write_user target_dir test_number; do
+    echo "### Test Number: $test_number ###"
+
+    # ルートユーザーで実行されているかチェック
+    if [ "$(whoami)" != "root" ]; then
+        echo "Error: Not running as root."
+        continue
+    fi
+
+    # マウント情報のチェック
+    mount | grep "$target_dir" || continue
+
+    # ディレクトリの所有者とグループをチェック
+    ls -ld "$target_dir"
+    dir_owner=$(ls -ld "$target_dir" | awk '{print $3}')
+    dir_group=$(ls -ld "$target_dir" | awk '{print $4}')
+
+    if [ "$dir_owner" != "root" ]; then
+        # 所有者がroot以外の場合、suしてチェック
+        su $owner -c "ls -ld $target_dir && exit"
+        su $read_user -c "ls -l $target_dir && exit"
+    else
+        # 所有者がrootの場合、rootで読み取りと所有者、グループのチェック
+        if [ "$dir_owner" != "$owner" ] || [ "$dir_group" != "$group" ]; then
+            echo "Owner or group does not match."
+            continue
+        fi
+
+        # リードユーザーでの読み取り確認
+        su $read_user -c "ls -l $target_dir && exit"
+    fi
+done < "$csv_file"
+=========================================================================================
+
+#!/bin/bash
+
+# CSVファイルの読み込み
+csv_file="path/to/yourfile.csv"
+
+# CSVファイルを行ごとに処理
+while IFS=, read -r owner group read_user write_user target_dir test_number; do
+    echo "### Test Number: $test_number ###"
+
+    # ルートユーザーで実行されているかチェック
+    if [ "$(whoami)" != "root" ]; then
+        echo "Error: Not running as root."
+        continue
+    fi
+
+    # マウント情報のチェック
+    mount | grep "$target_dir" || continue
+
+    # ディレクトリの所有者とグループをチェック
+    ls -ld "$target_dir"
+    dir_owner=$(ls -ld "$target_dir" | awk '{print $3}')
+    dir_group=$(ls -ld "$target_dir" | awk '{print $4}')
+
+    # 所有者がrootの場合、rootで読み取りと所有者、グループのチェック
+    if [ "$dir_owner" == "root" ]; then
+        # 所有者とグループが正しいか確認
+        if [ "$dir_owner" != "$owner" ] || [ "$dir_group" != "$group" ]; then
+            echo "Owner or group does not match."
+            continue
+        fi
+
+        # リードユーザーでの読み取り確認
+        su - $read_user -c "ls -l $target_dir"
+    else
+        # 所有者がroot以外の場合、suしてチェック
+        su - $owner -c "ls -ld $target_dir"
+        dir_owner=$(su - $owner -c "ls -ld $target_dir" | awk '{print $3}')
+        dir_group=$(su - $owner -c "ls -ld $target_dir" | awk '{print $4}')
+
+        # 所有者とグループが正しいか確認
+        if [ "$dir_owner" != "$owner" ] || [ "$dir_group" != "$group" ]; then
+            echo "Owner or group does not match."
+            continue
+        fi
+
+        # リードユーザーでの読み取り確認
+        su - $read_user -c "ls -l $target_dir"
+    fi
+done < "$csv_file"
