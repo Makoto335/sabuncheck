@@ -1,0 +1,39 @@
+Sub RearrangeData()
+    Dim sourceSheet As Worksheet
+    Dim targetSheet As Worksheet
+    Dim currentRow As Long
+    Dim targetRow As Long
+    Dim cellContent As Variant
+    Dim dataBlock() As Variant
+    Dim dataIndex As Integer
+
+    ' ソースシートとターゲットシートの設定
+    Set sourceSheet = ThisWorkbook.Worksheets("SourceSheetName") ' 実際のソースシート名に変更
+    Set targetSheet = ThisWorkbook.Worksheets("TargetSheetName") ' 実際のターゲットシート名に変更
+    
+    ' ターゲットシートの開始行番号
+    targetRow = 1
+    dataIndex = 0 ' データブロックインデックスの初期化
+
+    ' ソースシートのデータを1行ずつ読み込む
+    For currentRow = 1 To sourceSheet.Cells(sourceSheet.Rows.Count, 1).End(xlUp).Row
+        cellContent = sourceSheet.Cells(currentRow, 1).Value
+        
+        ' 空白行を検出したらインデックスをリセット
+        If IsEmpty(cellContent) Then
+            dataIndex = 0
+        Else
+            ' データを配列に追加
+            dataIndex = dataIndex + 1
+            ReDim Preserve dataBlock(1 To dataIndex)
+            dataBlock(dataIndex) = cellContent
+            
+            ' 最後の項目を検出したら、ターゲットシートにデータを移動
+            If dataIndex = 4 Or currentRow = sourceSheet.Cells(sourceSheet.Rows.Count, 1).End(xlUp).Row Then
+                targetSheet.Cells(targetRow, 1).Resize(1, UBound(dataBlock)).Value = dataBlock
+                targetRow = targetRow + 1
+                dataIndex = 0 ' インデックスをリセット
+            End If
+        End If
+    Next currentRow
+End Sub
