@@ -1,0 +1,35 @@
+Sub RearrangeDataWithEmptyRows()
+    Dim sourceSheet As Worksheet
+    Dim targetSheet As Worksheet
+    Dim currentRow As Range
+    Dim targetRowCounter As Long
+    Dim cellContent As String
+    Dim dataBlock(1 To 4) As String
+    Dim i As Integer
+
+    ' ソースシートとターゲットシートを設定
+    Set sourceSheet = ThisWorkbook.Worksheets("SourceSheetName") ' 実際のソースシート名に変更
+    Set targetSheet = ThisWorkbook.Worksheets("TargetSheetName") ' 実際のターゲットシート名に変更
+    
+    ' ターゲットシートの最初の行番号を設定
+    targetRowCounter = 1
+
+    ' ソースシートのデータを1行ずつ読み込む
+    For Each currentRow In sourceSheet.UsedRange.Rows
+        cellContent = Trim(currentRow.Cells(1, 1).Value)
+        
+        ' 空行をスキップ
+        If cellContent <> "" Then
+            ' データブロックに内容を格納
+            i = i + 1
+            dataBlock(i) = cellContent
+            
+            ' データブロックが4要素を格納したら、ターゲットシートに転写
+            If i = 4 Then
+                targetSheet.Cells(targetRowCounter, 1).Resize(1, 4).Value = dataBlock
+                i = 0 ' データブロックのインデックスをリセット
+                targetRowCounter = targetRowCounter + 1
+            End If
+        End If
+    Next currentRow
+End Sub
