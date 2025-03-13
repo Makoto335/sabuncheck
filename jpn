@@ -1,0 +1,1962 @@
+--- picture_0001.png ---
+[| 1. 次の2つのコードのクラスファイルを生成するためのコマンドとして、
+正しいものを選びなさい。(1つ選択)
+
+1 package b:
+
+2
+3. pubtic ctass B [
+4
+
+5 1
+
+1. package as:
+
+2。 imort b.B
+3
+4 pubtic ctassA【
+
+5     pubtic static woid main(String[] args) {
+5         Bb - new Bi
+み
+51
+
+A java a/Ajava
+
+B. java 7B.java
+
+C。 javac b7B.java
+
+java a/A.java
+D. javac a/4.java
+java a/A
+口  2. 次の3つのステートメントを記述する順番として正しいものを選びなさ
+い。(1つ選択)
+
+A dage hpot dmm
+
+B. package dass     impor
+
+C。 import dass     package
+
+D. das package impor
+
+E impot package dass
+
+394
+
+
+--- picture_0002.png ---
+[3. 次のプログラムを確認し、Mainクラスの空欄に入るコードとして、正
+しいものを選びなさい。(1つ選択
+1。 pakage com_sample:
+2 pbtic class Sample {
+kn    public void sample() {
+由        / am oode
+5.     }
+gl
+1. package com.sample.test:
+2. pbtic class 1est (
+E提     public void test(int nm) (
+        // amy code
+1     }
+gl
+1 packege com
+還害__ _ |
+3 pubtie class Hain (                                      穫
+4 putic stetic veid main(Strigll args) (
+5         new Sample().sample():                                    げ
+還        int mm - Integer.parseTnt(argsl0):                    四
+7          new 1est0.testtmum):                                     o
+B     }                                                   剛
+病                                                      呈
+AA import java.lang.Integer:
+import com.
+B.    import com.Sample.*:
+C。 import com.sampte.Sampte
+import com.sample.test.*:
+D. import java.1ang-
+395
+
+
+--- picture_0003.png ---
+[| 4. 次のプログラムをコンバイル、実行したときの結果として、正しいもの
+を選びなさい。(1つ選択)
+1 import javauti1.function.Supptier:
+2
+3. pubtic class sampte
+4 noidsamte0{
+5        inti=0
+5       upptier<nteger> foo = () つ旦
+7         RE
+#         System.out.printn(foo.get()):
+9 1
+20.1
+A コンパイルできるが、何も表示されない
+B. 実行時に例外がスローされる
+C。 0が表示される
+D. 1が表示される
+E。 コンパイルエラーが発生する
+[| 5. 次のプログラムをコンバイル、実行したときの結果として、正しいもの
+を選びなさい。(1つ選択)
+1 pubtic class sampte 【
+2. static int nm 23:
+3. pubtic static void main(Stringl] args) {
+4        int nmm = nm
+5          System.out.printin(muml:
+5     }
+7.1
+A 23が表示される
+B. 想定外の結果が表示される
+C。 コンパイルエラーが発生する
+D. 実行時に例外がスローされる
+396
+
+
+--- picture_0004.png ---
+[| 6. 次の2つのモジュールの設定ファイルに関する説明として、正しいもの
+を選びなさい。(2つ選択)
+1 moeuea(
+2。 remuires Bi
+3.1
+1 moaule (
+2。 emires計
+3.}
+A どちらのモジュールも、バパッケージがエクスポートされない
+B. どちらのモジュールもjava.baseモジュールな必要としない
+て。 モジュールの名前が短かすぎる
+D. コンバイルエラーが発生する
+[| 7. 次のブログラムをコンバイル、実行したときの結果として、正しいもの
+を選びなさい。(1つ選択)                                総
+仁
+士
+1. pubtic class Main {                                      げ
+2。 。 pubtic stetic void main(Strimgll args) (                   四
+3         int deta = 1                                        ①
+4      swdith(dsta) (                           間
+5          defautt: Systemout.print('Cり:                 是
+6          case 0: Systemout.print("A:
+7                  breaky
+8            case 10: Srstemout.print("Bり:
+軸                  break:
+10        }
+。 〕
+12.}
+A [Al と表示される
+B. [Cl と表示される
+C。 「CAJ と表示される
+D_ 「CAB」 と表示される
+E コンパイルエラーが発生する
+397
+
+
+--- picture_0005.png ---
+[| 8. 次のプログラムをコンバイル、実行したときの結果として、正しいもの
+を選びなさい。(1つ選択)
+1 pubtic ctass Sample 【
+2     public static void main(Stringl] args) 【
+3        String str - "hoge455test*:
+4        int index = 5
+5        (Character.isAtphabetictstr.charAt(index)))
+H            index = 0:
+7       ) etse if (Cheracter.isDigit(str.cherME(Gndey))) (
+#            index = 10:
+9        ) else (
+10          1tindec
+11        )
+12        下 (str.endsWith("test"))
+1           str = str.substring(0。 indexl:
+14          System.out.printn(str):
+5 1
+6. 1
+A  「hoge] と表示される
+B. hoge456」 と表示される
+C。 [456testl と表示される
+D. 「hoge456testl と表示される
+E. 「hoge456tes] と表示される
+口 9. クラスやモジュールの依存関係を調べるために使うコマンドとして、正
+しいものを選びなさい。(2つ選択)
+A jmod describe
+B.  jdeps --Uist-deps
+c java Hetto.java
+D. jar --show-module-resotution
+E java --shog-modute-resolution
+398
+
+
+--- picture_0006.png ---
+[| 10. 次のブログラムのコンバイルを成功させるための方法として、正しいも
+のを選びなさい。 (1つ選択)
+1. pubtic interface 』 {
+2.      stract void x():
+3.1
+1. public abstract class B /* position 1 7 (
+人    たposition2 7
+3    pubtie void x()
+4 mtic abstract void z0:
+5.1
+1. public class C extends B implements A{
+2     position 3 7
+3.1
+第12章
+A 以下をpostton 3に記述する
+@0verride                                            総
+pubtic void x() 人                             仁
+B. 以下をpositon 3に記述する                                問
+pubtic void z()                              時
+て 以下をpositon 2に記述する                                自
+題
+Yeid x0                                           に
+D. 以下をposition 1に記述する
+implements AA
+399
+
+
+--- picture_0007.png ---
+[| 11. 次のプブログラムを確認し、変数valueのデータ型として正しいものな選
+びなさい。(1つ選択)
+1. pubtic clsss Main {
+2. mubtie static wotd main(string.… args) 【
+3       for (yar vatue : args) 【
+4             Systen.out.printtn(value):
+5         )
+6 1
+7還
+A stmng
+Bstmngl
+C characer
+p. war
+口 12. 次のブログラムをコンバイルし、実行したときの結果として、正しいも
+のを選びなさい。(1つ選択)
+1 puptic class Mein {
+2. pubtic static void main(stringl] ares) 【
+3        String sr = "abed ef ge:
+4         int x = stm.index0f(ef'):
+5         str.substringix + 3):
+H        = str.index0f('efP'):
+7        System.out.printtntstr・・"・
+8 1
+EL
+A。 [efgh 5] と表示される
+B. efgh4] と表示される
+C。 abcd ef gh 4] と表示される
+D. [abcd efgh 5] と表示される
+E. 実行時に例外がスローされる
+400
+
+
+--- picture_0008.png ---
+[| 13. 次のプログラムをコンバイル、 実行したときの結果として、正しいもの
+を選びなさい。(1つ選択)
+1 pubtic class Sample (
+2。 。 static string stm:
+3. pubtic static void main(String[] args) {
+由      switeh(str) {
+5          case "10" : str = 07:
+6         defautt : str "def
+3          case 207 : str ="205:
+8         }
+9          System_out.printin(str):
+3. }
+1.}
+A。 [10def20] と表示される
+B. 「def20」 と表示される
+て。 [null と表示される
+D. 天行時に例外がスローされる                               内
+       住
+尼
+[| 14. 次のプログラムを確認し、変数xのデータ型として正しいものを選びな
+さい。(1つ選択)                                      時
+間
+1。 immnrt jma_utiL.Arrams:                             題
+2。 jmport jawa.dtiLtist
+3
+4 ptic clss same (
+5 pic static wi msin(Stringll ars)
+5        List<String> 1ist = Mrrays.askisttnee String 1 あし。Te):
+?        Hstforfach - [System.mt rinttnts)il):
+8 )
+呈
+A Lit<character>
+5 stmng
+Cedar
+D. ttcstmng>
+401
+
+
+--- picture_0009.png ---
+[| 15. 次のプログラムをコンバイルし、実行するためのコマンドとして、正し
+いものを選びなさい。(1つ選択)
+1. package ex15:
+2
+3. pubtic class Sampte
+4。 private finat String mame:
+5 pmubtic sample(String name) (
+H          this.name = name
+7     }
+5. public String getWame() (
+9          return nane:
+20. }
+1     pubtic String toString() {
+12          return name:
+3. }
+14. 1
+1 package es
+z
+3 import jewa.util.Iog9ine.Log9er
+4
+5. pubtic class lein 【
+6。 static finat Logger log9er = Logger.getAnonymousrogeer0:
+7。 public static void main(Strimgl] args){
+8        Yar d - new 5ample(sampteり:
+9        1ogger.info(d.tostrime())
+10.     }
+1
+A。 javac ex15/Sampte.java ex15/Main.java
+java -cp boild ex15.Main
+B. javac -d buitd ex15/Sampte.java ex15/Main.java
+java -cp build ex15.Nain
+C。 javac -d build ex15/Sampte.java ex15/Main.java
+java ek15.Main
+D. javac -d buitd ex15/Sampte.java ex15/Main.java
+java puitd.ex15.Main
+402
+
+
+--- picture_0010.png ---
+[| 16. 次のプログラムをコンバイル、実行した結果として、正しいものを選び
+なさい。 (1つ選択)
+1. import java.time.LocalDate:
+2 import static java.Hime.DayOfWeek
+|
+4 public class Sample 【
+5 mhticststic veid ain(stringll as) (
+6.        Yar today = LocalDate.now() .with(TUESDMY) .getDay0fWeekl):
+7       switeh (today】 [
+8        case SUDO
+#.         case SATURDMY:
+10.             System.out.printin("weekend'):
+11           breakz
+12.         case MONDMY:
+3.        FRIDMY: System.out.println("working'):
+14        defaul
+5             Wsten.nut.prinin("other'):
+16.        }
+7. }                                                   穫
+8.1                                                      尼
+げ
+問
+A. 「working」 と表示される                              是
+[workng」「otherl と表示される                      隊
+C。 [Tuesday」 と表示される                               邊
+D. otherl と表示される                                ざ
+| 17. 修子に関する説明として正しいものを選びなさい。(2つ選択)
+A。 ローカル変数は、finalを付けて宮言できる
+Bkインタフェースは、protectedを付けて宣言できる
+C。 インスタンス変数は、staticを付けて家言できる
+D. 抽計メソッドは、prvateを付けて宣言できる
+E     インナークラスは、publicを付けて宣言できる
+403
+
+
+--- picture_0011.png ---
+[| 18. 次のコマンドを実行した結果、以下のような内容がコンソールに表示さ
+れた。この内容を表すモジュールグラフとして、正しいものを選びなさ
+い。(①つ選択)
+> java --describe-module com.sample
+Com.Sample
+exports com.sql
+esmorts com.foo
+requires java.base mapdated
+requires com.logg1ng transitive
+requires com.xml trasitive
+uses java.sql.Driver
+"                   てwae つ
+* でwewme つ
+comsample
+jma sqlDrier
+comsample
+404
+
+
+--- picture_0012.png ---
+-
+ーーマ。 とーーっ
+9.  次のプログラムを確認し、これらのクラスを利用するMainクラスをコ
+ンバイル、実行したときの結果として、正しいものを選びなさい。(1
+つ選択)
+1. pubticclass 4 (
+人    public void hetto() (
+に        System.out.printin("hetto'):
+に     }
+5.1
+総
+仁
+1. pubtic class Bextends At                                 上
+問     mubtic vod bye() 【                                       げ
+1        System.out.println("bye"):                            岬
+す     }                                                   沿
+5 1                                                      周
+是
+1. pubtic class Main {
+2     public static void main(String[] args) {
+hi        Aa= new Bi
+        abye0:
+5.     }
+5.1
+A   「bye」と表示される
+B.   Tnulll と表示される
+C. 何も表示されない
+p    コンバイルエラーが発生する
+E    実行時に例外がスローされる
+405
+
+
+--- picture_0013.png ---
+[| 20. 次のプログラムをコンバイル、実行したときの結果として、正しいもの
+を選びなさい。(1つ選択)
+1 puptic ctass Sample 【
+2。 pmivate chara
+3. mrivate intD-1
+4 string test(char a, int b) (
+5        retm a+ リト
+6 1
+記     pubtic static void main(String[] args) {
+#        Sample app = new Sample():
+9         System.ont.println(app-test(')):
+0. }
+11.}
+A_ 「A 0 と表示される
+B. [AL1] と表示される
+C。 [ALnull と表示される
+D. コンパイルエラーが発生する
+回| 21. 多次元配列のインスタンス化と初期化のコードとして、正しいものを選
+びなさい。(2つ選択)
+A int array = (2.31.(4.5.6)):
+B. int[[][] array = (1.2).13.4).(5.6)):
+て nt][] array = (0, 1j:
+p. nt array = new int[][21:
+arrayl0][0] = 1:
+arrayl0]I11 =
+array[1][0] = 3:
+arrayI11[11
+Eintll array = (0. 1:
+imt[]I][] srray2 = new int【21[21[2]:
+array2[01I0] = array:
+array2[01I1] = array:
+arrey2[1][0] = array:
+array2[1I1] = arrey:
+406
+
+
+--- picture_0014.png ---
+[| 22. 次のブログラムの説明として、正しいものを選びなさい。(1つ選択)
+1 pubtic class 4 (
+2。 imtnms10:
+3 pptic dubte getWauue() (
+F        rebmr 0.0:
+5     }
+6 1
+1 pubtic class B extemds 4 {
+2。 everride
+3。 。 mpuic dmbte getlahue() (
+由       /…
+        retur 1.0:
+6 }
+1
+1 pubtic class C extends B
+2。 everride
+1。 mptic doupte geatue() (                             穫
+由        System.out.printtn(sumer.num):                         上
+5.        return super.getValue():                              げ
+gs                                                   四
+是
+7.1                                                      ①
+罰
+ABクラスのサブクラスでは、getValueメソッドでAクラスの
+フィールドにアクセスすることができる
+BBクラスのサブクラスでは、Bクラスのメソッドを呼び出すため
+にsupergetValue()を使えるが、Aクラスのフィールドにはアク
+セスできない
+C。 クラスのサブクラスでは、Bクラスのメソッドを呼び出すため
+にnewgeValue0を使う
+D. クラスのサブクラスでは、Bクラスのメソッドを呼び出すため
+にpublic getValue0を使う
+407
+
+
+--- picture_0015.png ---
+[| 23. 次のプログラムの説明として、正しいものを選びなさい。 (3つ選択)
+
+1 fmmort java.utiL.Collection:
+2
+3. pubticclsss Aa 【
+4。 pubtic void sampte(Cotlection arg) {
+5          System.ot.printin("8):
+6 1
+前
+1 import java.util.Cottection:
+2 import javautil.tist:
+3
+4。pubtic class B extends 』 (
+5 mublic void sample(Cotlection arg) (
+H          System.ont.printin("B):
+7     }
+8. muplic void sampte(tist arg) (
+9          System.ot.printtn("Cり):
+20. }
+1. 1
+1 immort ava.utilLHrrayis:
+2 import java.util.ris
+3
+4 pubtic class Main [
+5 mubtic static void main(Stringl] args) 【
+6
+7        』a・new A0:
+8        Aa2 = new 80):
+9        Bb1 = new B0:
+10
+1         List<String> tist - mew 』rrayList():
+12
+円         // do sometng
+14
+55. )
+6.1
+
+408
+
+
+--- picture_0016.png ---
+A。 [al.sampletlst)」 を実行すると、Aが表示される
+B. [azsample(is0」 を実行すると、Aが表示される
+て。 「azsample(is0」 を実行すると、Bが表示される
+D. 「b1.sample(ist)」 を実行すると、Bが表示される
+E  「b1sample(ls0)」を実行すると、Cが表示される
+口 24. Dクラスの説明として正しいものを選びなさい。(1つ選択)
+1 pubtic interface A (
+2。 。 void sampte()z
+3.1
+1. pubtic ioterface B extends A{
+2. defantt void sampte() {
+包        System.out.printtn('"B:
+を     }
+B還)                                                    第12章
+1. mubtic interface C extends 4 (                              穫
+2     Override                                            士
+中     default void sample() {                                   げ
+由        System.out.printtn('Cり:                              岬
+5 }                                                   to
+6.1                                                      紅|
+是
+1. pubtic class D imptements BC【
+2。 everrie
+3. pubtic oid sampte() (
+由         super.sample():
+5 )
+6.1
+ABインタフェースのsampleメソッドを実装している
+B.  cインタフェースのsampleメソッドを実装している
+C。 0クラスがsampleメソッドを使わないのであれば、オーバーラ
+イドをする必要はない
+D_ コンパイルエラーが発生する
+409
+
+
+--- picture_0017.png ---
+[| 25. 次のプログラムをコンバイル、実行したときの結果として、正しいもの
+を選びなさい。(1つ選択)
+1 puptic abstract clsss # (
+2. abstract void sampte()
+3.1
+1 pptic class B extends 4 (
+2。 。mOverride
+3     Yoid samptetint i) 【
+4          System.out.printn(10):
+5 1
+6. mubtic static void main(string[] args)
+7         Aa = ner B0:
+8         asampte():
+9 1
+10.}
+A。 0が表示される
+B. 10が表示される
+C。 コンパイルエラーが発生する
+D. 実行時に例外がスローされる
+口 26. 次のプログラムを確認し、コンバイルエラーとなるコードを選びなさい。
+1つ選択)
+mubtie abstract class A
+public interface B 1)
+pubtic class C extends 』 imptements B ()
+public class D extends (1)
+A risk<M> tistA = new ArrayList<>():
+1istA.add(new D()):
+410
+
+
+--- picture_0018.png ---
+Brist<B> tistB = new ArrayList<> (0:
+1istB.add(new C()):
+で。 Tist<B> tistC = new ArrayList<> ():
+1ist.add(new D()):
+Drist<D> tistD = new ArrayList<> ():
+tstD.add(new で0):
+E ListcA> tistE = new ArrayList<> ():
+TistE.add(new で0):
+[| 27. 次のブログラムをコンバイルし、実行したときの結果として、正しいも
+のを選びなさい。(1つ選択)
+1 pubtic class Main (
+2     pubtic static void test(Tnteger a。 Tnteger }) {            第12章
+3          System.out.printtn('Wり:
+4 }                                                   穫
+5.。 pubtic static voi test(doubte as, doupte 5) 【                上
+6.        System.out.println("Bり):                              げ
+7 )                                                   四
+8. pbuic static void test(ftoat a。 ftoat 5) (                 oi
+9          System.out.println("C:                                  周
+10.     ]                                                   是
+11. pptic static void testGint a intp) 【
+12          Systemrout.printtin('07り:
+3. }
+14.    pubtic static void main(Stringl] args) {
+j5       test(10。 200:
+6       test(10.0, 20.0):
+37. }
+18.}
+A。 「D] Ic」 と表示される
+B. 「D]「B」 と表示される
+て。 「AJ「B」 と表示される
+D. [Al Icl と表示される
+411
+
+
+--- picture_0019.png ---
+[| 28. 次のプログラムの説明として、正しいものを選びなさい。 (3つ選択)
+1 pubtic interface』(
+2。 。 public # uitd(String str):
+3.1
+1 pubtic ctass B imptements A (
+2. mubtc B(String str) (
+3        =
+4     }
+5 WOverride
+6 mubuicB hild(string str) (
+7          return new Bstr):
+8     }
+9.1
+AAはfinalにできない
+B.Bはabstraciにできない
+C。 Bはfinalにできない
+D.  AはBのサブタイブである
+E. Aabstractにできない
+F  BはAのサプタイブである
+口 29. JDKをモジュール化する理由の説明として、正しいものを選びなさい。 (2
+つ選択)
+A。 アプリケーションモジュールとJDKのモジュールのリンクが容
+易に構築できる
+B. Java言語を理解することが簡単になる
+C。 実装の詳細を也単に公開しやすくなる
+D._ セキュリティとメンテナンス人性が向上する
+E. アプリケーションの政定性が向上する
+412
+
+
+--- picture_0020.png ---
+[| 30. 次のプログラムをコンバイル、 実行したときの結果として、正しいもの
+を選びなさい。(1つ選択)
+1. clsssa {
+2. puuicA0) (
+ュ        Srstem.out.print("上7):
+す     }
+5 1
+1 casss B extends A (
+2 puic 80) (
+3          System_out.print("B:
+* )
+0二)
+1 ctsss C extends B (
+2 mwuic CO (
+3          System.out.print('Cり:
+4 }
+5 1                                                      穫
+士
+1. pubtic class Main (                                      げ
+2。 pmbtic stati yoi main(strimg[] args) (                   岬
+3         ne C0:                                          to
+     ]                                                   周
+5 1                                                      是
+A。 「CBAl と表示される
+B. [Cl と表示される
+C。 「ABcl と表示される
+D. コンバイルエラーが発生する
+413
+
+
+--- picture_0021.png ---
+[| 31. 次のプログラムをコンバイルし、実行したときの結果として、正しいも
+のを選びなさい。(1つ選択)
+1。 jmport jave.9tiLgrrayLis
+2。 jmport javautiL_ArraWs:
+3
+4 pbtic class Han [
+5 publie static void main(strimgl] args){
+6        Yar alphabet = new ArrayListO(
+7               Jrrays.asList(
+8               new Strimgll TB Cm TE
+9             ):
+10.       alphabet.sort((yar a。 var b) -〉 -a.compareTo【1)):
+1       alphabet.forEach(Syetesrouti:printin):
+32 1
+3.1
+A_ 何も表示されない
+B. 「Al「Bl「cl 「p]「E] と表示される
+C。 「還 「Dj「c」「B」「Aj と表示される
+D. [AIB] と表示される
+口32.  抽象クラスの定義として、正しいものを選びなさい。(1つ選択)
+A。 ahstract class tes
+juDic ahstract int calcPricetitem itemy:
+Tublie void print(tem item) [do somettng 7 ]
+}
+B. abstract class Item
+nblie nt calcFrice(tem item):
+ubtie voi print(Htem item):
+}
+て ahstract class Item t
+DubDIic nt calcPrice(1tem item):
+nubtie final void printittem iteml {do somettig 7 ]
+}
+414
+
+
+--- picture_0022.png ---
+D. apstrect class 1tem (
+pubtic sbstract int clrPricetTtem item) [
+/ wo samething
+}
+pubilc abstract void printiTtem item) [
+do something ソ
+}
+!
+[| 33. 次のプログラムをコンバイル、 実行したときの結果として、正しいもの
+を選びなさい。(1つ選択)
+1 mmort jawe.utiLBasNGD
+2 impert jme.mtiLHis
+3. impert jm.utiLMa:
+ょ
+5 pc elsss Mom                                                第12章
+6 sheMyGim SGim zp・ nmr spO(
+7      sttit stGtriny kes = Lit BC                                穫
+8 smtesemlleees條7 9
+5 stet                                                       げ
+円        fe eririCHmesie0iid                                 四
+1            mt II。 abe                                         ①
+9       1                                                         周
+8                                                           題
+14 mtcststic id aistringl] sm) [
+j        電der0:
+二        ahes = ee Srimglll:
+f       StarmL rintmmLsiee0 ("1160 1 1 ee6
+8 1
+人9 1
+A。 [3.0] と表示される
+B.   「3,0.0] と表示される
+C。 [33] と表示される
+D. コンバイルエラーが発生する
+FE 実行時に例外がスローされる
+415
+
+
+--- picture_0023.png ---
+[| 34. 次のプログラムをコンバイル、実行したときの結果として、正しいもの
+を選びなさい。(①つ選択)
+1. pubtic class Sample {
+2. mubtic static void main(string[] args) (
+3        dar er bp:
+4        imt ir
+5       switch (cl (
+H         case
+7             REH
+#             jreak
+9         case br
+10             FOO
+1       case eo |
+12             FC
+1せ         case 'e'
+14             REH
+15             jreak:
+円         case
+7             FR
+18             jreak
+19          defaul
+2                System.out.printin(cl:
+2        )
+2          system.ont.println(3)
+3.。 1}
+24.1
+A。 3が表示される
+B. 。b1が表示される
+C。 1が表示される
+D. b2が表示される
+416
+
+
+--- picture_0024.png ---
+[| 35. 次のブログラムをコンバイル、実行したときの結果として、正しいもの
+を選びなさい。(1つ選択)
+1. pubtic class 4 (
+2     mrivate void print() {
+3.        System.out.println("A"):
+を     }
+5     mubtic void a() {
+還        print(:
+     }
+8 1
+1. public class B extends At
+2。 private void print0 {
+3          System.out.printin("B7):
+4 )
+5.。 pubticwid50(
+6        print():
+7      }
+8. 。 pubtic static void main(String.… ares) (                  穫
+9.        Bb = nen Bl:                                      上
+10.        ba0:                                            げ
+FI        bb                                            岬
+2 })                                                   ⑪
+133.1                                                      剛
+天
+A。 [AIB」 と表示される
+B。 [Bl TB と表示される
+て    コンバイルエラーが発生する
+D. 素行陸に例外がスローされる
+417
+
+
+--- picture_0025.png ---
+[| 36. 次の練り返し処理のコードと同じ結果となるfor文を選びなさい。(1つ
+選択)
+int xs
+iletxく10) 【
+system.out.print(xtd:
+}
+A for tinta=0: a<10:) 【
+System.out.print(a):
+a
+}
+Bm intbs0
+for (: bく<10:) {
+System.out.print(ttb):
+}
+で intes0
+for (ret) {
+System.out.print():
+}
+p. for tintd =0: すく10: dt) (
+System.out.print(d--):
+}
+[] 37. 次のうち、メソッドの定義として正しいものを選びなさい。(2つ選択)
+A。 pubtic vod methodA(int x) {
+return ro
+)
+B. pubtic String methodB() (
+System.out.printtn("B"り:
+)
+418
+
+
+--- picture_0026.png ---
+c。 pubtic bootean methodC(int a) (
+retumn aaく0:
+}
+p. pubtic char methodD(String str) (
+return str:
+}
+E pubtic void methodE() (
+return:
+}
+[| 38. 次のプログラムをコンバイル、 実行したときの結果として、正しいもの
+を選びなさい。(1つ選択)
+1 import java.util.List
+2                                                       第12章
+3 pbtie class Hain (
+4 pubtic static vod main(Stringl] args) {                   穫
+5       Tist<Character> tist = kist.of0:                     上
+6.        Hst.add('aり:                                      げ
+7        ist.ad(もちり:                                      岬
+8        st.add(cり:                                      ①
+9          System.out.printlnist):                                 財
+10.     ]                                                   に!
+1.}
+A abd
+B keb
+C。 コンバイルエラーが発生する
+D. 実行時に例外がスローされる
+419
+
+
+--- picture_0027.png ---
+[| 39. 次のプログラムを以下に示したコマンドで実行したときの結果として、
+正しいものを選びなさい。(1つ選択)
+>javaA'AB'AB
+1 puptic class A【
+2     pubtic static void main(String[] args) {
+3       for (String str : args) 【
+4            Systenm.out.print(str):
+5         )
+5     }
+7.1
+A  「AABAB] と表示される
+B. 「ABAB] と表示される
+C。 [ABABl] と表示される
+D. 「ABABl と表示される
+E. 実行時に例外がスローされる
+[| 40.  次のプログラムをコンバイル、 実行したときの結果として、正しいもの
+を選びなさい。(1つ選択)
+1 puptic class Mein {
+2. mubtic static void main(string[] args)
+3       stringll array = (BL CO "OH
+4        for timt i=0: 1くarray.lengthr ir) {
+5          Systen.out.print(arrayi]+*う):
+6 (arraylil.equats("Cり) 【
+了               continue:
+8            ]
+9             Systen.out.printtn(*end"):
+10            jreaki
+1.         }
+2 1
+3.}
+420
+
+
+--- picture_0028.png ---
+A。 「ABCend」 と表示される
+B. 「ABCDend] と表示される
+C。 「Aend」 と表示される
+D. コンバイルエラーが発生する
+| 41. 次のプログラムを確認し、Dインタフェースでコンバイルエラーが発生
+する理由として考えられるものを選びなさい。(1つ選択)
+1 pubtic interface A (
+2. public Iterabte a0:
+3.1
+1. import java.util.Gottection:
+2
+3 nubtic interface B extends A
+4 pubtic Cottection a0:
+5.1
+1. import java.nio.file.Path:                          穫
+内                                                        ME
+3. public interface C extends AT                              げ
+4 pticatha0:                                       四
+5.1                                                      (oi
+周
+1. mubtio interface D extends BC (                           題
+2
+3 1
+ADインタフェースが2つ以上経承しているため
+B.BインタフェースがAインタフェースとは異なる戻り値型の同名
+メソッドを定義しているため
+C。 BとCcインタフェースから継承したメソッドの戻り値型が異なる
+ため
+D. DPインタフェースで総承したメソッドを再定義しなかったため
+421
+
+
+--- picture_0029.png ---
+[| 42. 次のプログラムをコンバイル、実行したときの結果として、正しいもの
+を選びなさい。(1つ選択)
+
+1 package ex42.
+
+2
+
+3. pubtic ctassA 【
+
+4 mbtic String x ="
+
+5 mrotected A() (1
+
+6 1
+
+1 package ex42.b
+
+2
+
+3. import ex42.a.
+
+4
+
+5. pubtic class B extends 』 (
+
+6 stringx= TB
+
+7. ppticB0(
+
+8         super():
+
+9 1
+
+0.1
+
+1 package ex42
+
+2
+
+3。 import ex42.a.貞
+
+4 immort ed2.b.B
+
+5
+
+6. pubtic class Mein
+
+7. muplic static void main(Stringl] args) 【
+
+8         Aaー ne BOz
+
+9         System.out.printina.2:
+
+0. }
+
+由基)
+A コンバイルエラーが発生する
+B. 実行時に例外がスローされる
+C。 Aが表示される
+D.  Bが表示される
+
+422
+
+
+--- picture_0030.png ---
+[| 43. 次のプログラムをコンバイル、 実行したときの結果として、正しいもの
+を選びなさい。(1つ選択)
+1. pubticclassA(
+2     private hootean isValuetint val) {
+3         retrn troei
+す     }
+7り)
+1. public class Bextends At
+2.。 mic int testtint mm) (
+3       下 (isVatuetnmm)) {
+由             retumm num:
+回        }
+6.        return 0z
+7 }
+8.    pubtic static void main(Stringl] args) {
+に        Bb = new B():
+10          System.out.println(b.test(10)):
+1 )                                                   如
+仁
+12.}                                                      十
+げ
+間
+A 0が表示される                                          題
+B。 10が表示される                                         隊
+C。 実行時に例外がスローされる                               邊
+D. コンバイルエラーが発生する                               ざ
+423
+
+
+--- picture_0031.png ---
+日44.  次のプログラムをコンバイル、 実行したときの結果として、正しいもの
+を選びなさい。(1つ選択)
+1. pubtic class Samptet
+2      String name:
+時      int num:
+4     public Sampte(String name, int num) {
+5         this.name = namei
+6.          this.num = mm:
+7 }
+8.1
+1. pubtic class SubSampte extends Sample {
+2 jmtprice
+3     public SubSample(int price) {
+4         this.price = price:
+5      }
+5     public SubSample(String name, int nm int price) {
+了E       super(name, num):
+8          this(price):
+!      }
+10.1
+1. public clsss Main 1
+2    pubtic static oid main(Strimll as)
+3.        SubSample s1 = new SbSamplel100):
+4        SubSaple s2 = new Sb5ampte("sample', 200. 100):
+本       SYstem.out.println(s1.mamm +「「+s1.mm+「 " + 51.price:
+1       Wstem.out.printl(s2.name* 1 2.mm・り * 52.prie):
+% )
+8 }
+A.    sample 200 100
+sample 200 100
+B.    null0100
+sample 200 100
+て    subsampleクラスの3行目だけでコンバイルエラーになる
+p-    subsampleクラスの8行目だけでコンバイルエラーになる
+E    subsampleクラスの3行目と8行目の両方でコンパイルエラーに
+なる
+424
+
+
+--- picture_0032.png ---
+[| 45. testメソッドのオーバーライドとして正しくないものを過びなさい。 (1
+つ避)
+1。 pubtic interfece 5ampte (
+2.      Yoid test():
+3 1
+A. public class SampteTest implements Sampte{
+Override
+pubtic void test() {
+System.out.printtn("test"):
+)
+}
+B.   public class SampleTest2 {
+Override
+jubtic void test()                        第12意
+System.out.printtn("test"):
+}                                          総
+}                                             仕
+ぼ
+て   pubtic abstract class SampleTest3 implements Sample      問
+8Override                                    是
+pubtic abstract void testD):                       由
+)                                             間
+に
+D. pubtic sbetract class SampteTest4 imptements Sampte {
+80verride
+pubtic void test() (
+System.out.println(*test'):
+)
+)
+425
+
+
+--- picture_0033.png ---
+[| 46. 次のプログラムをコンバイル、実行したときの結果として、正しいもの
+を選びなさい。なお、現在の日付は2019年8月14日とする。(1つ選択)
+1 import java.time.LocalDate:
+2
+3. pubtic ctass Diary (
+4 private tocatDate now = rocatDate.now():
+5 。 public tocalDate getNow() {
+H          return this.now:
+7     }
+8.1
+1 pubtic cass Men {
+2     pubtic static void main(String[] args) {
+3        Diary d - new Diary():
+4          System.ont.printin(d.getNow()):
+5     }
+6.1
+A [2019.08-14] と表示される
+B. 「O8-14-2019」 と表示される
+C。 4.08.2019」と表示される
+D. 「Q8-14] と表示される
+E [2019.08」 と表示される
+口47. 次の数式を表したコードとして、正しいものを選びなさい。(1つ選択)
+e+o)"
+ーー
+G+o"-1
+Aa=5r(e・MatLow1re可7 Ostrpowt1re 本-1
+BL arb・e・Mathpow1+e 9) / Mo.pot1 te本
+て arb・e・ (at.powt1 re mm 7 ONathrpoeHte 可ー1
+p. am-5・Hettpwt1teー17 (e*昭hod・c
+426
+
+
+--- picture_0034.png ---
+[| 48. 次のプログラムを以下に示したコマンドで実行したときの結果として、
+正しいものを選びなさい。(1つ選択)
+> java Mein abc
+1 mbtie class Hain (
+を    pubtic static void main(Stringl] args) {
+3        fmtist
+を      ior (String s : args) (
+5         system.out.printtn((りすり"・
+6         }
+7      1
+8.1
+A 0a
+り
+ヨコ<                                               第12章
+B 2a                                                 総
+3b                                                 信
+り                                                 ば
+自
+C 1)Man                                              是
+PP                                                 円
+3b                                                 韻
+9c                                                 に
+p. 2)Man
+3a
+り
+5c
+427
+
+
+--- picture_0035.png ---
+[| 49. 次のプログラムをコンバイル、実行したときの結果として、正しいもの
+を選びなさい。(1つ選択)
+
+1 mtic class Sampte
+
+2 ta
+
+3 it
+
+4 te
+
+5 md
+
+midsdlitdl
+
+8
+
+9 mis
+
+1       Wisb
+
+1
+
+2 mseWO
+
+H       rt
+
+内
+
+1 ismttmm
+
+ft       d- mm
+
+1       rt
+
+由
+
+9 midsttit9(
+
+%        a-5- tiise = 0
+
+a
+
+2 memee
+
+a。 mti smim tspim0 (
+
+#      hm "smsle'rstyrrbtrerrttretdr
+
+四
+
+2k。 mticsttic midminstrimll ams) (
+
+防         Samples = ee ap
+
+2         EEGHtUH
+
+四           Srstem.mt printls):
+
+E
+
+1
+
+A sample la=10,b=10.c=10,d=10
+B. sample a=0.b=10.c=10.d=10]
+C。 sample ja=0,b=0,c=0,d=10]
+D. コンパイルエラーが発生する
+E. 実行時に例外がスローされる
+
+428
+
+
+--- picture_0036.png ---
+[| 50. 次のプログラムをコンバイルし、実行したときの結果として、正しいも
+のを選びなさい。(1つ選択)
+1 pubtic class Nain (
+2     public static void main(Stringl] args)
+3.        intnmm=0:
+       do t
+5.          nmmt
+6.          i(mm=e1)t
+M             Continuez
+8          }
+9             srstem.out_printtn(am):
+10.       ] white (nmmく1):
+11.    }
+12.1
+A。 「O 「1」 と表示される                              第12章
+B. 「0」 と表示される
+C。 と表示される                                   総
+D. 何も表示されない                                   仁
+      きま
+間
+[51 例和理に関する説明として、正しいものを選びなさい。(2つ選択)       時
+A_ finallyプロックは、tyブロックまたはcatchブロックのすぐ後ろ      邊
+に配言しなければいけない                             ジ
+B_ twithrresourcesのリソースを閉じる前に、finalyプロックが
+実行される
+C。 tゆプロックは複数のcatchブロックを持つことができる
+D. catchブロックは、一般的な型から特定の型への順に並べなけれ
+ばいけない
+E   tryプブロックは、catchブロックとfinallyブロックを持たなければ
+いけない
+429
+
+
+--- picture_0037.png ---
+[| 52. 次のプログラムをコンバイルし、実行したときの結果として、正しいも
+のを選びなさい。(1つ選択)
+1 import javautil.Arrays
+2
+3. pubtic class Man {
+4     pubtic static woid main(String[] args) {
+H       int[l array1 - 1 2.3. 8:
+H       intll array2 ・ 1 2 4 5 3):
+7        1nt resutt1 = Arraysmismatcharrar1。 arra72):
+#        1nt resutt2 = Arrays.comparearraY1。 araV2:
+9         System.ont.println(result1 +":・ result2):
+20. }
+11.}
+A。 [1.2] と表示される
+B. [23] と表示される
+て。 21] と表示される
+D. 0] と表示される
+[53. 次のブログラムを実行したときに「2.5」 と表示されるようにしたい。
+補導に入るコードとして、正しいものを選びなさい。(1つ選択)
+1 puptic class Main {
+2.。 。 mubtic static void main(Stringl] args) 【
+3    DWtex 5 ysの
+4        トー ]
+5          System.out.printin(a):
+5     }
+7.1
+A。 float a = Meth.round((Etoat) x /ャ・100) / (float) 100
+B. floata= (float) (Weth.round((float) x / y・100)7100):
+て 。 feata-Math.rond(tint) (x 7 79, 2 ):
+p. feat a = Methrroumd((ftoal x 7 2 1:
+EE
+430
+
+
+--- picture_0038.png ---
+[| 54. 次のブログラムの説明として、正しいものを選びなさい。(1つ選択)
+1. public interface Sample (
+2 woid test0:
+3は
+1. cless Samplermpt imptements Sampte{
+2.     80verride
+3     public void test() {
+       7/ do something
+5     }
+6.1
+1. class SubSamptermpl extends SampleImpl {
+ば     Yoid testtint x) (
+3       // do something.…
+を    }
+5                                              第12意
+総
+Asampleインタフェースでコンバイルエラーが発生する            仁
+Bsampksimplクラスでコンパイルエラーが発生する               前
+て    subsampleImplクラスでコンバイルエラーが発生する                問
+D. 正常にコンバイル、実行できる                        是
+間
+| 55. 次のステートメントのうち、正しいものを選びなさい。(4つ選択)
+A mtHa= (GL11。 (2.21):
+B.    short b = (short) "AG
+て   byte c1 = 10:
+char c2 = ci
+p.   boolean d = (10 == 10):
+E   ftoat e = 1.99:
+F   int ff = 12.34:
+G   String 9 = ai
+431
+
+
+--- picture_0039.png ---
+[| 56. 次のプログラムをコンバイルし、実行したときの結果として、正しいも
+のを選びなさい。(1つ選択)
+1 m5Hicclass ain
+2 mtie stic mit mintstrimll es] 1
+3       srimlll ra: (
+*           1
+B             (ei
+7        ょ
+8      fr (ti iCamarlt il
+B          班j=k
+9        f招(1くaratilimstk ji (
+員           sstm.mtgrtP sit tt中"anal
+1          1
+H        1
+1
+品1
+A [OO=A
+1OIEH
+=て
+1=p
+0EH
+IE
+1=G
+B. DO=A
+1=B
+=c
+2 =p
+IIEH
+2 21-F
+引=e
+432
+
+
+--- picture_0040.png ---
+c Io=A
+0.人=B
+=c
+hl=p
+2.]=E
+2.11=F
+EIOUEId
+p。 0=A
+1=B
+OMEId
+=p
+1=E
+=F
+山引=G
+| 57. 次のプログラムをコンバイル、実行したとの結果として、正しいもの 還記
+を選びなさい。(1つ選択)
+総
+り     public static void main(String[] args) {                   げ
+3         tm (                                                   岬
+4             throw new Exception()                                ①
+5       ] catch (Exception e) (                         財
+6             throw new RuntimeExoeption():                          是
+       ) catch (RuntimeException e) 【
+8             system.out.printta("り:
+9        } fimauy (
+40.             System.out printtn("Bり:
+1          }
+22. }
+3.1
+A。  Aが表示される
+B.  Bが表示される
+C。 コンバイルエラーが発生する
+D. 実行時に例外がスローされる
+433
+
+
+--- picture_0041.png ---
+[| 58. 次のプログラムをコンバイル、実行したときの結果として、正しいもの
+を選びなさい。(1つ選択)
+1. pubtic clsss Main {
+2     public static void main(Stringl] args)【
+3        int mm ・ 9
+* (mtく10) {
+5            Systen.ont.printtn(mum)
+6        〕 else
+7             System.out.println("B):
+8         }
+9 1
+20.1
+A 10が表示される
+B.Bが表示される
+C。 9が表示される
+D. コンバイルエラーが発生する
+男記J  次のプログラムをコンバイル、 実行したときの結果として、正しいもの
+を選びなさい。(1つ選択)
+1 pubtic class Main 【
+2. 。 pptic static vod main(Stringl] args) 【
+3       intas外
+4       ntpの
+5        System.out.printtn(a rb・・= atDD =" ta+D:
+6     }
+7.1
+A。 「6 =(ぉ+b) = 42] と表示される
+B. 「6=(+b) = 6] と表示される
+C。 [42 = @+D) = 42] と表示される
+D. 「42 =@+ DD) = 6] と表示される
+434
+
+
+--- picture_0042.png ---
+[| 60. 次のプログラムをコンバイル、実行したときの結果として、正しいもの
+を選びなさい。(1つ選択)
+1 pubtic class Sampte (
+2     public static void main(Stringl] args)
+も       short s1 10
+由       Tnteger s2 = 20:
+5       Iong s3 - (tomg) s1+ s2
+6       string s4 - (String) (s3 ・s2):
+3        System.out.printtn(s9:
+に     }
+9.1
+A。 30が表示される
+B. 5行目でコンバイルエラーが発生する
+C。 6行目でコンパイルエラーが発生する
+D. 5調目でclasscastEyceptionがスローされる                    門
+E 6行目でClassCastExceptionがスローされる
+       門
+仁
+男人5  次のブログラムをコンバイル、 実行した結果として、正しいものを選び      前
+なさい。(1つ選択)                                    問
+題
+0)
+1 pbtic class Hatn (                                      周
+2. pubuic static oid main(Stringl] args) {                   是
+3        String s1 = new String("Java"):
+日        String s2 = "Javar:
+5        String s3 = s2.intem():
+6      System.out.print((s1 == 2) ょ(の
+7        System.out.print((s2 ce s3) ・ し
+8         Systenm.ont.println(s1 = s3):
+員     }
+10.}
+A 。 「false. truer false と表示される
+B. [tue.true, true」 と表示される
+C。 tue,false, false」と表示される
+D. tue, true false」 と表示される
+E false,fae, false」 と表示される
+     435
+
+
+--- picture_0043.png ---
+[| 62. 次のプログラムをコンバイルし、実行したときの結果として、正しいも
+のを選びなさい。(1つ選択)
+1. pubtic class Nein (
+2. mbuic ststie void main(Strimgl] args) 【
+E     dallll arrm (ta dd (De te
+       for (dharll arrar : arrays) 【
+5          for (char dh : array) [
+還            System.ont.print(dh):
+fA         }
+#             Srstem.mtprint(' の:
+B       1
+0. 1
+1.1
+A_ lsdbef」 と表示される
+B. [abcdef」 と表示される
+c。 Iadbecf」と表示される
+D. [adb ef」 と表示される
+[| 63. 次のプログラムをコンバイルし、 実行したときの結果として、正しいも
+のを選びなさい。(1つ選択)
+1 puptic class Main
+2.。 。 mubtic static void main(Stringl] args) 【
+3        int
+4        int ys
+5       w>21(
+6            上
+7           Yrt55
+#        ) else (
+9          Y
+10        )
+1        system.out.printtnx+・*+ 9
+2. )
+3.1
+436
+
+
+--- picture_0044.png ---
+A。 [4.9 と表示される
+B. 38] と表示される
+和    コンバイルエラーが発生する
+D. 実行時に例外がスローされる
+[| 64. 次のブログラムを以下に示したコマンドで実行した結果として、正しい
+ものを選びなさい。(1つ選択)
+> javaMaim 123
+1. public class Main (
+2。 mptic static yoid mainGintl] args) 【
+        System.out.printtn("M):
+4.     }
+5    public static void main(Object[] args) 【
+6.        System.out.println("B':
+7      }
+8     public static void main(Stringl] args) 【
+軸        System.out.printin('Cり:                              穫
+10.     }                                                   上
+1.1                                                      げ
+問
+時
+AAが表示される                                         隊
+B.  Bが表示される                                          邊
+C。 でが表示される                                         ジ
+D. コンバイルエラーが発生する
+E 実行時に例外がスローされる
+437
+
+
+--- picture_0045.png ---
+[| 65. 次のプログラムをコンバイルし、実行したときの結果として、正しいも
+のを選びなさい。(1つ選択)
+1. pubticclsss At
+2。 proteete AO)(
+3          this(2):
+4          System.out.print('11):
+5 1
+6 mrotectedAlintalt
+7          System.out.print(a):
+8      }
+9.1
+1. pubtic class B extends Ai
+2      80【
+3          this(4:
+4          System.out.print(3:
+5      }
+6 BtintD)(
+7          System.ont.print(b):
+8 1
+9.1
+1. pubtic ctsss Main {
+2. mubtic static void main(stringl] args)
+3        Bb - newBOz
+4 }
+5 1
+A 2143が表示される
+B. 1234が表示される
+C。 4321が表示される
+D. 3421が表示される
+438
+
+
+--- picture_0046.png ---
+口 66. 次のプログラムの空杉に入るコードとして、正しいものを選びなさい。
+1つ選択)
+1. public class Sample
+2     public static void print(Tnteger nm) 【
+3.        System.out.println(mum):
+4 )
+7り)
+1. import java.util.List:
+2.
+3. public class Main (
+4. public static void main(Stringl] args) {
+記       Tist<Integer> list = List.of(1, 2, 3):
+6              Hst.forEach(L-
+7 }
+8 1
+第12章
+ん   new Sampte()::print                                 総
+BSampte.print                                         仁
+C。 sample:print                                         前
+D. Sample::print                             問
+       時
+[| 67. Javaの開発環境のセットアップに関する説明として、正しいものを選       邊
+びなさい。(1つ選択)                                   に
+A.    JDKをインストールするときには、特定のオペベレーティングシ
+ステム用のJava開発環境をセットアップする
+B.    Javaの開発環境はデフォルトですべての0S用に設定されている
+て    Javaの開発環境をセットアップするにはJREが必要である
+D.    JDKよりも前にIDE (統合開発環境) をインストールすれば、
+Javaの開発環境はセットアップされる
+439
+
+
+--- picture_0047.png ---
+[| 68. 次のクラスのコンストラクタのうち、コンバイル可能で、かつarray
+フィールドに参照をセットすることができるものを選びなさい。 (2つ
+選択)
+
+1. pubtic class Sample {
+2.     private String[] array:
+本
+A. public Sample(String[] array) {
+this-array = arrayi
+)
+B   pubtic Sampte(String... array) {
+array = arrayi
+)
+ー   pubtic Sample(String str) {
+this.array - strz
+)
+D. public Sample(Stringl] srray) {
+array = array
+}
+E. public Sample(String.. array) (
+this.array = arrayz
+)
+F   public Sampte(0bject[] array) {
+this.array = array:
+)
+440
+
+
+--- picture_0048.png ---
+[| 69. 次のプログラムをコンバイル、 実行したときの結果として、正しいもの
+を選びなさい。(1つ選択)
+1 import java.uBiULtis
+2. import java.util.HrrayList:
+3.
+4. public class Main {
+5.。 phuic static yoid main(String[] args) (
+6.        List<String〉 1ist = new ArrayList<〉():
+中        try (
+8         yhitettme) (
+9.               ist.add("hetlo"):
+10.             }
+11.       } catch (RuntimeException e) {
+12             System.out.printtn("上):
+3.       ] catch (Exception e) {
+14.             System.out.println("B'):
+5          }                                                    第12章
+16          System.out.printin("Cり):
+7 }                                                          総
+仁
+18.}                                                              十
+げ
+問
+AAが表示される                                               題
+B.Bが表示される                                               回
+C。 Cが表示される                                               邊
+D. 実行時に例外がスローされる                                    ざ
+FE throws宮言ががいためコンバイルエラーが発生する
+[| 70. com.exampleモジュール内にあるmainメソッドを持つcom.sample
+Mainクラスをコマンドラインか実行するためのコマンドとして、正
+しいものを選びなさい。(1つ選択)
+A java Classpsth rom.exanple.jar -m Comexample/cOm.sample.Neih
+B. java -classpath comexample.jar cm.sample.Main
+て    java --module-path mods -m com.example/com.sample.Main
+D.    java --mOdule-path mods com.example/com.sample.Main
+441
+
+
+--- picture_0049.png ---
+[| 71. 次のブログラムを実行し、「abcd」と表示したい。[// insert code
+here」 に入るコードとして、正しいものを選びなさい。(1つ選択)
+pubtic class Sampte (
+public static void main(Stringl] args) {
+stringll[] array - new Stringl21I21:
+srrayl01[0] = "am
+POIUIU EE
+srrayl110] = "oe
+srreayl11[1] = "di
+// insert code here
+}
+A 。 for tinti=1r <2: りり1
+for Gintj=1i 1<2ポ9【
+System.out.print(arraylil各1):
+}
+}
+B fortGntis0ii<2 0(
+for int j=0: 3く 13) 【
+System.out.print(arraylili]):
+}
+}
+Cc for (String a : array) (
+for (String b : array) 【
+system.out.printin(b):
+}
+}
+p. for tinti =0:i<2:)(
+for int j=0: 3く2){
+System.out.print(array[i][j]):
+FM
+}
+RE
+}
+442
+
+
+--- picture_0050.png ---
+[| 72. 次のプログラムを実行して「A 「X 「C」「D」 と表示したい。空科に入
+るコードとして、正しいものを選びなさい。(1つ選択)
+1. pubtic class Sample (
+2     public static void main(Stringl] args)
+も        StringBuilder sb = new StringBuilder("ABCO):
+       トワ人ササ〕の生
+5          Srstem.out.printin(sb):
+6    }
+7.1
+A sb.replace(sb.index0f("B")。 sb.index0f("B)。 "Xり:
+B. sb.reptacetsb.indexOf("B)。sb.index0E("C)。 "0:
+C。 sb.reptace(sb.index0f("A")。 sb.index0f("BO。"X:
+D. sb.repace(sb.index0f("A")。 sb.index0f("CO。"X":
+    第12章
+[| 73. 次のブログラムを実行し、「135」と表示したい。4行目の空柚に入るコー      総
+ドとして、正しいものを選びなさい。(1つ選択)                     人
+げ
+1 mbtie class Hain (                                      岬
+2。 pubtic static voi main(String[] args) {                   to
+3       intll arrey st(1 23.も5                   周
+回       fer(L_ 1)t                          に!
+5             system.out.print(arraylil):
+6        }
+7     )
+8.1
+Ainti=0:1<生
+Bm inti=0:iく5hite2
+mt si 5r ine1
+p.。 inti=1:1<5r ic2
+443
+
+
+--- picture_0051.png ---
+[| 74. 次のプログラムをコンバイル、実行したときの結果として、正しいもの
+を選びなさい。(1つ選択)
+1. pubtic clsss Main {
+2     public static void main(Stringl] args) 【
+3        stringl] str - new Stringl21:
+4        imt ir
+5       for (String s : str) 【
+H           strlil.concat("e' + ii:
+7          Fo
+8        }
+9        for は-0:iくstr_length it9 [
+10            systenm.ont.printtn(strli1):
+11        )
+2 1
+3.1
+A eo
+還
+nulle0
+nullet
+c ml
+nu
+D. 実行時に例外がスローされる
+[| 75. モジュールaはモジュールbに依存し、ほかのすべてのモジュールから
+com.sampleパッケージにアクセスできるようにしたい。この要件に合
+致するmodulerinfo.javaを選びなさい。(1つ選択)
+A 。 moautea(
+requires com.gample
+exports bz
+}
+B. modutea(
+requires b:
+exports com.sampte:
+}
+444
+
+
+--- picture_0052.png ---
+て。 moduteat
+jmport com.sample
+ekport bB
+}
+p. moautea{
+import b:
+export com.sampte:
+}
+口7e.  次のブログラムをコンバイルし、実行したときの結果として、正しいも
+のを選びなさい。(1つ選択)
+1 mbtie class Main (
+2. ptic void test(Objectl] array) {
+5       Systemrout.printtn('Wり:
+す     }
+5. pptic void test(String[] array) {
+6       System.out.printtn("B:                          穫
+釣    }                                             尼
+8.     public void test(0bject ob]) {                            げ
+軸       System.out.printtn('Cり:                          四
+10     }                                             ①
+11.。 mhtic static void main(String[] args) (                   財
+12.         new Mein().test(args):                                    是
+3. }
+14.1
+AAが表示される
+B.Bが表示される
+て。 での表示される
+D. 天行時に例外がスローされる
+E コンパイルエラーが発生する
+445
+
+
+--- picture_0053.png ---
+[| 77. 次のプログラムをコンバイルし、実行したときの結果として、正しいも
+のを選びなさい。(1つ選択)
+1 puptic ctass Sample 【
+2. mubtie wid test() {
+3          System.ont.printtn("Samptettest()り):
+4 }
+5 1
+1. pubtic class SubSampte extends Sample {
+2. 。eOverride
+3. mblic woid test() 【
+4          System.ont.printin("Sub8ampteftest()"):
+5     }
+1
+1. pubtic class Main {
+2     public static void main(Stringl] args)【
+3        SubSample sub - new SubSample():
+4        Sample sampte = new SubSampte():
+H        suD = sampte:
+5         sub.test():
+7         sample.test():
+8     }
+9.1
+A。 sampletest0
+sample#test0
+B. subsampletest0
+subsampletest0
+C。 subsampletest0
+sample#test0
+D. 実行時に例外がスローされる
+E。 コンパイルエラーが発生する
+446
+
+
+--- picture_0054.png ---
+[| 78. 次のプログラムを確認し、Bクラスの空間に入るコードとして正しいも
+のを選びなさい。(2つ選択)
+1. packege ex78.
+2
+3. mbtie abstract class 』 (
+4 protected abstract void test0):
+5 1
+1. package ex78.D:
+較
+3 import ex78.a.
+由
+5. pubtic class B extendsA
+6     トー
+7.1
+第12章
+A pubtic void test() 0)
+B. private void test() ()                           総
+て 。 void test() け                                 仁
+p. protected void test()                       前
+      間
+時
+[| 79. モジュールに関する説明として、正しいものを選びなさい。(2つ選択)      回
+A コマンドラインからモジュールのエクスポートを設定すること
+はできるが中ましくない
+B. Javaの基本APIはjava.baseモジュールにある
+C。 JOKがモジュール化されたため、APIは非推揚になった
+D. モジュール式jDkで実行するには、 アプリケーションをモジュー
+ルとして構造化する必要がある
+447
+
+
+--- picture_0055.png ---
+[| 80. 次のプログラムをコンバイル、実行したときの結果として、正しいもの
+を選びなさい。(1つ選択)
+
+1. pubtic clsss Test {
+
+2     public static void main(Stringl] args) 【
+3        Stringll[] array ・ new Stringl2]H:
+4         arreyl0] = new String2]:
+
+H         arrayl1] - new Stringl5]:
+
+H        inti・97:
+7        for (inta= 0: aくarrey.1ength: att) {
+8           for (int 5 = 0: bくarray.1length: bt) (
+9            arraylallbl = ・セ
+10               Ed
+11            }
+12         )
+1せ      for (Stringl] tmp : arrar)【
+1          for (String s : tmp) {
+15              System.out.print(s+"
+15            }
+7            System.out.printtn():
+18         )
+9. 1
+20.1
+
+A 9798
+
+99 100 nulnulnul
+B 9798
+99 100 101 102 103
+
+C。 コンバイルエラーが発生する
+
+D. 実行時にNulointerxceptionがスローされる
+
+E 実生時にArrayindexOutOfBoundsExceptionがスローされる
+
+448
+
+
