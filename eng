@@ -1,0 +1,1964 @@
+--- picture_0001.png ---
+(1 4. R2203-KOISAT7 1 WEERT SKLODIVY KELT.
+ELUSO@BUGA\. (1 DBR)
+
+1. package b;
+
+2
+3. public class B {
+4
+
+5.)
+
+1. package a;
+
+2, import b.B;
+3
+4, public class A {
+
+5. public static void main(Stringl] args) {
+6 Bb = new B();
+% }
+8}
+
+A. java a/A.java
+
+B. java b/B. java
+
+© javac b/B. java
+
+java a/A.java
+D.  javac a/A.java
+java a/A
+Oo 2. ROZIDOAF—bXY heMT SHBCLTELIBOSRIBE
+UW. (1 D3ER)
+
+A pakage igor «case
+
+B. package class import
+
+© import class package
+
+D. class package import
+
+£. import package class
+
+394
+
+
+--- picture_0002.png ---
+DF] 3. nozFS HEMEL. Main7SAOBMICASI-KELT. E
+LUBDERUBAV. (1D)
+1. package con. sample:
+2. public class Sample {
+Ka public void sample() {
+4. II any code
+5. a]
+6.)
+1. package com. sample. test;
+2. public class Test {
+ae public void test(int num) {
+4 Hf any code
+ty i]
+6.3
+1. package com;
+, |
+3. public class Main ( g
+4, public static void main(Stringl] args) { ia
+5. new Sample().sample(); Fa
+6. int nun = Integer.parseInt(args|01): a
+1 new Test(). test (nua); (0)
+8 } ia]
+2) a
+A. import java. lang. Integer:
+inport con. +;
+B, import com. sample. *;
+C import com. sample. Sample;
+import com. sample. test. +;
+D. import java. lang. +:
+395
+
+
+--- picture_0003.png ---
+4. ROPOFSHEIIINAN, RILRETOBRELT, ELUBO
+@BUEA. (1 DER)
+1. import java.util. function. Supplier;
+2
+3. public class Sample {
+4. void sample() {
+5 int i= 0
+6 Supplier<Integer> foo = () -> i;
+1. its
+8 system. out. println(foo. get ());
+9)
+10.1
+A DUNAILTESH, PeRRANe
+8. RATHICHIMAAO—ANS
+c oneRENS
+D.  1hRRENS
+EIU VIS—ORETS
+D5. ROPOISAEIINA, RILKESOBRELT, ELUBO
+BUEE. (1 DIR)
+4. public class Sample {
+2, static int num = 23;
+3, public static void main(String[] args) {
+4 int nun = num;
+5 System. out, print In (nun) ;
+6 }
+v9
+A 23hRRENS
+a MENOMRORMRENS
+CDI SORTS
+D.  ATBICAAAD-eNS
+396
+
+
+--- picture_0004.png ---
+1 6 Ro220FY1-WOBET?7 1 ICT SBRELT, ELUBD
+@RUEEU. 2DER)
+1. module & {
+2. requires B;
+3.1
+4. module B {
+2. requires A;
+3}
+A EBBOETA-IVE. Ny 7—-THTIAK— hen
+8. ESSOEVa—IBjava.baseEY a—IVEBBE LIB
+C  EYAIORMDEDTES
+Dd. DUNT IS—DRETS
+2% ROFOFSHEIINA IL, RGLKESOBRELT, ELUSO
+RUBE. (1D8ER) cd
+ft
+-
+1. public class Main { F
+2. public static void main(Stringl] args) { a
+3 int data = 1; (0)
+4 switch (data) ( ie]
+5. default:  Systen.out. print("C"); @
+6. case 0: Systen.out. print ("A");
+1 break;
+8. case 10: Systen.out. print("B");
+9. break;
+10 }
+a)
+2. }
+A [Al GRAN]
+8. fc] ésenens
+cal emmene
+D. [cag] cxeRens
+EDULIS DES
+397
+
+
+--- picture_0005.png ---
+1 8. ROFOFSHEIVINAN, RILRETOBRELT, ELUBO
+BBVA. (1D3ER)
+1. public class Sample {
+2 public static void main(Stringl] args) {
+3 String str - “hogedS6test";
+4 int index = 5;
+5 if(Character. isAlphabetic(str. charat(index))) {
+6 index = 0;
+1. ) else if (Character. isDigit(str. charAt(index))) {
+8 index = 10;
+8 ) else {
+10. +eindex:
+11. )
+12. if (str. endsWith(“test"))
+2. str = str.substring(0, index);
+14 Systen. out. printin(str);
+cn)
+16.1
+A Thogel ERRENS
+B. Thogease) CaTeNS
+C [asetest| Ex ReENS
+D.  Thogeasétest] ERRENS
+E.  [hogeasstes| CameNS
+Oo 9. FIAPEYI—LORFMRERNSROIES IVY KELT. E
+LUSDEBUBAL. (205K)
+A. jmod describe
+B,  jdeps --list-deps
+© java Hello. java
+D. jar --show-module-resolution
+E, java ~~show-module-resolution
+398
+
+
+--- picture_0006.png ---
+(10. ROPFSHOI/N4 VEMIALSROOARELT. EL
+DRBUBEW. (IBN)
+1, public interface A {
+2. abstract void x();
+3.1
+1. public abstract class B /+ position 1 */ {
+2 d* position 2 +/
+3. public void xt) {}
+4, public abstract void 2();
+5. }
+1. public class C extends B implements A {
+2. J+ position 3 +/
+3.)
+#128
+A. WR Rposition 31CBTS
+Override @
+public void x() {} ft
+5
+8, LL Pposition 31st tS a
+public void 2() {} a
+LER position 2Icaeits a
+|
+void x()(} =
+D. LU Rposition 11cz2u8k FS
+implements A
+399
+
+
+--- picture_0007.png ---
+(114. ROFOFSAAMRL, BBvaluedFZ—IVWELTELUEOTR
+URAL. (1D3BIR)
+1, public class Main {
+2, public static void main(String... args) {
+a for (var value : args) {
+4 Systen. out. printIn(value);
+5 )
+& 2}
+©
+A. String
+B.  Stringll
+Character
+D. var
+Oo 12. ROFOFSLEIIINAWL, MTLKETOBRELT, ELS
+DEBUT. (1DBER)
+1, public class Main {
+2, public static void main(Stringl] args) {
+3 String str = "abed ef gh";
+4 int x = str. indexOf ("ef");
+5 str.substring(x + 3);
+a x = str. indexOf ("ef");
+1. System. out.printin(str + * "+ x1;
+a}
+ut
+A. [efgh5] cxenens
+B. fefgha] Eemens
+C [abed ef gh a) ERRENS
+D.  fabed ef gh 5] CaeRENS
+E  RATHRICHIMAAO-—ANS
+400
+
+
+--- picture_0008.png ---
+(113. ROFOFSHEIINA WW, RGLKESOBRELT, ELUBO
+@BUBA. (1 DR)
+1. public class Sample {
+2. static String str;
+3. public static void main(Stringl] args) {
+4. switch(str) {
+5. case "10": str += "10";
+6. default : str += “deft;
+Z case "20" : str += "20";
+8, }
+9. Systen. out. println(str);
+1.)
+1. }
+A. [10def20] cxeReNs
+8. [det 20) caeRens
+c Shull) ExRens
+D. RTCA DAD-eN] Ps
+€
+pe
+(114. ROPOISLeMRL, BMnOF—-FVELTELUSORBVS 4
+SU. (1D HR) a
+a
+41, inport java.util. Arrays; |
+2, inport java.util. List;
+3
+4, public class Sample (
+5. public static void main(Stringl| args) {
+6, List<String> list = Arrays.asList (new String{ }{*a", "b", "e*));
+1 List. forBach(x -> {Systen. out. printin(x);});
+8)
+a fh
+A. List<Character>
+8. String
+c char
+D. —List<String>
+401
+
+
+--- picture_0009.png ---
+(115. ROPOFSARIVINANL, RFFSROOIVY KELT. EL
+WUSOEBVCA. (1 DH)
+1. package ex15;
+2
+3. public class Sample {
+4, private final String name;
+5, public Sample(String name) {
+6 this.name = nane;
+1 }
+8. public String getlane() {
+8 return nane;
+1.)
+11. public String toString() {
+12. return nane;
+Bo}
+4. }
+1. package exi5;
+2
+3. import java.util. logging. Logger;
+4
+5. public class Main {
+6. static final Logger logger = Logger. getAnonymousLogger'();
+7. public static void main(Stringl] args) {
+8. var d = new Sanple(" sample");
+9. Vogger- info(d. toString());
+10. }
+i}
+A. javac ex15/Sample. java ex15/Main. java
+java -cp build ex15.Main
+B.  javac -d build ex15/Sample. java exi5/Main. java
+java -cp build ex15.Main
+© javac -d build ex15/Sample. java exi5/Main. java
+java exi5.Main
+D.  javac -d build ex15/Sample. java exi5/Main. java
+java build. ex15.Main
+402
+
+
+--- picture_0010.png ---
+(16. ROPDFSAEIINA WW, RGLKBRELT. ELUBOTBT:
+TE, (1D)
+1, inport java. time. LocalDate;
+2. import static java. tine.DayOtWeek. +;
+“|
+4, public class Sanple {
+5, public static void aain(Stringl] args) {
+6. var today = LocalDate. now() .with (TUESDAY) .getDayOfileek() ;
+1 switch (today) {
+8. case SINDAY:
+4. case SATURDAY:
+10. System. out. printIn ("weekend");
+11. break;
+12. case MONDAY:
+13. FRIDAY: System. out. print1n(*working");
+14 default:
+15. System, out. printIn(“other");
+16. ]
+re) g
+18. } pe
+F
+8
+A. Tworking| ERRANDS a
+8. working] other] TENS BY
+c Muesday) REN] |
+D. [other] caemans &
+(17. eeFicers SBE LTELUSOSRUBAL) (2D38IR)
+A CIR, finarPENITEETES
+8B  1YYDI—Ald. protectedeHITHSTES
+© TYATYABBIS, staticeHFTESTES
+D.  MRXVY KI, prvateeHITHSTES
+E. AYF—JIAld. publiceHITHSTES
+403
+
+
+--- picture_0011.png ---
+(18. ROATY KERR, WOKS BABI Y—IWVICsRS
+Nik. TOMBERFEYa—-WIFTELT, ELUBOeBUBE
+Us (1D3R)
+> java --describe-module com. sample
+com. sample
+exports com.sql
+exports con. fo0
+Tequires java.base mandated
+requires com. logging transitive
+requires con.xnl trasitive
+uses java.sql.Driver
+‘ Camera
+* Ceemearie >
+com.sample
+java.sal Driver
+comsample
+404
+
+
+--- picture_0012.png ---
+°
+as YaE>
+O19. ROFOIFLEMRL, TNSOISZAGHATSMainIs2eI
+YINAIb, RAT LECEOBRELT. ELUSOSBVBAL, (1
+DER)
+1. public class A {
+2 public void hello() {
+a System. out.printin("hello");
+4. }
+5. }
+id
+ft
+1. public class B extends A { £
+a public void bye() { F
+cs System. out.printIn("bye"); a
+4. } oD
+fd fa
+2
+1. public class Main {
+2. public static void main(Stringl] args) {
+ae Aa = new B();
+4 a.bye();
+5. }
+6. }
+A [bye] CAMENS
+B. [null] ERMEND
+c  PRRANEL
+D. DIA WLS RETS
+E. RATBICANPAO—ENS
+405
+
+
+--- picture_0013.png ---
+(20. ROFOFSHEIVINA, RILRETOBRELT, ELUBO
+BBVA. (1 DER)
+1. public class Sample {
+2. private char 2;
+3. private int b = 4;
+4, String test(char a, int b) {
+5 return a+", * +b;
+& }
+a public static void main(Stringl] args) {
+8 Sample app = new Sanple();
+8 System. out. printIn(app. test("A")};
+ce)
+1. }
+A [AO] ERRAND
+Bat] ceeReNsS
+CfA oul) ceReNS
+Dd. AUT IVES— DRESS
+[| 21. SRARWOLYASYALEMMLOI—-KELT, ELUtOeEE
+UBS. (20HIR)
+A. int{][] array = ({1,2,3),{4,5,6)}:
+B.  int{J{}[] array = {{1,2}, {3,4}, (5.6)):
+c — int{][] array = (0, 1};
+D. int[][] array = new int{][2];
+arrayl0][0] = 1;
+arrayl0][1] = 2:
+array[1][0] = 3;
+array[1][1] = 4;
+& — int[] array = {0, 1};
+int(JUU array2 = new int(2][2](2];
+array2(0][0] = array;
+array2(0][1] = array;
+array2(1][0] = array;
+array2(1][1] = array;
+406
+
+
+--- picture_0014.png ---
+[22 RozOFSLORMELT, ELUBOERUBAL. (1358)
+4. public class A (
+2, int mum = 10;
+3. public double getValue() {
+4, return 0.0;
+5. }
+6.1
+4. public class B extends A {
+2, @dverride
+3. public double getValue() {
+4, A oo
+5. return 1.0;
+6& 1
+1)
+1. public class C extends B {
+2. edverride
+3. public double getValue() { g
+4. Systen. out. print in(super.nun); 3
+5. return super. getValue(); iF
+6) a
+a
+1} ®
+8
+A. BIFADYIFSATIA gotValuexY ¥ KTAISAD é
+D4-WRICPIRATSTETES
+8. BISAOVIZSATIS. BIDAOXY y REHUWT feed
+(Csuper.getValueV@BABH. AVTAOI 4M ICIAP
+LATER
+© BISADYIZSATIS. BIFAOXY y KEHUWTK
+Cnew.getValueQ®tS
+D.  BIDADYIZSATIS. BIDAOXY y KEMBUT Ted
+(Cpublic.getValueQt85
+407
+
+
+--- picture_0015.png ---
+(23. RoPOFSHORMELT, ELUBOeHUEAL\. (3D3UR)
+
+1, import java.util, Collection;
+2
+3. public class A {
+4, public void sample(Collection arg) {
+5 System. out. printIn(*A");
+6& }
+i
+1. inport java.util. Collection;
+2, import java.util.List;
+3
+4. public class B extends A {
+5, public void sample(Collection arg) (
+6 System. out. printIn(*B");
+1. }
+8, public void sample(List arg) {
+8 System. out. print1n(*C");
+a)
+1. }
+1, inport java.util. ArrayList:
+2, import java.util.List;
+3
+4, public class Main {
+5. public static void nain(Stringl] args) {
+6
+1. Aal = new AQ;
+a A a2 = new BO:
+9 B bt = new BO);
+10.
+11 List<String> List = new ArrayList();
+12
+B. I éo something
+14
+6.)
+16. }
+
+408
+
+
+--- picture_0016.png ---
+A. [at.samplellist!) ERTTSE, AMRRENS
+8. [ad.samplellist)| BRITSE. anieeRans
+C.  [a2samplellist!| ERGTSE, HANS
+D. [bt samplellist|) BRITSE. whiRRANs
+£ [bt samplellist)| ERITTSE, chveEReENS
+Oo 24. DIFAOBAELTELUISOERUBAL. (1 5B)
+1. public interface A {
+2. void sample();
+3)
+1, public interface B extends A {
+2, default void sample() {
+3. Systen.out. printin("B");
+4 }
+fh } #12
+4. public interface ¢ extends A ( g
+a Override pe
+a, default void sample() { F
+4. Systen. out. printIn("C");, a
+5) fo]
+6} fa
+|
+4. public class D implements B, C {
+2. adverride
+3. public void sample() {
+4. super. sanple():
+5.)
+6.1
+A BLYIII—AOsamplexY y KERBLTUS,
+8. CLYIDT-~ADsamplexY y KERRUTUS
+C DISAbisamplexY y KEKDBUOTHNE. 4—N-S
+4 KETSBEBL
+Dd. DNL LIS—DRETS
+409
+
+
+--- picture_0017.png ---
+[1 25. ROFOFSHEIVINAN, RILRETOBRELT, ELUBO
+BBVA. (1 DER)
+1. public abstract class & {
+2, abstract void sample()
+3
+1, public class B extends A {
+2. Override
+3 void sample(int i) {
+4 system. out. printin(10);
+5}
+6. public static void main(Stringl] args) {
+1. a= new B();
+8 a.sample();
+9)
+10. }
+A. onteRENS
+8. 10niRRANS
+| DN IVIS—ORETS
+D.  RATFICHIADIAD—ANS
+Oo 26. ROFOISLEMBL. AYN 1 VLS—CBSI—FEBORAL.
+CDR)
+public abstract class A {}
+public interface B {}
+public class C extends A inplenents B {}
+public class D extends C {)
+A. ListéA> ListA = new ArrayList);
+Lista. add(new D());
+410
+
+
+--- picture_0018.png ---
+8. List<B> ListB = new ArrayList);
+ListB. add (new C());
+C. bist<B> listC = new ArrayList<();
+ListC. add (new D());
+D. List<D> listD = new ArrayList< ();
+ListD. add (new C());
+E List<A> listE = new ArrayList©();
+ListE. add (new C());
+(27, ROFOFSHEIIINA WL, RILRETOBRELT. ELS
+DERUIEE. (1 DBR)
+1. public class Main (
+2. public static void test(Integer a, Integer b) { #12
+3 Systen. out. printin(“A");
+an) g
+5. public static void test(double a, double b) { £
+6. System. out. print1n("B"); F
+no a
+8. public static void test (float a, float d) { ®
+9. Systen. out. printin(*C"); is]
+10. } a
+41. public static void test(int a, int b) {
+1. Systen.out. printtn("D");
+Bo)
+“ public static void main(String! ] args) {
+48. test(10, 20);
+16 test(10.0, 20.0);
+mo}
+18. }
+A. [DJ [c] semen]
+8. [bd] [8] ExRans
+c [al [a] cxeen]
+Dd. TAs [cl exemens
+4
+
+
+--- picture_0019.png ---
+(28. RoFOFSAORMELT, ELUBOeMUTALI. (3D3UR)
+1, public interface A {
+2, public A build(String str);
+31
+1. public class B inplenents A {
+2, public B(String str) {
+3 MD ce
+4 }
+5. @Override
+6. public B build(String str) {
+1 return new B(str);
+8 }
+a1
+A Aldfinallé Ce
+B.  Bldabstractlo CHR
+C. Bléfinalle CeeMUY
+D.  ASBDYIIAITHS
+E Algabstractlc TERY
+FR BISADY ITT ITHS
+Oo 29. IDKEELVA—IMET SBHOBABE LT. ELUSOEBUBALM, (2
+‘DIEIR)
+A PIU aYEYA-WEIDKDEY a-NWOV IDS
+RICBRTES
+8. va BERT ST EMITS
+C RRONWEERICABLET KES
+D. BEAT LEXYFIFYALDILTS
+BE PIVF—-YaYORBFADOLTS
+a2
+
+
+--- picture_0020.png ---
+[130. ROFOFSAEIVINA WW, RGLKESOBRELT, ELUBO
+BRUCE. (DER)
+1, class A {
+2. public Al) {
+3. Systen.out. print("A*);
+4 }
+5. }
+4. class B extends A (
+2, public Bt) {
+3 Systen.out. print("B*);
+a)
+aah
+4. class C extends B (
+2, public C() {
+3 Systen.out. print("C");
+4)
+5.) g
+-£
+1. public class Main { F
+2. public static void main(Stringl] args) { a
+3 new C(); fo]
+4, } a
+5. } @
+A [cea] EeeReN]S
+8 fc] een]
+case] cxenens
+Dd. THN WIS—DRETS
+413
+
+
+--- picture_0021.png ---
+[131. ROPOFSARIVINAIL, RILRETOBRELT. ELUB
+DRBVBCA. (1 DBR)
+1, inport java.util. ArrayList;
+2. import java.util. arrays;
+3.
+4, public class Main {
+5. public static void main(String[] args) {
+6. var alphabet = new ArrayListo(
+1 Arrays. asList(
+8. new String[] {°A", "B', "C", "D", *E")
+9. Vs
+10. alphabet. sort((var a, var b) -> ~a.conpareTo(b));
+u. alphabet. forEach(Systes. out; :println);
+Rm 7
+By
+A MRRRaNE
+B.A) [BJ fc) [oJ fe] CRMANS
+c fel [oJ fc] fel fal cxemens
+D. [AJ [a] ExReNs
+Diaz. MRIFADERCLT. ELUBOSMUBAL. (1 D39HR)
+A. — abstract class Iten {
+public abstract int calcPrice(Ttem ites);
+public void print(Iten item) { /+ do something +/ }
+}
+B. abstract class Item {
+public int calePrice(Item iten);
+public void print (Iten itea);
+}
+abstract class Tten {
+public int calePrice(Iten iten);
+public final void print (Item itea) { f+ do something +/ }
+}
+414
+
+
+--- picture_0022.png ---
+D. abstract class Item (
+public abstract int calePrice(Iten item) {
+J+ do sonething +/
+}
+pubile abstract void print(Iten item) {
+J* do sorething +/
+}
+,
+(33. ROWISHEIINA I, RGLKEROBRELT. ELUSO
+BUCA, (1 DBR)
+1. inport java.util. Hastiap;
+2. iaport jave.util. List;
+4, inport java.util.Map;
+4
+5. public class Main [ #126
+& static MapString, String> 2ap + ne Kastan);
+1. static ListString> heys = List.of("A", “B’, °C"): g
+8, static String) values = (1°, 2,9"; ia
+9. static { F
+0, for var i= 0; 1 Ckeyssinel)s i) ( a
+1 nap polls. get, values): ®
+ta i is]
+8B) |
+‘4, public static void nain(Stringl | args) (
+6. ys. clear;
+16. values = nev String];
+its Syste. ont printa(apszet) + "+ Heys. size) + *," + vues. length
+8)
+1.)
+A 1330) sens
+B. 13,00) CRMENS
+C1333) eemens
+Dd. TYNTVIS—PRETS
+£  RTICEAD-eN]
+415
+
+
+--- picture_0023.png ---
+(134. ROFOFSHEIVINA, RILRETOBRELT, ELUBO
+BEUECU, (DER)
+1, public class Sample {
+2, public static void main(Stringl] args) {
+3 char ¢ = 'b’;
+4 int i= 0;
+5 switch (c) (
+6 case ‘a’
+a ity
+8 break
+8 case 'b’
+40. ins
+11, case ‘c’ | 'd°
+12 ih
+2B. case 'e
+4 itt;
+45. break;
+46. case ‘f
+17 ins
+18. break;
+49. default:
+20 Systen. out. print In(c);
+a )
+Fa System. out. printIn(i)
+3B)
+a. }
+A sHRRENS
+B bihteReNS
+cc  hRRENS
+D. banteeReNs
+416
+
+
+--- picture_0024.png ---
+[135. ROFDFSHEIIINA WL, RGLKESOBRELT, ELUBO
+BUCA. (IDB)
+1, public class A {
+2. private void print() {
+3. System. out.println("A");
+4. }
+5. public void a() {
+6. print ();
+Ls }
+8}
+1. public class B extends A {
+2, private void print() {
+3 System. out. print1n(°B");
+4)
+5. public void b() {
+6. print();
+1 ]
+8. public static void main(String... args) { g
+9 Bb = new B(); —E
+10. bial): ea
+1. b.b0: a
+2) [0]
+Bo} ia]
+}
+A Tal [8] caeReNsS
+8. [el [a] cxenens
+c. AYIA WLS—-PRETS
+D,  RBICWDAOD-eNSe
+4l7
+
+
+--- picture_0025.png ---
+(136. RoOwDRLMBOI— KEMUBREBSforVERUEAL. (1D
+JR
+int x = 0;
+while(x < 10) {
+Systen. out. print(x++);
+}
+A. for (int a= 0; a ¢ 10;) {
+Systen. out. print (a);
+att;
+)
+Bint b= 0;
+for (; b < 10;) {
+Systen. out. print (++b);
+)
+c inte = 0;
+for (:e++) {
+System. out. print(c);
+)
+D. for (int d = 0; d < 10; d++) {
+System. out. print (d++);
+?
+(137. 2035. XYy KORRELTELUSOSBUBAL. (2H)
+A. public void methodA(int x) {
+return +#x;
+)
+8. public String methodB() (
+System. out. print1n("B");
+)
+4g
+
+
+--- picture_0026.png ---
+public boolean methodC(int a) {
+return a <0;
+}
+D. public char methodD(String str) (
+return str;
+}
+£ public void methodE() {
+return;
+}
+(138. ROFOFSHEIINA WW, RILKETOBRELT, ELUSO
+@HUBE. (1 DHE)
+4. inport java.util.List;
+2. #12
+3. public class Main (
+4, public static void main(Stringl] args) { g
+5. List<Character> list = List.of(); £
+6. list. add(‘a'); F
+1. List.add('b'); a
+8. List.add('c'); (o}
+9. Systen.out. println( list); a
+10. } a
+a}
+A [abd
+8. [bal
+CDNA IS DRETS
+D.  RTBICADAD-eNS
+Ao
+
+
+--- picture_0027.png ---
+(139. ROFOFSHEWPICRLRAITY KTRTLKCEOBRELT.
+ELUSO@BUBAU1. (1 DBR)
+> java A "AB AB
+1. public class A {
+2. public static void main(Stringl] args) {
+3 for (String str : args) {
+4 Systen. out. print (str);
+5. )
+6 }
+a 9
+A [aneas] ERRAND
+8B. [ApaB] ERRENS
+c [ApaB] emmens
+Dd. faBas] &RRENS
+E  RTRICHIADIAD-ANS
+(40. ROFOISLEIINAIL, MTLKECEOBRELT. ELUSD
+BBVA. (1238)
+1, public class Main {
+2, public static void main(Stringl] args) {
+3. String[] array = {"A", “B", "C", "D"}:
+4 for (int i = 0; i < array. length; i++) {
+5 System. out. print(arrayli] + * *);
+6. if (arrayli].equals("C")) {
+a continue;
+8 }
+8 System. out. printtn(*end");
+10. break:
+11, )
+wm}
+3B. }
+420
+
+
+--- picture_0028.png ---
+A. [ABCend] ERRENS
+8. [ABCDend| cxmeNS
+c. Trend] exemans
+Dd. DYNES DRESS
+(41. rozogsnemRL. D1Y97T-ATIYINAWIS—PRE
+FSBHECLTHASNSCOSHUEAL. (1 DBE)
+1. public interface A {
+2. public Iterable al);
+3)
+4. import java. util. Collection;
+2.
+3. public interface B extends A (
+4, public Collection al);
+5. }
+1, import jave.nio. file. Path; g
+2. ie
+3. public interface C extends A { F
+4, public Path al); a
+5.) fo]
+fa
+4. public interface D extends B, C { |
+2.
+3)
+A DIYIDT—AWADVLLMKLTVSIED
+8B. BL YIFT—AWALYIFI-RERGSRO VOWS
+XY y REBBLTUSIED
+C BECHUIII—ANSMRLEXY » KORO (ARIES
+ebb
+D. DA YHIT—-ATHWALIEXY y REMERLIED OTD
+421
+
+
+--- picture_0029.png ---
+(42. ROFOFSHEIIINAI, RILRETOBRELT, ELUBO
+BBVA. (1 DBR)
+
+1. package ex#2. a;
+
+2
+
+3. public class A {
+
+4, public String x = "A";
+
+5. protected A() { }
+
+6. J
+
+1. package ext2.b;
+
+2
+
+3. import ex#2.a.A;
+
+4
+
+5, public class B extends A {
+
+6. String x = "BY;
+
+7. public BO) {
+
+8 super();
+
+9)
+
+10. 3
+
+1. package ext2;
+
+2
+
+3, import exd2.a.A;
+
+4, import ext2.b.B;
+
+5
+
+6. public class Main {
+
+7, public static void main(Stringl] args) {
+
+8 Aa = new B();
+
+8 System. out, printIn(a.x);
+
+0}
+
+Eb
+A DUNAWIS—VRETS
+a RTRICHIADIAD-ANS
+cc AtReNS
+Dd. BARRENS
+
+422
+
+
+--- picture_0030.png ---
+(143. ROFDFSHEIIINA I, RILKESOBRELT, ELUBO
+@RUEEV. (DER)
+1. public class A {
+2. private boolean isValue(int val) {
+3. return true:
+4 }
+chy tt
+1. public class B extends A {
+2, public int test (int num) {
+3 if (isValue(num)) {
+4, return nuz;
+Bs }
+6. return 0;
+noo
+8 public static void main(Stringl] args) {
+Lt Bb = new B();
+10. Systen. out. printIn(b. test(10));
+nu) fig
+ft
+2. } <£
+F
+i
+A OnRRENS a
+8. 1OnRRaNS BY
+CRAIC AD-eNsS |
+D, DYN1VTS—PRETS &
+423
+
+
+--- picture_0031.png ---
+(aa. ROFOISLEIVNAIL, RTLECEOBRELT. ELUGO
+@RUEEU. (1 DBR)
+1. public class Sample {
+2, String name;
+x! int num;
+4. public Sample(String name, int num) {
+5. this.name = name;
+6. this.num = num;
+an)
+8. }
+1. public class SubSample extends Sample {
+2, int price:
+3. public SubSample(int price) {
+4. this.price = price;
+5 }
+6 public SubSample(String name, int num, int price) {
+a super(name, num);
+8. this (price);
+us }
+10. }
+1. public class Main {
+2 public static void main(String[] args) {
+3. ‘SubSample si = new SubSample(100);
+4. SubSample s2 = new SubSample(*sample’, 200, 100):
+-¥ Systen, out. printin(st.name +", ‘ + slum +", " + s1.price);
+6. Systen.out.println(s2.name + *, * + s2.mum +", * + s2.price);
+no)
+8)
+A sample 200 100
+sample 200 100
+B. null 0 100
+sample 200 100
+c SubSample7 SAO3HIBKS TI 4 LISS
+D. SubSample7 SADSHIBS TAY) (4 ILLS—IeB
+E. SubSample7 SAO3ZTH CsTAOMAT IVI C4 ILLS—le
+WS
+424
+
+
+--- picture_0032.png ---
+(45. testxvy ROA-IN-5-4 KELTELS BUSOSMUBAL, (1
+DER)
+1. public interface Sanple {
+2. void test();
+2)
+A. public class SampleTest implements Sample {
+@Override
+public void test() {
+System. out. printIn(“test");
+)
+}
+B. Public class SampleTest2 {
+@Override
+public void test() { S126
+System. out. printIn(“test");
+) id
+} bia
+B
+c public abstract class SampleTest3 implements Sample { fi]
+Override a
+public abstract void test): By
+) lca}
+&
+D. public ebstract class SanpleTest4 inplenents Sample {
+e0verride
+public void test() {
+System. out. printIn("test");
+)
+)
+425
+
+
+--- picture_0033.png ---
+(146. ROPOFSHEIIINA, RILRETOBRELT, ELUBO
+@RUEA. BB. REORMS2019F8A4HoTS. (1B)
+1, import java. tine.tocalDate;
+2
+3. public class Diary (
+4, private LocatDate now = LocalDate. naw();
+5, public LocalDate getilon() {
+6 return this.now;
+1 }
+8. }
+1, public class Main {
+2 public static void main(Stringl] args) {
+3. Diary d = new Diary();
+4 System. out. printIn(d. getNow());
+5. }
+6. }
+A [2019-08-14] ERRENS
+8. [08-14-2019] ERRENS
+c [14-08-2019] ceReNS
+D.  fos-14j Emmend
+E (2019-08) ExReENS
+a7. ROBNERLEI-KELT. ELUSOSBURAL. (1 D3BIR)
+c(te)"
+a= oOo
+(+ey"-1
+A a= d+ (c= Kath.pow(1 +c, n) / (Math.powll +e, a) ~ 10);
+B a= bec+Hath.pow(t +c, n) / Kath.pow(t +c, 0) - 1;
+© a=bee+ (Kathpowlt +c, n) f tMath.pow(t + eo) - 1);
+D. a= b*Math.pow(d + c, a) = 1/ (c * Math.pow(t + c, ));
+426
+
+
+--- picture_0034.png ---
+(48. ROPDFSHEWHCRLRITY KTRTLRESOBRELT.
+ELUtOeBUREV. (1B)
+> java Main adc
+4. public class Main (
+2. public static void main(Stringl] args) {
+3 int i= 4;
+4. for (String s : args) {
+5. Systen. out. printla((is+) + *) "+ 8);
+6, }
+1 }
+8. }
+A ta
+2b
+ae B12
+8B. 2)a @
+3)b 3
+aye
+9
+1) Main a
+2a =
+3)b 8
+aye &
+D. 2) Main
+3)a
+4)b
+Se
+427
+
+
+--- picture_0035.png ---
+(49. ROPOISHEIVINAI, RTLRETOBRELT, ELUBO
+BBVA. (1D3ER)
+
+1, public class Sample {
+
+2, iota
+
+3 int;
+
+4, inte;
+
+5, int d
+
+6, void setAlint a}
+
+H
+
+4, suid setB() (
+
+‘0. this.b = b;
+
+1
+
+12, int sett)
+
+8. return ¢;
+
+rn
+
+15, int setDlint mun)
+
+ra a= num,
+
+fl return d
+
+8
+
+13, void setAllint x) (
+
+0. a= b> this.e = setDlx;
+
+4
+
+2, svernide
+
+B, public String toString) (
+
+x. return “Sample [a" + a4" DY be ch set at ede
+
+8,
+
+%, public static void main(String} args) (
+
+. Saaple s = new Seplel):
+
+a s.setal1(10);
+
+2, Systen.out.printin(s);
+
+2.
+
+ut
+
+A. Sample [a=10, b=10, c=10, d=10]
+B. Sample [a=0, b=10, -=10, d=10]
+Sample [a=0, b=0, c=0, d=10]
+D. DUNAILLS—ORETS
+E  RBICHAAD-—eN}
+
+428
+
+
+--- picture_0036.png ---
+(50. ROFOFSHEIVINA IL, RTILRESOBRELT. ELS
+OPBUBEL. (1 DBR)
+1. public class Main (
+2. public static void main(String! ] args) {
+3. int num = 0;
+= do {
+5. num-+;
+6. if (num == 1) {
+Ly continue;
+8. )
+9. Systen. out. println (nun) ;
+10. } while (num < 1);
+‘i, }
+12.)
+A fol [1] exeReN] S12
+8. fo] ExReN]
+cf) esenens @
+Dd Semen i
+&
+8
+(151. pipueicres SBE T. ELUBOeBUBAL). (2558) a
+A finally7Oy 1d. try FO 7HScatch Oy OT <LB |
+(RB LE NIUIGE &
+8. try-with-resourcesDUY—ZEEUBHIIC, finally Oy Ht
+RIFENS
+C. try DY TSO catch IDY EBT EANTHS
+D.  catchFOy Fld. RAR SORA OIBICH<AEIN
+isIE
+E. ty7Oy ld. catchFOy Fe finally FO y Fe
+ibis)
+429
+
+
+--- picture_0037.png ---
+(152. ROPOFSARIVINAIL, RILRETOBRELT. ELUB
+DEBVBCA. (1 DBR)
+1. inport java.util. Arrays;
+2
+3. public class Main {
+4 public static void main(Stringl] args) {
+5. int{] arvayl = (1, 2, 3, 4, 5):
+6 int[] array2 = (1, 2, 4, 5, 3):
+a int resulti = Arrays.mismatch(array1, array2);
+8 int result2 = Arrays. compare(array1, array2);
+8 System. out.printIn(result1 + *":* + result2);
+1.)
+1. }
+A [12] Esmens
+8 [23] ceReNS
+cit] EsReNS
+D. [30] cxemens
+(53. ROPOFSHERATLKESIC [2.5] ERRENSKSICLEL.
+BMICASI-KELT. ELUSOBBUBAL. (193)
+1, public class Main {
+2, public static void main(Stringl] args) {
+3 byte x= 5, y= 2;
+4 a
+5 System. out, printIn(a);
+6 }
+v9
+A. float a = Math.round((float) x / y * 100) / (float) 100:
+B, float a = (float) (Math. round((float) x / y * 100)/100);
+float a = Math.round((int) (x / y), 2);
+D. float a = Math.round((float) x / y, 2):
+|= P82
+430
+
+
+--- picture_0038.png ---
+[154 ROFOFSAOBMELT. ELUBOERUBAL. (1958)
+1. public interface Sample {
+2. void test ();
+3.)
+1. class SampleImpl implenents Sample {
+2. @Override
+Bp public void test() {
+ch {/ do something
+L }
+6. }
+1. class SubSampleImpl extends SampleImpl {
+Z. void test(int x) {
+3. H/ do something. ..
+4 }
+5} B12
+@
+A Samplef YIP I-ATIVIN WIS —-BRETS tt
+8. Sampleimpl7 SATII ILLS—DRESS a
+c SubSamplelmpl7 5A TI (4 ILLS—-DHETS a
+D.  EMICIDIN(IL, RATES a
+ie]
+(155. Rozz—bxY hO355, ELUBOeHUBAL). (458A) &
+A inti]{] a= (C4), (2,20);
+B. short b = (short)'A';
+c byte c1 = 10;
+char ¢2 = cl;
+D. boolean d = (10 == 10);
+E float e = 1.99;
+La int f = 12_34;
+G. String g = ‘a";
+431
+
+
+--- picture_0039.png ---
+(156. ROPOFSARIVINAIL, RGLRETOBRELT. ELUB
+DRBVBCA. (1 DBR)
+1, public class Nain {
+2, public static void nain(String(] args) {
+3 Stringl][] array = (
+4 (a, BY)
+5, cel,
+1 k
+o for (int { = 0; 4 aray. length; i++}
+4 int j= 0;
+0. for (; j ¢ arraylil Length: 4) [
+Fit Syster.out.printin('[" + i+ %, "+ + "= + arraylilll);
+2 }
+8 }
+uo}
+By
+A [0,0)=A
+(0, 1)=8
+(,o)=¢
+Ial=b
+R,0l=£
+B1=F
+21-6
+B. [0,0]=a
+(0, 1)=8
+[ol=c¢
+[2,0)=D
+B1=e
+[.21=F
+R3al=G
+432
+
+
+--- picture_0040.png ---
+c [0,0)=4
+[0, 1]=8
+Hoj=c
+fi=0
+[2, }=€
+2, 1=F
+3,0]=6
+Dd. [0,01=A
+(0, 11=8
+{0,2)=¢
+[1,0}=D
+=
+(1,21=F
+{1,3]=6
+(87. ROPFS LEIA, RILRETOBRELT. ELUSO PP
+@BUBA. (1 DBR)
+id
+2. public static void main(String|] args) { F
+3. try { a
+4. throw new Exception(); (0)
+5. } catch (Exception e) { a
+6. ‘throw new RuntineException(); @
+1 } catch (RuntineException e) {
+8. Systen. out, printin("A*);
+9. } finally (
+10. Systen. out. printin("B");
+11 }
+pm)
+Bo}
+A. AnRRANS
+8. BhRRANS
+CDNA IS RETS
+Dd. RTBICAMAD-ENS
+433
+
+
+--- picture_0041.png ---
+(158. ROPOFSHEIVINAN, RILRESOBRELT, ELUBO
+@BUEA. (1 DBR)
+1, public class Main {
+2, public static void main(Stringl] args) {
+3 int nun = 9;
+4 if (numt+ < 10) {
+5 System. out. print in (num)
+6 J else {
+1 Systen. out. printtn("B");
+8. )
+9)
+10.1
+A 10nRRENS
+8B. BhieRANS
+c oneReENS
+D.  DUNAWLS—ORETS
+Oss. ROFOISLEIINAIL, MTLKCEOBRELT. ELUSD
+BBVA. (1338)
+1. public class Main {
+2, public static void main(Stringl] args) {
+L inta=4
+4, int b= 2
+5. System. out. printin(a + b+ "= (a+b) = "+a +b);
+6. }
+1
+A [6=(a+b)= 42) ERRENS
+B. [6=(a+b)=6] RRENS
+C  [a2=@+b)= 42) denen]
+Dd. [a2=(@+b)=6) EeRANs
+434
+
+
+--- picture_0042.png ---
+eo. Ror0FSHeIINA I, RGLKESOBRELT, ELUSO
+SBCA. (1 DR)
+1. public class Sample {
+2. public static void main(Stringl] args) {
+3. short s1 = 10;
+4. Integer s2 = 20;
+5. Long s3 = (long) s1 + s2;
+6. String s4 = (String) (s3 + s2);
+ib Systen. out. printin(s4);
+8. }
+9.)
+A 30bRENS
+8 STBTIN/ 1 IVLS—DRETS
+© TATA IS—DRETS
+D. — S#FEITClasscastexceptionssAO—ENS B12
+E.  6f7E Tclasscastexception\AO—ANS
+@
+ft
+Oe. ROFOISLEAYNA Ib, RTLKBRE LT, ELUBOSB a
+TEU, (1 D3BIR) i]
+a
+®
+1. public class Main ( a
+2, public static void main(Stringl] args) { @
+3. String si = new String("Java’);
+4 String s2 = "Java";
+5. String s3 = 82. intern();
+6. Systen. out. print((s1 == 2) + *, "):
+7 Systen.out. print (s2 == $3) + *, ");
+8. System. out.printIn(si == 53);
+7 }
+10. }
+A. [false, true, false] ERRANDS
+8. true, true, true] ERRENS
+Cc.  Ptrue, false, false] CRARENS
+D. Prue, true, false] CRTANS
+E.  [false, false, false] ERRENS
+435
+
+
+--- picture_0043.png ---
+(62. RozOFSAeIINAL, RILRETOBRELT. ELUB
+DEBVBCA. (1 DBR)
+1. public class Main (
+2, public static void nain(Stringl] args) {
+3. charl][] arvays = {("'a", '@"}, ('b', ‘e"h, (e's “fh
+4 for (char[] array : arrays) {
+5 for (char ch : array) {
+6 Systen. out. print (ch);
+i }
+8. Systen.out.print(* *);
+4 }
+wy
+nu. }
+A. [adbect | Esmens
+B. fabedef | ERANS
+c  ladbect] esmens
+D.  fadbect | ExRaANS
+(63. ROOFS HeIINAIL, RILKESOBRELT. ELUS
+DEBUT. (1 DEER)
+1, public class Main {
+2, public static void nain(Stringl] args) {
+3 int x:
+4 int y = 3;
+5 if > 24
+6 xe Hy
+1. yexth:
+8 ) else {
+9 yet:
+10. )
+11. System. out.printin(x + *, * + y);
+zm}
+B. }
+436
+
+
+--- picture_0044.png ---
+A 14,9) cReRENS
+8. 13,8] czenens
+t. AYIA WLS—-DRETS
+D, RATHI AD-eNS
+(es. rovOFS LeU RICRLRITY RERATLGRELT. EL
+BOTMUBA. (1DHN)
+> java Main 123
+1. public class Main {
+2. public static void main(intl] args) {
+oe System. out. printin(*A"):
+4. ]
+5. public static void main(Object!] args) {
+6. System. out. printin("B");
+7 }
+8. public static void main(String! ] args) {
+9. Systen. out. printIn("C"); g
+10. } £
+it J) F
+8
+a
+A atime BY
+8. BiRTReENS |
+chen] &
+Dd. TYTVIS—PRETS
+£  RTHICHAD-AN]
+437
+
+
+--- picture_0045.png ---
+(165. ROPOFSAEIVINANL, RGLRETOBRELT. ELUB
+DEBVBCA. (1 DBR)
+1, public class A {
+2. protected a() {
+a this(2);
+4 Systen, out. print("1");
+5}
+6. protected Alint a) {
+1 System. out. print (a);
+8. }
+a}
+1, public class B extends af
+2 BO)
+3 this(4);
+4 Systen, out. print (*3");
+5 }
+6. Bint b) {
+1. System. out. print (b):
+a)
+a1
+1. public class Main {
+2, public static void main(Stringl] args) {
+3 Bb = new B();
+40)
+5.)
+A 21asHieReNS
+B 1234htRRENS
+C as21bREReNs
+D. 342i hiRRENS
+438
+
+
+--- picture_0046.png ---
+Oo 66. ROFOFSLOZMICASI—-KELT. ELUBOSMUBEL.
+(DBR)
+1. public class Sample {
+2. public static void print(Integer oun) {
+3. System. out. print ln (num) ;
+4)
+chy tt
+1. import java.util.List;
+2.
+3. public class Main {
+4, public static void main(String! ] args) {
+= List<Integer> list = List.of(1, 2, 3);
+6. List. forBach([__);
+noo
+8}
+#125
+A new Sample()::print 8
+8, Sample. print ba
+c— Sample: print é
+D. Sample: :print a
+a
+(167. savamnismeot » bP y FICS SBE LT. ELUBOER |
+URE. (1DBBR) Lad
+A. IDKETYAK-IVT SERICS. HEOANKL-FAVIY
+AF LAOlavahieRe Ly KP YITS
+B. JavaD RST 7 4 LATS SN TOOSHICRECNTWS
+c JavaO BERS ty bP y TT SICIREDLETHS
+D. JDKAD SAICIDE (MAMRMA) @7YAK-IINIS.
+JavaD Rinse y KP y FANS
+439
+
+
+--- picture_0047.png ---
+(68. n0xS5205Y2b5 99055, AYN WARET. DDarray
+J41-IWCSMELY AF STEATHSEORRUBAU, (29
+sR)
+
+1. public class Sample {
+2. private String[] array;
+ae
+A. public Sample(String[] array) {
+this. array = array:
+)
+B. public Sample(String... array) {
+array = array;
+)
+t public Sample(String str) {
+this.array - str;
+)
+D. public Sample(String[] array) {
+array = array;
+)
+—. public Sample(String... array) {
+this. array = array;
+)
+F public Sample(Object[] array) {
+this. array = array;
+)
+440
+
+
+--- picture_0048.png ---
+ee. RornFSneIN1 I, RGLKESOBRELT, ELUSO
+@RUEEU. (DER)
+4. import java.util.List:
+2. import java.util.ArrayList;
+3.
+4. public class Main {
+5. public static void main(Stringl] args) {
+6. List<String> list = new ArrayList<>();
+ia try {
+8 while(true) {
+9. list. add("hello");
+10. }
+1. } catch (RuntimeException e) {
+12. System. out. println(*A*);
+2B. } catch (Exception e) {
+4. System. out. println("B");
+45. } #12
+16. System. out. printIn(*C");
+uw} bid
+ft
+18. } <£
+F
+8
+A ADRRENS a
+8. ehienenS BY
+.  chemense |
+D, RATHI AD—-eNS &
+E throws EDULE II VIS—PRETS
+[1 70. com.exampleE1—IVAICHSmainxy y KIFIcom.sample.
+Main9SREAVY B51 YD SRAIFSROOAVY KELT, EE
+LUBOBBURA, (1B)
+‘A, java -classpath con, exanple. jar -n cos. exanple/con, sauple, Main
+B, java -classpath com. example. jar com. sample. Main
+c java --module-path nods -m com. example/com. sample. Hain
+D. java --module-path nods con. example/com. sample. Main
+44
+
+
+--- picture_0049.png ---
+[Att ROFOFSHERTL, [abcd] ERRUMU. [// insert code
+here] CASI-KELT. ELUSOSBORAL. (1D5ER)
+public class Sample (
+public static void main(String!] args) {
+StringlJ[] array = new String[2] 21:
+array[0][0] = "a";
+array[0][1] = *b";
+array[1][0] = "ce":
+array[1][1] = "d";
+/} insert code here
+iH
+o]
+A. for (int i= 4; i ¢ 2; is) {
+for (int j= 1; j <2; jee) {
+System. out. print (arrayli}[j]);
+I
+)
+B. for (int i= 0; i ¢ 2; ++i) {
+for (int j= 0; j <i; +49) {
+System. out. print (arraylil[j]):
+I
+.]
+© for (String a : array) (
+for (String b : array) {
+System. out. printin(b);
+I
+)
+D. for (int i= 0; i < 2:) {
+for (int j= 0: § <2:) {
+System. out. print (array[i}[j]);
+i
+}
+itt;
+?
+442
+
+
+--- picture_0050.png ---
+(172. nozorSeRGUT FAL IX) [Cl [0] ERLE. SMITA
+SI-KELT, ELUSDEBUBAL. (1 DRE)
+1. public class Sample {
+2. public static void main(Stringl] args) {
+3. StringBuilder sb = new StringBuilder(*ABCD");
+4. |
+5. Systen.out. printin(sb);
+6. }
+ny
+‘A. sb. replace(sb. indexOf("B"), sb. indexO£("B"), "X");
+8. sb.replace(sb. indexOf("B"), sb. indexO£("C"), "X");
+©. sb. replace(sb. indexOf("A"), sb. indexOf("B"), "X"):
+D. sb. replace(sb. indexOf("A"), sb.indexO#("C"), "X");
+1288
+(173. ROFOFSLeRTL M135) ERTL. TAOLMICASI— @
+RELT. ELUSOSMURALY. (1 DIR) g
+F
+4. public class Main ( a
+2, public static void main(String] args) { [0]
+3 int[] array = { 1, 2, 3, 4, 5; fa
+4 for (( a
+5. Systen. out. print (arrayl il);
+6. }
+7 }
+8.
+AL int i= 0; 1G 4; ie
+Bint i= 0; i< Site?
+© imtiz tp ics ieed
+D. int i= 4; i <5; ise
+443
+
+
+--- picture_0051.png ---
+[1 74. ROPOISHEIVINA, RILRETOBRELT, ELUBO
+BBVA. (1 DER)
+1, public class Main {
+2 public static void main(Stringl] args) {
+3 String[] str = new String[2];
+4 int i= 0;
+5 for (String s : str) {
+6 strlil.concat("e" + i);
+a itt
+8. }
+8 for (i= 0; i ¢ str length; i++) {
+10. System. out. printtn(str[il);
+11. )
+wo}
+B.}
+A 0
+el
+B. null eo
+null et
+c null
+null
+D.  RTICHAAD-ENS
+(175. E¥a—Walk EYAL, DOTNTOEYA-WS
+comsample/(yF—VICPILATESHSICLEL. TOBIAS
+HY Smodule-infojavae BoE. (1 DEAR)
+A. module a (
+requires con. sample;
+exports b;
+)
+B, module a (
+requires b;
+exports con. sample;
+?
+444
+
+
+--- picture_0052.png ---
+Cc. module a {
+import com. sample;
+export b;
+}
+D. module a {
+import b;
+export com. sample;
+}
+Ove. ROFOISLEAYNA IDL, MATLKCEOBRELT. ELS
+DBBUBAW. (1 DEIR)
+4. public class Main (
+2. public void test(Object{] array) {
+ah Systen.out. printin( A");
+4. }
+5. public void test(String[] array) {
+6. Systen.out. printin("B"); g
+a } pe
+8. public void test (Object obj) { F
+9. Systen. out. printIn("C"); a
+10 } oD
+41. public static void main(Stringl] args) ( a
+12. new Main(). test(args); @
+Bo}
+14. }
+A AbRRANS
+8. Bhima
+c  MRRENS
+dD. RATHICAOAD-eN}
+£  DYNIS—DRETS
+445
+
+
+--- picture_0053.png ---
+[177. ROPOFSAEIVINANL, RILRETOBRELT. ELUB
+DEBVBCA. (1 DR)
+1. public class Sample {
+2, public void test() {
+a System. out. printIn(*Samplettest(]");
+4)
+5.)
+1. public class SubSample extends Sample {
+2, Override
+3, public void test() {
+4 System. out. printIn(*SubSampleftest ()");
+5. }
+6
+1. public class Main {
+2, public static void main(Stringl] args) {
+3 SubSample sub = new SubSample();
+4 Sample sample = nen SudSample();
+5. sub = sample;
+6 sub. test ();
+1. sample. test():
+8. }
+a1
+A. Samplestest()
+Sample#test()
+B. — SubSample#test()
+Subsample#test()
+C. Subsample#test()
+Sample#test()
+dD,  RATRICHIAIAD—ANS
+EDN IVIS—DRETS
+446
+
+
+--- picture_0054.png ---
+[1 78. ROFOFSAeMBL, BISAOBMICASI—KELTELUB
+DRBUBAW. (25K)
+1. package ex78.a;
+2.
+3. public abstract class A {
+4. protected abstract void test ();
+5. }
+4. package ex78.b;
+Z
+3. import ex78.a.4;
+4.
+5. public class B extends A {
+6 —|
+1}
+#125
+A. public void test() (}
+8, private void test() () @
+Cc void test() {) ft
+D. protected void test() {} é
+6g
+a
+(179. Sya—Wicees SBMELT, ELUBOTRUEL. (238K) a
+A AVYRSAUbSEYa-WOLIAK-NEBETSTE é
+(STROMBELC EL
+8. Java RAAPlisjava base a—IICBS
+C IDKDSES a Ibe ete, apis sHELZICIO Te
+D.  EYa—WAIOKTRATTSICIS. PIVI—Y aYREVa—
+WELTHEET SLEDBS
+447
+
+
+--- picture_0055.png ---
+(80. ROFOFSHEIIINAN, RILRETOBRELT, ELUBO
+@BUEA. (1 DER)
+
+1, public class Test {
+
+2, public static void main(Stringl] args) {
+3 Stringl ][] array = new Stringl2][1:
+4 array[0] = new String[2];
+
+5. array[1] = new String(5];
+
+6 int i= 97;
+1. for (int a = 0; a < array. length; att) {
+8 for (int b = 0; b< array. length; be+) {
+8 arraylal[b] = "* + 4;
+40. its
+11. J
+12. )
+2B. for (String{] tmp : array) {
+14. for (String s ; tmp) {
+45. System. out.print (s +" *);
+16. }
+17 System. out, printtn();
+18. )
+}
+20. }
+
+A 9798
+
+99 100 null null null
+B 9798
+99 100 101 102 103
+
+CG DULLES RET S
+
+D.  FTHFICNullPointerExceptiond\AD—ENS
+
+£.  RATE[CArrayindexOutOfBoundsException\AD—SNS
+
+448
+
+
