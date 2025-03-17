@@ -1,999 +1,1000 @@
 --- picture_0001.png ---
-Javaコマンドに関する問題です。
-Java SE 11からソースファイルモードが追加され、javaコマンドで jawaファイ
-ルを直接守行できるようになりました。 ソースファイルモードは、ソースファ
-イルをコンパイルし、クラスファイルに大当するバイトコードをメモリ上に
-生成して、そのクラスのバイトコードを実行できるようにする仕組みであり、
-javaコマンドがクラスファイルを生成するわけではありません。そのため、
-クラスファイルを作ることを目的とした本設半では選択肢AとBは誤りです。
-選択度CとDは、javacコマンドをAと8のどちらに対して実行しているかが異
-なります。ここで、Aクラスのソースコードでは8クラスを利用していること
-に着目します。 4をコンバイルすることで、Aムクラスが令存する6クラスもセ自 第12重
-動的にコンパイルされ、AとBの両方のクラスファイルが生成されます。よっ
-て、 選択又が正解です。
-なお、選択肢Dのjavaコマンドは、パスではなく完全修師クラス名 「a.Al を
-指定することでAクラスを実行できます。                             選
-選択肢こは、javacコマンドで8クラスのコンパイルをしていますが、Aのクラ      問
-スファイルは生成されません。よって、許りです。                     是
-[第1電 :表共      党
-解
-回
-ソースファイルに記述する要素の瞳番に関する問是です。
-ソースファイルには、バッケージ宮言、インポート宮言、クラス宜言を記示
-します。 記述する順番もやパッケージ吉言、インポート宮言、クラス宣言の順
-となります。よって、 選択肢Aが正解です。
-【第1電 : 届訓2】
-バッケージのインポートに関する問題です。
-異なるパッケージに届するクラスを利月するには、完全億飾クラス名でクラ
-スを記述するか、import文を宣言しなければいけません。 設問のMainクラス
-では、 異なるパッケージに層するSampleクラスやrestクラスを完全偽遍クラ
-ス名ではなく、クラス名だけで記未しているため、インポート宣言が必要です。     9
+1. ROFOFSLOVMICASI—KELT. ELUBOEBUEAL.
+(DBR)
+
+1. import java.io.*;
+
+2
+3. public class Main {
+4, public static void main(String[] args) {
+
+5 try {
+
+6 test(0);
+
+7. —_——
+
+8
+9. private static void test (int num) throws IOException,
+
+IndexOutOfBoundsException {
+
+10 if (num < 10) {
+11 throw new FileNotFoundException();
+2 } else {
+B. throw new IndexOutOfBoundsException();
+14, J
+ce)
+16.)
+
+A. catch (FileNotFoundExeeption e) ( )
+
+catch (Tndexdut0fB0undsException e) ( }
+B. catch (IndexutOfBoundsExeeption ) ( }
+catch (PiletotFoundException e) ( )
+
+¢. catch (File¥otPoundException | T0Exception e) { }
+
+D. cate (10Exception e) {
+
+E, catch (FileNotFoundEiceeption | IndexOut0fBoundsException e) (
+
+502
 
 
 --- picture_0002.png ---
-なお、java.langパッケージに属するクラスはインポートする必要はありませ
-ん。このパッケージは、Javaプログラミングで必要な基本的なクラスがまと
-められているため、インポート宣言を省略できるようになっています。よっ
-て、選択肢AやDのようにjava.langバパッケージをインポートする必要はありま
-せん。
-インポート宣言では、完全修徹クラス名を指定するか、パッケージ名とクラ
-ス名のワイルドカードを指定するかのどちらかの方法を使います。バパッケー
-ジ名をワイルドカードにすることはできません。そのため、選択肢Aのよう
-に「com.*」 をインボートすると、comバパッケージに属するクラスだけがイン
-ポートされます。しかし、設問のsampleクラスとTestクラスは、それぞれ「com.
-sample] と「com.sample.test] というパッケージに扇しているため、この宣
-言ではインポートできません。よって、選択肢Aは誤りです。
-選択肢Bは、「com.sample.*] をインポートしているため、com.sampleパッ
-ケージに放するクラスだけをクラス名で表記できます。Testクラスは、「com.
-sample.test] というパッケージに属しているため、この宣言ではインポート
-できません。よって、有選択肢Bは誤りです。
-選択肢Dは、java.langバッケージのみインポートしており、「com.sample] と
-Tcom.sample.test] の2つのパッケージをインポートしていません。よって、
-誤りDです。
-以上のことから、正しくインポボート宣言が記述されている選択肢Cが正解です。
-【第1章 : 問題1、問題31
-ラムダ式からアクセスできる変数に関する問題です。
-ラムダ式を囲おのブロックの中で直言されたローカル変数をラムダ式内で利用
-するには、その変数がfinalで宣言されているか、実質的にfinalでなければい
-けません。
-設問のコードでは、変数iはfinalで修飾されていません。そのため、コンバイ
-ルエラーが発生します。よって、選択肢Eが正解です。なお、次のようにfinal
-で修乱するとラムダ式内のコンパイルエラーは発生しませんが、 変数友イン
-クリメントしている行でコンバイルエラーとなります。
-450
+1 & immutables+ 7725 NCI SBBELT. ELUBORBU
+Ui. (3 DBR)
+A EDXY y KEA-N-S1 KTR
+B. EOXY y KCHI 4—IL KOWSBBLIE
+C  FATOI1—I KEpublicle TS
+D. FRTOI 4M Ke finalle TS
+D1 3. 29 709SK0I2/(4 VIS—BBESSHRELT. ELUGO
+@RUEEV. (1D)
+1. public class Main {
+ch public static void main(String|] args) {
+a ‘int a = 10;
+4 float b = 10.0f;
+& double c = 20;
+6. a=b;
+1 b= a;
+8. c=;
+9. c= a
+10. i] bs
+uu. } é
+ial
+< ee Ea
+A. (FE [a = (int) b;] (CHRRAS @
+8. 743% [b = (float) a; IcBeRAS 6
+©. SFB [c= (double) b;] (CHERAS a
+D. 9478 [ec = (double) a;] (CBERAD ~
+503
 
 
 --- picture_0003.png ---
- ローカル変数をfinalで修飾したローカル変数の値を変更 (コンバイル
-エラー)
-import java.util.fnnction.Supplier:
-public class Sample{t
-Yoid sample() {
-final int 1=25:
-Spptter<Tmteger> foo = () つ
-1: を 変の値を変更
-System.out.printtn(foo.get()):
-}
-1
-【第8章 : 問題4】
-インスタンス変数やクラス変数と、ローカル変数の優先度に関する問題です。     第12章
-インスタンス変数やクラス変数は、クラス定姜の直下、メソッドの外に定義
-する変数です。一方、ローカル変数はメソッド内で宣言する変数です。 イン
-スタンス変数やクラス変数はクラス内すべてが有効範囲ですが、ローカル変
-数はその座数を宣言したメゾソッド内だけが有効惣弄となります。
-インスタンス変数やクラス変数は、同じクラス内に同名のものを複数定義す
-ることはできません。同様に、ローカル変数も同じメソッド内に同名のもの
-を複数定義することはできません。ただし、インスタンス変数やクラス変数
-と同名のローカル変数は定義できます。
-インスタンス変数やクラス変数と同名のローカル変数がある場合、変数名だ
-けを記述するとコンパイラはローカル変数だと解息します。 インスタンス変
-数であることを明示したい場合には「this.フィールド名」 を、クラス変数の
-場合には「クラス名.フィールド名」の圭式で記述します。
-設問のコードでは、2行目でクラス変数numが宮言されていますが、4行目で
-ローカル変数naumも宣言されています。そのため、設陸のコードではin型の
-ローカル変数numを宮言し、numの値を代入するというコードとしてコンパバ
-イラに解編されます。
-4行目で富言したローカル変数mumは初期化されていないため、5行目でこの
-変数を参頸するとコンバイルエラーが発生します。以上のことから、有選択睦
-てが正解です。
-設問のコードでクラス名を記述してクラス変数を使うことを明示すれば、コ
-ンバパイルエラーは発生することなく、23が表示されます。
+i 4. ROFOFSLOBACLT, ELUSOSBUEALI. (3058)
+
+1, import java.util. ArrayList;
+
+2. import java.util.List;
+
+3
+
+4, public class Trash {
+
+5. List<String> List - new ArrayList>();
+
+6. protected Trash (String val) {
+
+1 add (val):
+
+8 }
+
+9, public boolean test (String val) {
+
+10. return true;
+
+11 }
+
+12. public void delete (String val) {
+
+2B. List. renove(val);
+
+14, }
+
+15. public final void add(String val) {
+
+16. list. add(val) ;
+
+1 )
+
+8.)
+
+1, public class CacheTrash extends Trash {
+
+2, private String tap = null;
+
+3. public CacheTrash() {
+
+4 super (null);
+
+5 }
+
+6. public boolean test(String val) {
+
+1 return list. contains (val);
+
+8 }
+
+9. public void delete(String val) {
+
+10. this. tap = val;
+
+11, }
+
+12, public void flush() {
+
+B. super. delete (tmp);
+
+14. }
+
+8.)
+
+A. CacheTrash JS 2Otest XY y KABICUERT
+B. CacheTrash9 FADdeletexY y Kis, Trash FADdeletex
+vy REO
+504
 
 
 --- picture_0004.png ---
-【還 クラス傘数を使うことを明示
-pubtic class Sampte {
-static int num = 23:
-pubtic static void main(String[] args) {
-1nt num = Sample.numz
-System.0ut.printimauml:
-}
-}
-[策6間: 間還9】
-6. AD
-モジュールの設定ファイルの記述に関する職題です。
-モジュールの設定ファイル (module-info.java) では、requiresを使って、そ
-のモジュールが利用するほかのモジュール名を記述します。公開するパッ
-ケージは、exportsで二言します。 設問の設定ファイルではどちらのモジュー
-ルもバッケージを公開していません (選択肢A)。
-コンバイラは、requiresで指定されたモジュールのmodule-info.javaを探しま
-す。このファイルが見つかると、さらにそのモジュールが利用するほかのモ
-ジュールを抹します。
-設問の設定ファイルでは、モジュールAはモジュールBを必要とし、モジュー
-ル6はモジュール4を必要としています。つまり、モジュールAもモジュールB
-も要に利用し合っている相互依存の決態にあります。
-このような相互依存の決態では、コンバイラがAB一Amー8という具合に延々
-とそれぞれの設定ファイルなを確認し村けることになるため、次のようにコン
-バイルエラーが発生します (叶択取D)。
-団 相互依存のため、コンバイルエラー
-src/B/modute-info.java:3: エラー: をお人性がリープしています
-reqoires
-エラー1恒
-なお、このコンバパイルエラーは、ループする状況をわざと作るために以下の
-ことを行っています。
-① 8モジュールのmodulenojaveのrequiresをコメントアウト
-⑧ 8モジュールのmodule.info jawaをコンバイル (何も利用していないのでコ
-452
+©.  CachetrashDSADaddxY y Kid, SIBElstICIBMTS
+D.  Trash¥SAOlistlé. trashy SAOFNTOVIISATHM
+CHS
+E. CacheTrash9 S2OflushXY » Kid, Trash SADdeletex
+vy REO
+R CacheTrashFSADAYA KSI Fd, nullElst AMT S
+DS. RopOFS HEIL, RILRESOBRELT. ELS
+DRBUVCE. (1 DBR)
+4. public class Sample {
+2, private String value;
+3. public void setValue(String value) {
+4 value = “Hello, * + value;
+5)
+6. public String toString() {
+1 return value;
+8)
+Che #
+1, public class Main { é
+2, public static void aain(String|] args) { g
+3. Sample s = new Sample(); a
+4 s.setValue("Java"); Q
+5. System. out. printIn(s. toString()); 8
+a) |
+Toy
+A. THello, Java) EEN]
+8. [Hello, null] £TANS
+c Snull) caReNs
+dD. RATSICHINAIAD—ANS
+505
 
 
 --- picture_0005.png ---
-ンパイルできる)
-⑬ Aモジュールのmodule-info.javaをコンバイル (コンバイル済みのBの
-
-module-info.javaがあるためコンバイルできる)
-@⑬ Bモジュールのmodule-info.javaのコメントアウトを解除して、再コンパイ
-
-ルするとループが発生するのでコンバイルエラー
-java.baseモジュールは、 Javaの工本的なクラスライブラリが分類されている
-モジュールで、どのモジュールにも必ず填黙的にrequiresで読み込まれます(選
-択設B)。
-バッケージ名と同様に、モジュール名にはドメインを逆にした名前を付ける
-のが慣習となっていますが、基本的には自由です。 設問のように1文字のモ
- ジュール名も問題ありません (選択肢C)。
-
-【第11章 : 問量3、4】
-switch文のdefaultに関する問題です。
-switch文のdefaultは、どのcaseにも当てはまらなかったときに実行する処    第12章
- 理を記述するものです。多くの場合、最後のcaseを記述したあとにdefaultを
-記述しますが、これは文法で決まっているものではなく人慣例に周ぎません。
-defauliはどこに記述してもよく、設問のコードのようにcaseより前に記述す
-ることも可能です。
-caseやdefault内にbreakキーワードが見つからない場合、見つかるまで、 以降
-のcase内の文を実行し続けます。これを「フォールスルー」 と呼びます。 設
-間のコードでは、どのcaseにも条件式の値が当てはまらないため、defaultが
-実行されます。まずここで「c] が表示されます。
-次に、defaultにはbreakが記述されていないため、 6行目のcase内の処理が実行
-されます。ここで 「Al が表示され、breakが実行されてswitch文が終了します。
-よって、選択肢Cが正解です。
-条件に一致するcase式が見つかるということは「入り口が見つかる」 という
-ことに過ぎません。breakしない限りフォールスルーが発生することを党えて
-おきましょう。
-【第3章 : 問題19、21】
-
-文字列の梁作に関する問題です。
-1つ目のif文を見ると、java.lang.StringクラスのcharAtメソッドの結果がア
+1) 6. KO7OFS LEM, BIFAOBMDRMICT SHE LT.
+ELUSOEBUBAL. (193K)
+1, package ex06.a;
+2
+3. public class A {
+4 String a= "A*;
+5 protected String b = ‘B";
+6 public String c = "C";
+a)
+1, package ex06.b;
+2.
+3. import ex06.a.A;
+4
+5, public class B extends A {
+6 public void test() {
+2. a
+8 y
+a)
+A [new Bi).b;] & [new B().c;) OMACIVITILLIS—H
+REDS
+B. fnew B().b;] D#CIVIN4 ILLS WHET S
+fnew B().a;) OCIA LIS—VRETS
+D. Tnew B().a:J & Inew B().b: J OMABTIWINTILIS—H
+RETS
+506
 
 
 --- picture_0006.png ---
-ルファベットなのか数司なのかを判定しています。charAtメソッドは、指定
-
-されたインデックスズ番号の位置にめる1文字だけを戻すメソッドです。イン
-
-デックス番号は0から始まるので、設問の文字列には次のような番号を付け
-
-ることができます。
-
-[時間の文字別のイメージ]
-
-[rlslslslslslslilslsil
-
-ot 2 7 se 7 ee
-
-設問のコードでは、indexが5から始まるので、5番目の文字である「5] が
-
-harAtメソッドによって戻されます。
-
-1つ目のif文は、 java.lang.CharacterクラスのisAlphabeticメソッドを使って、
-
-文字がアルファベットかどうかを調べています。 数字の「5] はアルファベッ
-
-トではないので、判定結果はfalseこなります。
-
-同じif文のelse ifでは、CharacterクラスのisDigitメソッドを使って数字かどう
-
-かを判定しています。「5] は数字ですので、この判定はtrueとなり、else if
-
-内の処理が実行され、indexの値が5から10に変更されます。
-
-2つ目のif文では、stringクラスのendsWithメソッドを使って、指定された
-
-文字列 「testl で終わるかどうかを調べています。変数strで示される文字列
-
-は 「hoge456test] ですので、 endswithメソッドはtrueを戻します。そのため、
-
- 次の行のsubstringメソッドの結果が変数strlに代入されます。
-
-substingdメソッドは、 2つの細を受け取り、第1引数から第2引数の問の文字
-
-列を切り出すメソッドです。次のように文字の間に線を引き、番号を振ると
-
-わかりやすいでしょう。
-
-【設問の文字列のイメージ】
-
-MMEIEAEIEAEIIIEIEJIMI
-
-6 1 2 3 4 5 6 7 9 9 10
-
-設問のコードでは、0から始まり、indexの番号まで、つまり10までを切り出し
-
-ます。そのため、「hoge456tes] という文字列が切り出されて抽出されます。
-
-以上のことから、有選択肢Eが正解となります。
-
-【第2硬 : 習題11、13、16】
-
-9. B、E                                    EEE
-
-Javaのコマンドに関する問題です。
-
-クラスの依存関係を調べるには、jdepsコマンドを使います。また、モジュー
-
-ルの依存関係を調べるには、javaコマンドの-show-module-resolutionオプ
-
-454
+| il TT. ROFOISLEIYNA IL, RT LKRECZOBRELT. ELUAD
+RUBE. (1K)
+1. public class Sample {
+2. public static void main(String|] args) {
+3. short a = 97;
+4. int b = 98;
+5. System. out. print ((char) a+ * *);
+6. Systen. out.print ((char) b);
+1. }
+8. }
+A fab] €aeneNs
+8. fal ERMANKGICHORETS
+CDN TILES PREFS
+D. — ClassCastéxceptionb'zD—eNd
+D1 & B752msars2otestXyy KEHUMTROIC, BISZOZHG
+(CASI-KELTELUSOSBUBAU. (1 D3)
+1, public class A { é
+2. public void test() { fg
+3. 11 do sonething Ea
+@
+4 } ~
+5.) I
+g
+1. public class B extends A (
+2. public void test() {
+3. CO
+4 }
+5. }
+A. this. test();
+8. public. test();
+cnew. test();
+D. super. test();
+507
 
 
 --- picture_0007.png ---
-ションを使います。よって、選択肢BとEが正解です。
-選択肢Aのjmodコマンドは、モジュールを作成するためのコマンドです。 選
-択肢には、javaコマンドのソースファイルモードによる実行です。これらの
-コマンドでは依存関係を調べることはできません。選択肢Dは、複数のクラ
-スファイルをまとめてjarブファイルを作るjarコマンドですが、このようなオプ
-ションは存在しません。よって、これらの選択肢は誤りです。
-
-【第11草 : 問題6】
- 抽象メソッドの実装に関する問題です。
-設問のコードをクラス図で示すと次のようになります。インタフェースAに
-は抽慰メソッドxが、抽象クラス8には具計メソッドxと抽京メソッドzが定義
-されています。只象クラスであるCはインタフェースAを実現すると同時に、
- 抽象クラスBを継承しています。また、インタフェースAと押象クラスBの間
-には何も関係はありません。
-【設問のインタフェース、クラスの関係】                            第12章
-    |画還較|
-A、8、Cの三者の関係で考えると、抽象メソッドを実装するのは具介クラス
-であるCクラスです。
-まず、Cクラスは抽課クラスBを維承しているので、Bに定義されている抽象
-メソッドzを実装しなければいけません (選択肢B)。
-また、インタフェースAと抽代クラスBの間には関係がないので、Aを実現し
-ている只計クラスCが、Aのメソッドxを実装しなければいけません。しかし、
-てとBの則には継承関係があるので、CはBから引き継いだ具代メソッドxの実
-装を持っていることになります。よって、Cクラスがxメソッドの実装を持つ
-必要はありません。
-
-【第7章 : 問顧3、8】
-ローカル変数の型推諭に関する問題です。
-mainメソゾッドの引数としてString型の集合を扱う可変長引数が使われていま
-す。その可変長引数から、1つずつ可素を取り出し、繰り返し処理をするのが
-拡張for文です。この統張for文では一時変数valueを宣言していますが、この
-変数のデータ型をvarで型推論しています。
+i 9. ROFOFS LEBEL, IYN1IVLS—-CBSBHEBUGSL.
+(D3)
+1, public class A {
+2, private String value;
+3, public String getVatue() {
+4 return value;
+5 }
+6. public void setValue(String value) {
+7 this. value ~ value;
+8
+9. public String toString() {
+40. return getValue();
+1 J
+my
+1, public class B extends A {
+2, public void setValue(String value) {
+3 super.setValue(*[* + value + "]");
+4. J
+5. public void setValue(String... values) {
+6 setValue(test (values});
+a}
+8, private String test(String... values) {
+3 var sb = new StringBuilder();
+40 for (String value : values) {
+11 sb.append(value +", ");
+2 }
+13. return sb. tostring();
+uo)
+8.
+1, public class Main {
+2, public static void main(String[] args) {
+3 Aa = new BO:
+4 a.setValue(args);
+5. }
+6.)
+508
 
 
 --- picture_0008.png ---
-拡張for文は、集合から要系を取り出し、一時変数に格納します。 設問のコー
-ドでは、string型の集合を扱う変数argsを拡張for文に渡しているので、 取り
-出せる要素はString型たとなります。よって、 変数valueのデータ型はstring型と
-なります。以上のことから、選択肢Aが正解です。
-【第2章 : 問衣6、第<間: 問題11】
-12. D                                       Er
-Stingクラスのメソッドに関する問題です。
-java.lang.StringクラスのindexOfメソッドは、引数に渡された文字列が最初
-に現れる位置のインデックスを戻します。次のように文字列に0から番号を
-振るとわかりやすいでしょう。
-【設問の文字列のイメージ】
-回回EEH男回回囲丁加
-oi ss 4 sezss
-設問のコードでは、indexOfメソッドを使って「ef」 という文字列が始まる番
-号を調べています。 最初に 「ef| が始まるのは5番です。そのため、変数xに
-は5が代入されます。
-次に、Stringクラスのsubstringメソッドを使って文字列を切り出しています。
-引数で涙しているのが切り出す位置になります。次のように文字の賠に線を
-引いいて番号を振るとわかりやすいでしょう。
-【設問の文字列のイメージ】
-1815je19」 IBTT1 1gIhI
-6 1 2 3 4 5 @ 7 8 9 10
-設問のコードでは、変数xの値に3を定しているので、8番から後るである 「ghl
-が切り出されます。
-しかし、この切り出された文字列を受け取る変数が用意されていません。
-substingメソッドに限らず、stringクラスはインスタンスが保持している文字
-列を変更しようとすると、その文字列をコピーし、変更した結果を戻します。
-つまり、変数strで参照される文字列は最初のまま「abcd ef gh] です。
-以上のことから、コンソールには 「abcd ef gh 5] と表示されます。よって、
-選択肢Dが正餅です。
-【第2章 : 問題12、13】
-456
+A BDA YAIYARAWTRo Fhe
+8B. AIZADOoStringX Vy KEBISATA—-N-S4 KLTU
+BUD
+C BIDADtest XY y KotprivateTHSIEW
+D.  BISAMSADSADvaluele PI LATHE
+EAI SAlClésetvalue(string... values\EWS XY y KBE
+te
+10. RozOFSLeMBL, test9S2OMFATIYIN4VIS—OR
+Ed SpERUBAL. (203A)
+public class Sample {
+String nane;
+)
+1, import java.util. ArrayList;
+2
+3. public class Test {
+4, var sanple = new ArrayList<Sanple>();
+5. public var test() {
+6 var sample = new Sample(); bs
+1 var samples = new ArrayListo(); A
+a iF
+8 samples. add("Java"); fg
+9. samples. add("Lanbda") ; i
+10. for (vars: samples) { @
+i. System. out. printin(s); fe
+12 ) 5
+B. )
+uo)
+A G8
+8 1008
+778
+Dd. 6
+£48
+509
 
 
 --- picture_0009.png ---
-13. Dp                                       にPo1
-with文に関する病題です。
-switch文の打件式には、プリミティブ型やEnum、Sting型を戻す式を指定す
-ることができます。このとき、nullを戻すとNullPointerExceptionが発生し
-ます。これは、witch文の分岐にはハッシュコードが便われるためです。
-以下は、 設問のコードをコンバイルしたクラスファイルをjavapコマンドで成
-形した結果の拡律です。 switchがコンバイルされるとこのような中間コード
-になります。
-【還ハッシュコード化された文字列
-8 1ookupswitch 【
-1567: 36
-1598: 48
-default: 85
-}
-。      ェ      。            ーー                 第12章
-この中ペ間コードは、ハッシュコードが1567であれば36行目へ、1598であれば
-48行目、どちらでもなければ85行目へ飛地とこいう意味です。ここで使われて
-いる1567や1598という数債がハッシュコードで、それぞれ10や20という文
-字列を表しています。
-【還ハッシュコードの確認
-System.out.printtn(*10*.hashCode()): // 1567と表示される
-System.cutprinttn(20*.hashCodel)): // 1598と所される
-このようにswich文でString型を戻す式が使われたときには、まず式の結果の
- strng型オブジェクトのhashcodeメソッドを内部的に攻び出し、 その仁によっ
-て分后各理を行っているのです。
-設問のコードでは、siring串のクラス変数surを宣言し (2行目)、その変数の
-信をswitch文の条件式に与えています (4行目)。しかし、このクラス変数は
-明示的に初化されていないため、参照型フィールドのデフォルト値である
-nuliで同時的に初期化されています。
-そのため、switch文の実行時にhashcodeメソッドが呼び出されると
-NullointerEcepttonが発生します。以上のことから、朋沢投Dが正解です。
-【第3章: 周19、第10草 : 商題16】
+FA 1t. ROPOFS HINA, RILLESOBRELT. ELUBO
+BEVBE. (1 DBR)
+1, public class Main {
+2, private static int nun;
+3. static {
+4 num = 10;
+5 }
+6. static {
+7 nua = 20;
+8
+9. static void test (int num) {
+40. un = num * num;
+1 J
+12. public static void main(Stringl] args) {
+B. test (nun) ;
+14 System. out. printin (nun);
+15, J
+16.)
+A 1ontEReNS
+8. 2oneRaNS
+c ohiRReNS
+D.  a00naeReNs
+BE DNLS PRESS
+(12. xo3-KO55, ERIN LENSSEOeBUEAL, (29
+a#HR)
+A var a= (1.0, 2.0, 3.0, 4.0);
+B. var b= new Double{1.0, 2.0, 3.0, 4.0}:
+© var c= new Float(] {1.0F, 2.0F, 3.0F, 4.0F);
+D. var d= new double] {1.0, 2.0, 3.0, 4.0);
+510
 
 
 --- picture_0010.png ---
-関数型インタフェースの1つであるConsumer型に関する問題です。
-java.util.Litインタフェース (正門にはスーパーインタフェースである
-lterable) が持つforEachメソッドは、コレクションが持つ婦素を1つずつ処
-理するためのメソッドで、Consumer型のラムダ式の引数を受け取ります。
-TorEachメゾッドに各すラムダ式には、コレクションの要素を処理するため
-の内容を記述します。
-
-設問のコードでは、asListメソッドで配列からリストのインスタンスを生成し
-ています。このリストは、sString型の要素の集合を扱うコレクションを扱っ
-ているため、forEachメソッドに渡すラムダ式では、コレクション内のSting
-オブジェクト1つをどう処理するかを記述します。以上のことから、ラムダ
-式で扱う変数xはstring型オブジェクトとなります。よって、選択設Bが正解
-です。
-
-【第9章 : 問題18】
-jawacコマンドとjayaコマンドの出力先とクラスバパスの関係性に関する問題です。
-javacコマンドでは、-dオプションを使って出力先を指定しない限り、ソース
-ファイルと同じ場所にクラスファイルが出力されます。
-javaコマンドでは、引数に完全修飾クラス名を指定します。 完全惨侯クラス
-名とディレクトリ村造はマッピングされているため、カレントディレクトリ
-から見て完全修飾クラス名にマッピングされるディレクトリ構造が一致して
-いないとクラスファイルを実行することはできません。また、カレントディ
-レクトリ以外にあるクラスファイルを実行するときは、javaコマンドに-cpオ
-プションを付けて、クラスバスを指定します。
-選択肢Aは、-dオプションなしでコンパイルしているため、ソースファイル
-と同じ場所にクラスファイルが出力されます。しかし、javaコマンドでは
-buildディレクトリをクラスパスに指定しているため、クラスファイルを見つ
-けることができません。
-選択肢Bは、-dオプションでbuildディレクトリへのクラスファイル出力を指
-定した上で、javaコマンドのクラスバスにbuildディレクトリを指定していま
-す。よって、このコマンドは実行できます。
-選択肢Cは、javacコマンドで出力先にbuildディレクトリを指定しているもの
-の、javaコマンドでクラスバスを指定していません。よって、クラスファイ
-ルを見つけることができず、javaコマンドは失表します。
-選択肢Dは、javaコマンドの完全惨飾クラス名が間違っているため、javaコマ
-ンドは失敗します。
-
-[第1章 : 商題6、7】
-458
+| il 13. ROFOFSLORMBELT. ELUSOSBVEAL. (138i)
+1. package test:
+2,
+3. public class Sample {
+4 int a
+5. private int b;
+6. protected int ¢;
+7. public int 4;
+8. }
+1. import test. Sample:
+2.
+3. public class Main extends Sample {
+4, public static void nain(Stringl] args) {
+5 Main s = new Main();
+6
+i }
+8.)
+A MainDSADSWSEdDMBICPILATES #
+8. MainI5AMSIkdDHPILATES 3
+C MainZSAM Slee dOMHICPILATES iF
+D.  MainJSAMBiéa c, BKUICPILATES |
+a
+a
+511
 
 
 --- picture_0011.png ---
-switch文に関する問題です。
-設敵のコード6行目では、java.time.LocalDateクラスのnowメソッドで現在
-日時を待ったLocalDateのインスタンスを生成し、そのインスタンスのwithメ
-ソッドで次の火曜日に変更し、最後にgetDayOfWeekメソッドで曜日を表す
-Enumを取得して変数todayに代入しています。
-この変数todayはvarを使って型准論されていますが、tocalpateクラスの
-9elDayOWeskメソッドがDayOfWWeek区学型を戻すため、DayOfWeek学弄
-の変数として扱われます。
- そのあとに続くswitch文では、変数todayの値がSUNDAYのとき、SUTURDAY
- のとき、MONDAYとFRIDAYのとき、そしていずれにも当てはまらなかったと
-きのcase式が用語されています。
-変数todayには、火曜日を表す列挙型DayOfWeckのTUESDAYが入っているため、
-いずれのcase式にも当てはまらなかった際のdefaultが実行され、コンソール
-には 「other] と表示されます。以上のことから、選択肢Dが正解です。           第12章
-【第2章 : 問醸6、第3章 : 問題19、第9章 : 問題6】
-Javaの予約語として使われるさまざまな直飾子に関する問題です。
-finalは、変更できないものであることを表します。 finalで修徹するものには、
-定数 (値を変更できない変数) やクラス (災承不可なクラス) などがありま
-す (選沢肢A)。
-staticで修飾されたフィールドやメソッドは、「static領域」 と呼ばれるインス
-タンスが配下されるのとは別の領域に配置されます。staticな変数は、クラス
- 全体で共有されるクラス変数です (選択彼C)。
-public、protected、privateは、アクセス修何子です。publicはすべてのク
-ラスからアクセス可能、protectedは同じパッケージ内あるいはサブクラスか
-らのみアクセス可能、privateは同じクラス内からのみアクセス可能であるこ
-とを表します。
-インタフェースは公開するためのものであるため、public以外のアクセス俊
-館子で修飾することはできません (選択肢B)。 抽象メソリッドは、インタフェー
-スを実現したクラスやそのサブクラスで実装し、オーバーライドすることを
-前提としています。privatseにすると、ほかのクラスからアクセスできなくなっ
-てしまいます (選択肢D)。
-インナークラスは、publicのほか、protectedや修牧子なし、privateで偽飾す
+(14. ROVOFSHEIINAWL, RILRESOBRELT. ELS
+DEBUBE. (1 DER)
+1. import java.util. Collection;
+2
+3, public class A {
+4, private Collection collection;
+5. public void set (Collection collection) {
+6 this.collection = collection;
+1 System. out. printin(*A");
+8}
+$+
+1, import java.util. Collection;
+2
+3. public class B extends A {
+4, public void set(Collection collection) {
+5 super. set (collection);
+6 System. out. printin(“B");
+M J
+8.)
+1, inport java.util. Collection;
+2
+3. public class C extends B {
+4, e0verride
+5. public void set (Collection collection) {
+6 super. super. set (collection);
+7 System. out. printin(C");
+8)
+9. }
+1, import java.util. List:
+2
+3, public class Main {
+4 public static void main(String!] args) {
+5 new C().set(List.of(1, 2, 3));
+6&
+th Jj
+512
 
 
 --- picture_0012.png ---
-ることができます (選択野E)。
-
-【第5吉 : 問題5、26
-モジュールの依存陸係に関する商還です。
-javaコマンドの--describe-moduleオプションは、モジュールの設定を調べ
-るためのオプションです。
-依存するモジュールを宣言するには、requiresを使います。 設瑞のコマンド
-実行結果を確認すると、java.bayeモジュールとcom.oggingモジュール、com
-xmlモジュールに依存していることがわかります。この3つのモジュールが記
-述されているモジュールグラフは選択科と選択葉Dです。
-java.baseは、どのモジュールにも必ず晴味的に読み込まれるモジュールで
-す。 そのため、com.sampleモジュールの設定で明示的に宮言する必要はあり
-ません。com.sampleモジュールの設定で明示的に家言する必要があるのは、
-com.oggingモジュールとcom xmlモジュールの2つです。これらもjawe.baseモ
-ジュールな必要とするため、この2つのモジュールがava.baseモジュールに依
-存していない選択肢Aは誤りで、依存している選択了Dが正毅です。
-選択肢8は、usesを使っているjava.sqLDrverに依存しているモジュールグラフ
-になっています。usesは、別のモジュールが実装クラスを提供していること
-を表すための宣言であり、依生するモジュールなを表したものではありません。
-よって、 誤りです。
-誠択肢qは、exporsしている2つのパッケージに対して依存するモジュールグ
-ラフになっています。exportsでは、依存するモジュールではなく、公開する
-バッケージを宣言します。よって、 誤りです。
-
-【第11章 : 再還4、61
-ポリモーフィズムを使った脱画です。
-変数の型は、参照で保持しているインスタンスを何型で扱いたいかを指定す
-るものです。 設問のコードでは、Bクラスのインスタンスを生成し、そのイ
-ンスタンスへの参照をA型の変数に代入しています。 そのため、のインスタ
-ンスは4A型として扱われます。これは、インスタンスの型を棄更しているの
-ではなく、その時点での扱い方を限定しているだけです。
-ムクラスにはhneloメソッドが定義されていて、このメソッドはサブクラスで
-あるクラスにも引き継がれています。8クラスは、このメソッドのほかに
-
-460            yeメソッドを持っています。このメソッドは5クラス独自のものです。 その
+A Tal [al [cl EseReN]
+8. fal fe) cxenens
+cal eaenans
+Dd. ATT SETS
+£  RTHICHAAD-eNs
+(15. RozogsneMRLT< eeu.
+1. public class A {
+2. private int num;
+3. public A(int num) {
+Li this. num = num;
+5. }
+6. }
+ROFOISLOSMICASI—KELT. ELUtOSBUBAL.
+(DBR)
+1. public class B extends A {
+3. public B(String val, int num) { é
+4 —— 8
+5. ) a
+6} @
+icy
+g
+A this (num);
+8. super(nun);
+< this(val);
+D. — super(val);
+€ — super(};
+513
 
 
 --- picture_0013.png ---
-ため、BのインスタンスをAとして扱っている問は、このメソッドを呼び出す
-
-ことはできません。よって、 設問のコードはコンバイルエラーが発生します。
-
-以上のことから、選択且が正解です。
-
-このような半量では、 インスタンスを扱っている「型」(この場合はAクラス)
-
-に、 困び出しているメソッドが定義されているかどうかを確認してください。
-
-信7半問題12】
-
-20. D                                       EZr3
-
-メソッドの呼び出しとシグニチャに関する敵是です。
-
-JVMは、 実行するメソッドをメソッド名と引牙のセットから成るシグニチャ
-
-で見分けます。 設隊のtestメソッドは、「char型とintの引散を受け取るtest
-
-メソッド] というシグニチャです。しかし、9行目ではchar型の値を1つだけ受
-
-け取るtestメソッドを呼び出そうとしています。 このようなシグニチャを符
-
- つメソッドはsampleクラスには存在しません。よって、コンバパイルエラーが
-
-発生します。 以上のことから、 選択肢Dが正解です。
-
-VMは、名前ではなく、シグニチャでメソッドを発分けていることを忘れな
-
-いようにしましょう。                                       第12章
-
-[5革8】
-
-21. A、E                                    にP2oe |
-
-多次元本列の問題では、変数の次元数と、配列インスタンスの次元示が一到
-
-しているかどうかを確認いましょう。
-
-初期化子「()」を使った配列インスタンス生成では、中カッコがいくつネス
-
-トしているかで次元数を数えることができます。 たとえば、次のように中カッ
-
-コの中に中カッコがあれば2次元本列のインスタンスです。
-
-KO用り】
-
-3次元であれば、次のように中カッコの中に中カッコが、さらにその中に中
-
-カッコが入ります。
-
-td (0.01
-
-選択邊Aは、2次元配列型の変数を宣言しています。また、生成している配列
-
-のインスタンスを見ても中カッコの中に中カッコがあるので、 2次元下列であ
-
-ることがわかります。 変数の次元数と配列インスタンスの次元数は一致して
+Oo 16. ROFOFSLOMABELT. ELUSOSBUEE. (1D3BIR)
+1. package exi6;
+2
+3, import java.util. +;
+4
+5. public class Sample {
+6. private List<String> list - List.of("A", "B", "C");
+1. public List<String> getList() {
+a return list;
+an)
+0.)
+1. package exi6;
+2
+3, public class Main {
+4, public static void main(Stringl] args) {
+5 Sample s = new Sanple();
+6 for (String str : s.getList()) {
+1 Systea. out. printin(str);
+a }
+9)
+10.)
+A 2DDISALAUNY—-DICRISOT, MainJsAT
+java.util. List 2/7ti— KE SABES
+B. java.utilList DIU YaK—hENS
+DYNA T SIC MainI DZ Tjava.util ise Vik b
+Lissette
+D. java.util (y 7—YOENRTOISAPA YI I T—Awi
+Sample 7 SAIC Vik hENS
+514
 
 
 --- picture_0014.png ---
-いるため正しいコードです。
-
-一方、 選択肢6は3次元配列型の変数を用意していますが、 生成している配列
-
-インスタンスは2次元です。 また、 選択箕は2次元配列型の大数と次元の想
-
-列インスタンスの組み合わせなので、次元迷が一致しまきん。 そのため、選|
-
-択財8とCは記りです。
-
-多次元配列は、要素として配列への参照を持つ配列のことです。
-
-多次元配列のインスタンスを生成するとき、 1次元日の要素数は必ず指定しな
-
-ければいけません。しがし、 2次元目以降の配列インスタンスはあとから生成
-
-して、1次元目の肪列の要素に参照を代入できるため、要数をめらかじめ宣
-
-言する必要はありません。
-
-団 2次元配列の生成
-
-intll] array = new int3][:
-
-選択了Dは、1次元目の革素数は指定せずに、 2次元日の可末到を指定していま
-
-す。そのため、配多型変数が参照する配列インスタンスを生成できません。
-
-よって、このコードはコンバイルエラーになります。
-
-居択肢は、3次元配列を扱っています。 3次元配列とは、次元目の配列インス
-
-タンスに2次元日への参照が入り、 2次元日の配列インスタンスに3次元日への
-
-参照が入る配列のことです。
-
-そのため、 2次元日の配列の要素には、 3次元日の配別への参照を代入します。
-
-選択肢は、 2次元目の要素に変数arayが保等している参照を代入しています。
-
-変数errayの参照完こあるのは1次元配列のインスタンスであるため、正しくぅ
-
-次元の編千を持つ配列となります。 以上のことから、選択肢Eも正丁です。
-
-EN/|
-
-アクセス偽郊子に関する問題です。
-
-設問のコードでは、Aクラスを継承したBクラス、Bクラスを継承したてクラス
-
-が走義されています。このような関係があるため、CクラスはAクラスのサブ
-
-クラスだといえます。
-
-ムクラスには、 アクセス信飾子なしのnumフィールドと、公開 (publc) メソッ
-
-ドであるgetvalueメソッドの2つが定義されています。 アクセス信二子がない
-
-ということは、クラス間の挫承に敵係なく、同じバッケージ内に属するクラ
-
-スからのみアクセス可能です。設敵のコードにはパッケージ宣言が記述され
-
-ていませんが、これは無名パッケージに届していると見なされます。そのた
-4           め、Aクラスのnumフィールドは同じバッケージであればアクセス可能であ
+| il 17. ROI-FOS55, EMC IY NA ENSEOSBUZAL, (2D
+BR
+A. int[] array:
+array = new int[] (};
+8. intl] array2 = new int [3]:
+array2 = {1, 2, 3);
+©. Double[] array3 = new Double[3] ();
+D.  int[] array4 = (array4[0], array4[1]);
+E, Doublel] array5 = (mull, 1.0);
+|= 7562
+(18. Ro7OFSLeRTL, [AB] ERRUU. MaingS>AOBwMI
+ABIA-KELTELUSDSMUBEU. (1 D3HR)
+1. public class Sample {
+2, static String header = "A:";
+3. private String value = "B*;
+4, public static String getValue() (
+5. return new Sanple().value;
+6. )
+rn) ta
+Ay
+ni A iF
+1. public class Main { 8
+2 public static void main(Stringl] args) { a
+3 Sample s = new Sample(); @
+4 ia)
+5) a
+6.)
+A. Systen.out.printin(Senple.getValue + s. header! ;
+8. Systen.out.println(Semple.beader + Sanple.value);
+. Systew.out.printin(new Sample().teader + nex Sample().value);
+D. _ Systen.out.println(s.header * Sample. value);
+E, System. out.printIn(Sanple header + Senple. getValue())
+F —System.out.printin(s.header + s.value);
+515
 
 
 --- picture_0015.png ---
-ることがわかります (選択肢A、選択8)。
-スーパークラスのメソッドを呼び出すには、superを使います(選択肢C、D)。
-第6革 : 問題27】
-
-オーバーライドとオーパーロードに関する敵題です。
-設章のMainクラスでは、Aクラスのインスタンスと5クラスのインスタンス2
-つを生成しています。これらのインスタンスを何型で扱うかによって、呼び
-出されるメソッドが異なります。
-IMainクラスの7行邊では、AクラスのインスタンスなA型で扱っているため、
-Aクラスで定義したsampleメソッドが呼び出されます。よって、 選択枝Aは正
-解です。
-設問のコードでは、Aクラスを稚承した8クラスで、Aクラスのsampleメソッ
-ドをオーバーライドしています。さらにBクラスでは、 sampleメソッドをオー
-パーロードもしています。Mainクラスの8行目で生成したインスタンスは、
-この点に蒼日します。                                       第12章
-のインスタンスをA型として扱ったとき、JVMはA型に定革されている
-sampleメソッドの実装を探します。このときJVMは、インスタンスにオーバー
-ライドしたメソッドがあればそのメソッドを、なければスーパークラスのメ
-ソッドを実行します。
-設問のコードの8クラスには、オーバーライドしたsampleメソッドがあり
-ます。これにより、8クラスのインスタンスをA型として扱っていたとして
-も、5クラスでオーパーライドしたメソッドが実行されます。 そのため、「s2
-sample(iist)」 を実行すると、Bが表示されます。よって、羽膨6は訓りで、
-中所和が正婦となります。
-もう1つのポイントほは、Mainクラスの9行日で生成した8クラスのインスタン
-スが9型として扱われていることです。クラスには、sampleメソッドが2つ
-定華されています。1つはcollection型を受け取るメソッド、もう1つはist
-を静け取るメソッドです。Colecion型を受け取るメソッドは、ムクラスのオー
-バーライドでもあります。
-collectionはListインタフェースのスーパーインタフェースであり、Lsrの引
-数を渡したときにはどちらのメソッドの細にも互換性があります。このよ
-うな場合、JVMはより歳因なほうを選択します。つまり、Lst型の引数を渡し
-ているのであれば、hist型を受け取るほうを呼び出します。よって、 選択又D
-は誤りで、選択農Eが正解となります。
-
-【第6章 : 問題16、第7草 : 問題10】
+i 19. ROFOFSLEIVNAIL, RTLECEOBRELT. ELUtO
+BEVE. (1 DBR)
+1, public class Main {
+2, public static void main(Stringl] args) {
+3 int a= 10;
+4 int b = 20;
+5 inte = b+ a/ 5;
+6 System. out.printin(a + b + c);
+7 }
+8.)
+A sobs
+B santa}
+c  3ehtRReNS
+dD. sehteReNs
+(20. ROFOFS HEIN, RILREOBRELT. ELUBD
+BBVA. (1 DBR)
+1, public class Main {
+2, public static void main(Stringl] args) {
+3 try {
+4 Stringl] array = new String[5];
+5 array[1] = "A";
+6 array(2] = "B*
+7 array[3] = "C’;
+a for (String str : array) {
+3 Systen. out. printIn(str);
+10 }
+11 } catch (Exception e) {
+12. Systea. out. printin(“Error");
+B. }
+14, }
+15. }
+516
 
 
 --- picture_0016.png ---
-24. D                                       にP2o9 |
-インタフェースの綴承による鞭形災承寺還に関する敵題です。
-誤問のインタフェースとクラスをクラス図で表すと次のようになります。
-[設問のインタフェースとクラスの関係
-A
-B
-インタフェースAで宮言されているsampleメソッドは、インタフェースとこ
-で実装されています。出惨のポイントは、BとCを実更したDクラスのsample
-メソッドでsuperのsampleメソッドを呼び出している点です。 つまり、super
-がインタフェース8とてのどちらを表すかが明縮ではないのです。 そのため、
-このコードはコンバイルエラーとなります (選択上D)。
-てのようにインタフェースの多重実更をした千果、デフォルトメソッドが電
-宰してしまう隊丁のことを 「革形綴承問題]といいます。
-なお、 区形炎承半中によるコンパイルエラーを解泊するには、次のように
-superの前にどちらのインタフェースの実装を使うかを指定します。
-【還スーパーインタフェースBのsampleメソッドを呼び出し
-public ctass D imptements B,C【
-80yerride
-pubtic void sampte() (
-B-super.saple(): で5インタフェースのデフォルトメソッドを林O出し
-)
-)
-[第7間 : 題7
-464
+A [Al [el [el exmens
+8. [null] TA) [BJ fc] [null] ExemANs
+c feror) ERREN]D
+Dd. ATIVE S—OHRETS
+|= 564]
+Dat. Rozogsnesit4 WL, RTLRESORBRELT. ELS
+ORBUEE. (1D)
+1. public class Sample {
+2. private int num;
+3, private int test () {
+4. for (int i= 0; i ¢3; is) (
+5. un += 4;
+6. }
+1 return num;
+a)
+9. public static void main(String[] args) {
+40. Sample s = new Sample():;
+Ft int num = s, test ();
+12. s.test();
+B System. out. printn(nun); bs
+4“) Aa
+Pa
+15. } fa
+@
+A sbRRENS 6
+8 ehimReNS 2
+c  SheRENS ~
+D. SSID AD—ANS
+22. javatangityy—-veRtilava SEDRANEAPIDIRHENTUSE
+Va-WELTELUSOERUWAL, (1H)
+A. classes
+8. jdk.base
+c javase
+D. _java.base
+517
 
 
 --- picture_0017.png ---
-25. C                                       EEEIE
-オーバーライドに関する同題です。
-設問のコードでは、抽象クラスAに定義されている抽象メソッドsampleを、
- サブクラスであるBがオーバーライドして実装しています。しかし、Aの
-sampleメソッドが引数を取らないのに対し、Bのsampleメソッドはint型の引
-数を取るためシグニチャが異なり、コンパイルエラーとなります。よって、
-選択肢Cが正解です。 Bのsampleメソッドはオーバーライドではなく、オーバー
-ロードであることに注意しましょう。
-(第7間: 問題1】
-26. D                                       EEZ
-ポリモーフィズムに関する問丁です。
-クラスの継承やインタフェースの実現が絡みあうと複雑な関係に見えます
-が、次のようにクラス図を反くとわかりやすくなります。ポボリモーフィズム
-は、関係する上位のクラスやインタフェース型たしてインスタンスを表うこ
-とです。 関係がなければポリモーフィズムは成り立ちおません。              第12章
-【設問のクラス・インタフェース間の関係】
-呈
-eastect       B
-選択肢Aは、抽象クラスAを扱うコレクションを用意し、そこにDのインスタ
-ンスを追加しています。Dはてを炎氷しており、そのCはを束しています。
-よって、DはA型として扱うことが可能です。以上のことから、正しいコード
-です。
-選択肢B8は、インタフェースBを扱うコレクションを用意し、そこにCのイン
-スタンスを追加しています。CはAを総基すると同時にBも実現しています。
-よって、てはB型として扱うことが可能です。以上のことから、正しいコード
-です。
-選択肢だでは、インタフェース8を扱うコレクションを用意し、そこにpDのイン
-スタンスを追加しています。DはCを災承しており、そのCは、Aを継承する
+[123. KOFOFSHEIINAL, RILRESOBRELT. ELS
+DEBUBE. (1D)
+
+1. package ex23.a;
+
+2
+
+3. public class A {
+
+4, public int num = 10;
+
+oa
+
+1. package ex23.b;
+
+2
+
+3. inport ex23..4;
+
+4
+
+5, public class B extends A {
+
+6. int num = 20;
+
+i
+
+1. package ex23;
+
+2
+
+3. import x23.2. 8;
+
+4, import ex23.b.B;
+
+5
+
+6. public class Main {
+
+1, public static void main(Stringl] args) {
+a Aa = new BO:
+
+4 System. out. printin(a.num)
+
+a)
+
+1. }
+A BISATIYNAVIS—DRETS
+B. Maind SATAY V4 WLS DHRETS
+cones
+D. 2ohtRReNsS
+
+518
 
 
 --- picture_0018.png ---
-のと同時にBも実現しています。よって、ては8型たして扱うことが可能です。
-以上のことから、正しいコードです。
-選択彼Dは、Dクラスを扱うコレクションを用意し、そこにCのインスタンス
-を追加しています。 ポリモーフィズムは下位に属するクラスが上位に倍画す
-る型で扱えるというものです。そのため、このように上答のクラスを下位の
-型で扱うこととはできません。よって、コンパイルエラーが発生します。 サブ
-クラスのインスタンスは、 スーパークラスの定若を持っていますが、 スーパー
-クラスはサブクラスの定義を持っていないことに注意してください。
-選択5は、抽象クラスAを扱うココレクションを用意し、そこにcのインスタ
-ンスを追加しています。CはAを継承しているため、CのインスタンスをA型で
-扱うことが可能です。よって、正しいコードです。
-[第7間 : 問題121
-27. B                                       EXri
-オーバーロードとリテラルのデフォルト型についての有職題です。
-異なる引数 (種類、数順番) であれば同じ名前のメソッドを複数定義する
-ことができる機能がオーパーロードです。 実行するメソッドは、メソッド名
-だけで決まるのではなく、メソッド名と引数のセットであるシグニチャに
-よって決まります。
-設問のコードでは、4つのtestメソッドをオーバーロードしています。mainメ
-ソッドでは、2つのtestメソッドを呼び出しています。 数値リテラルのデフォ
-ルトの型は、整数ならint型浮動小数吉寺ならdouble型です。 そのため、
-それぞれの型に応じたメソッドが選択されます。
-15行目のtestメソッドは、引数に10と20を洲しています。1つ目と4つ目のメ
-ソッドでint型の引数をInteger型として受け取るには、オートポクシングによ
-る天変換が必要です。そのため、弄変換しなくても呼び出せる、im型を受け
-取るメソッドが選択されます。よって、コンソールには 「D] が表示されます。
-16行目のtestメXソッドは引数に10.0と20.0を渡しています。double型の引数
-を受け取れるのは2つ目のtestメソッドしかありません。double型は64ピビット
-なので、 3つ目のtloa!型を受け取るメソッドでは、 32ピットの司しか値を表せ
-ません。よって、double型の値をfloaxとして扱うとビット落ち (ビットが足
-りない) が発生してしまいます。 以上のことから、択8が正解です。
-【第3章 : 問題3、第6章 : 問題8】
-466
+| il 24. publicTiSMHANKxXY y KEA—-N—-S1 KFSCSICMATESP
+DRABMEELT. ELUBOERURAU. (138)
+A. public
+8. public, protected
+public, protected, F IAI 6
+D. aRIERLY
+2s. ROFOISHEIIA WL, RTLKEEOBRELT. ELS
+DRBUVCE. (1 DBR)
+4. package ex25.a;
+2.
+3. class Sample {
+4, public String value;
+5. public Sample(String value) {
+6 this. value = value;
+7 }
+8.)
+1, package ex25.b; ta
+2. inport ex25.a. Sample; é
+3 a
+4, public class Main { i
+5 public static void main(String{] args) { @
+6 Sample s = new Sample("Hello Java"); i)
+1 System. out. print in(s, value); s
+8)
+Cae)
+A. null) &eRANS
+8. [Hello lava) ERRENS
+c mémretE
+Dd. TYITT SETS
+5 RICH AO-ANs
+519
 
 
 --- picture_0019.png ---
-28. A、B、F                        にP412 1
-クラスの実現や継承関係に関する問題です。
-インタフェースの主な特徴は、次の3つです。
-
-公開すべき扱い方を定めるためのもの
-・インスタンス化できず、実現したクラスを必要とする
-・押計メソッド (メソッドの宣言情報) を定義する
-Java SE 8からはデフォルトメゾソッドを記述できるようになったため、厳密に
-は型情報 (投い方) だけを提供するとはいえませんが、基本的には公話され
-る型情報を提供することがインタフェースの主な目的です。
-抽旬クラスには、主に次の3つの特徴があります。
-インタフェースを実現したクラスの共通部分を定義するためのもの
-
-・ そのままではインスタンス化できず、継承したサブクラスを必要とする
-・抽課メソッドと思旬メソッドの両方を記述できる                                第12章
-選択肢Aは、インタフェースはfinalにできないという意味です。インタフェー
-スは実現されることを前所としているため、変更できないことを意味する
-finalで修飾することはできません。よって、正しい説明です。
-選択肢Bは、具象クラスである5クラスをabstractで修飾することによって抽
-齋クラスにできるかどうかを問うています。Bクラスはbuildメソッドを持っ
-ており、このメソッド内で8クラスのインスタンスを生成しています。前枯
-のとおり、抽齋クラスはインスタンス化できないため、Bクラスを抽象クラ
-スにしようとするとコンバイルエラーが発生します。よって、正しい説明
-です。
-選択肢Cは、finalを付けることでこのクラスのサプクラスを定義できなくする
-ことが可能かどうかを商うています。 内侍クラスであるBクラスを総承した
- サブクラスを定義することはできますが、finalを付けて色承を制限し、これ
-以上サプクラスを定義できないようにすることも可能です。よって、説明は
-誤りです。
-選択肢DとFは、AとBの関係性について問うています。インタフェースとその
-実現クラスで考えると難しく感じられるかもしれませんが、単純に継承関係
-に置き換えると、サブゴクラスはスーパークラスのサプタイブ (派生した型)
- であるといえます。 反対に、スーパークラスはサブクラスを派生した型では
- ありません。 派生されている側です。
+[1 26. KOFOFSHEIING, RATLREOBRELT. ELUBO
+BEVBE. (1 DBR)
+1, public class Main {
+2, int num;
+3. private static void test() {
+4 unt;
+5 System. out. printin (nun);
+& 1}
+1, public static void main(String|] args) {
+a Main. test ();
+8 Main. test ();
+)
+1. }
+A Mi fa) exenens
+8 IABRANS
+C test YY REI LIS DRAFTS
+D. mainXY y RTI WLS PRET S
+E  RABICHOAD-ANS
+(127. ROFOFSHEIINAWL, RILRESOBRELT, EL
+DRBUVBA. (1D5BiR)
+1, public class Sample {
+2, public static void main(String!] args) {
+3 String str = "abode";
+4 str.replace(‘c", “x");
+5 str.substring(2, 4);
+6 System. out. printin(str);
+a}
+8.)
+A. Tabxde] EFeTeANS
+8. fabede) CHANG
+c Iedel cmeeNS
+dD. fade) ERRAND
+520
 
 
 --- picture_0020.png ---
-インタフェースとその実現クラスの関係も同様に説明できます。BはAを実現
-したクラスです。これにより、BはAのサブタイブ (派生した型) でやるとい
-えます。一方、その送のAはBのサプゴタイプではありません。よって、選択股
-Dの説明は誤りで、有選択肢Fが正しい説明です。
-選択肢Eは、インタフェースをabstractで宣言できるかどうかを問うています。
-abstractは、インスタンス化するための具体的な定義を必要とする抽祭 (デー
-夕型の情報) に対して宣言するものです。インタフェースも持計クラスもイ
-ンスタンス化できない捕氏です。よって、インタフェースはabstractを付けて
-宣言することができます。
-なお、インタフェースはabstractを付けて宣言できるだけであって、abstract
-を付けずに宣言しても、コンバイラによって自動的にabstractであると解弓さ
-れます。よって、説明は誤りです。
-
-【第7章 : 和題3、8】
-モジュールシステムに関する問題です。
-アプリケーションのモジュールを作るときに、そのアプリケーションが使う
-JRE (Java Runtime Environment) のモジュールを訪めると、」javaがインストー
-ルされていないプラットフォームでも、そのアプリケーションを実行するご
-とができるようになります。このとき、JREで提供されている標準クラスライ」
- ブラリのすべてではなく、必要なモジュールだけを指定して含めることがで
-きます (選択肢A)。JREのモジュールを含めるにはjinkコマンドを使います。
-モジュールシステムのもう1つの特徴として、バパッケージ単位での情報昌蔽
-が可能になったことが挙げられます。公開するパッケージを指定し、それ以
-外を非公開とすることで、外部のバッケージからのアクセス制御が可能とな
-ります (選択肢D)。また、情報隠蔽ではできる限り実装を隠し、インタフェー
-スのように油象的で変わりわりにくいものを公開します。よって、実装を公開す
-ることは推奨されません (選択貞C)。
-モジュールシステムの導入は、Java言語を理解しやすくなることとは関係お
-りません (選択財B)。
-堅定性とは、エラーになるような操作や事態が発生しても、ユーザーに影絡
-を与えない能力のことです。モジュール化の課題ではなく、アプリケーショ
-ンの非背能要件の課題です (選択肢E)。
-
-【第11章 : 隊題1】
-
-468
+| il 28. ROFOFSLERMTLT. 1, 2. 3EMITCHREK. BHICASI—
+KELT. ELUSOSRUBAU. (19)
+1, inport java.util.List;
+2.
+3. public class Main (
+4, public static void main(String!] args) {
+5 ListInteger> List = List.of(1, 2, 3);
+6.
+% }
+8. }
+A. list.forEach(() -> System. out. printin(x));
+8. List. forfach( (x) -> System. out. printIn(x) );
+© list. forEach((x) -> ( return x });
+D. List. forEach( List);
+Des. ro7OFSHOBMELT, ELUSOERUEAL. (199)
+1, public class Sample { ta
+2. private final int num; é
+3. public Sanple(String str) { cl
+4 this (Integer. parseInt (str) ); a
+5 ) =
+6 public Samplel int mum) { (a
+1 this.nun = nun; g
+8)
+9. public Sample() {}
+10. public int getMum() {
+a, return this.num;
+ca)
+B.}
+A BFATIN/ 1 VIS—OKBATS
+8 FACTIVA S DRESS
+© GTATIVINWLS—DRETS
+D. SHFATINI1 VI S—DHRETS
+521
 
 
 --- picture_0021.png ---
-30. C                                       EEEIE
-赤承開係にあるクラスのコンストラクタの呼び出し順に関する癌丁です。
-推承関係にあるサプクラスのインスタンスを生成するには、そのクラスのコ
-ンストラクタだけでなく、線元であるスーパークラスのコンストラクタも
-実行しなければいけません。このとき、スーパークラスのコンストラクタか
-ら処理され、その処理後にサブクラスのコンストラクタが処理されます。順
-番を間違えないようにしましょう。
-設問のコードはAクラスを第承した8クラスを定義し、さらに8クラスを綴承
-したcクラスを定姜しています。 そしてCのインスタンスを生成していますが、
-前述のとおり、コンストラクタはスーパークラスから順に処理されるため、A、
-B、 ての順に処理されることになります。よって、 選択肢が正解です。
-[第7間 : 問題20】
-31. C                                       EZrr3
-コレクションの並べ替えに関する半本です。                                第12章
-コレクションの並べ替えには、java.util.Lissインタフェースのsortメソッド|
-を使います。 sortメソッドの細には、javarutil.Comparator型のオブジェ
-クトを渡します。このインタフェースは1つしか抽象メソッドを持たないた
-め、了数型インタフェースとしてラムダ式で反うことができます。
-設問のコードは、Comparator型のオブジェクトではなく、ラムダ式を渡して
-います (10行目)。コレクション内の避索はstring型ですすので、ラムダ式の引
-数にはString型の参照が2つ演されることになります。 実際の並べ替えはjava
-lang.Sringクラスが持つcomparefoメソッドを使います。
-このメソッドは、栖準では文字列の自然順に並べ替えますが、設結のコード
-ではマイナス演算子が付いているため、compare1oメソッドの結果が反転す
-ることに注意してください。つまり、ABCDEが反転されてEDCBAの順番に並
-べ普えられてから、forEachメソッドで1つずつ表示されます。 以上のことか
-ら、 選択肢が正解です。
-【第9章: 問題23、18】
-32. A                                       に21
-抽黒クラスと抽象メソッドについての章丁です。
-抽象クラスには、持泉メソッドと内角メソッドの両方を記述できます。 抽絹
-メソッドは、次の2つのルールに従わなければいけません。
-次ページに技く
+(130. KoOPOFS HEIN, RTLREOBRELT. ELUBO
+BEVBE. (1 DBR)
+
+1, interface Function {
+
+2, woid process();
+
+3.)
+
+1. class Sample inplenents Function {
+
+2, protected void process() {
+
+3 System. out. printin(*A");
+
+on)
+
+5.)
+
+1, public class Main extends Sample {
+
+2, public void process() {
+
+3 System. out. printin("B");
+
+a)
+
+5, public static void main(String|] args) {
+6 Sample s = new Main();
+
+1 Sample s2 = new Sanple();
+
+a test(s);
+
+8 test(s2);
+
+cn)
+
+11, public static void test(Function f) {
+
+1 f.process();
+
+Bo)
+
+cr
+A TAI Tal ExReNS
+8. [el [al cmens
+© SampleZ SATIVA VI S—DRETS
+D.  MainQSATIVIM WLS—DRETS
+E, sampleJSREMaIN SAOGHCIY 4 WIS— PE
+
+3B
+522
 
 
 --- picture_0022.png ---
-abstractで修飾すること
-実装を持つことはできない (中カッコを使わずゆ、セミコロンで終わること)
-選択隊Aは、calcPriceメソッドがabstractで佑基され、かつ実装を持ちません。
-よって、正しい抽銀メソッドの定義です。
-選択肢8は、calcPriceメソッドとprintメソッドの両方が実装を持ちません。し
-かし、どちらもabstratで人艇されていないため、員象メソッドとして解択さ
-れます。内象メソッドは実装を持つ必要があるため、このコードはコンパイ
-ルエラーとなります。よって、 誤りです。
-選択肢CのcalcPricceメソッドは実装を持ちません。しかし、abstractで修飾さ
-れていないため、内記メソッドとして解され、コンバイルエラーとなりま
-す。 よって、許りです。
-選択肢Dは、cakPrceメソッドとprintメソッドは共に実装を革ちます。しかし、
-どちらもabstractで俊師されており、抽惑メソッドとして館羽されます。抽時
-メソッドは実装を持つことができないため、このコードはコンバイルエラー
-となります。よって、 誤りです。
-|
-33. E                                       にP*5|
-listインタフェースのofメソッドの特徴に関する降還です。
-javautil.Lis%インタフェースのofメソッドは変更できないコレクションを作
-ります。 設天では、manメソッドの1行日 (15行日) でlearメソッドを使って、
-コレクション内の本素を削除しています。 そのため、実行時にjava.lang.
-UnsupportedOperationExceptionがスローされます。よって、 選択肢Eが正
-解です。
-ofメソッドが使われている半是では、コレクションに対して変更の操作が行
-われているかどうかを確認しましょう。
-[第9 :隊題14]
-34. A                                       にP*e」
-wich文のフォールスルーに関する問題です。
-switch文のcase式では、条件式に合致したときの処理を記述しますが、必要
-な処理が終わればbreakを記述してswitch六そのものから抜けます。もし抜け
-なければ、次のcase式の処理を実行します。これを「フォールスル一」 とい
-います。
-470
+131. rozogSLeMRL, BFSAOBMITASI—KELT. EL
+POBBUBAL. (1D)
+1, inport java.util.Colection;
+2.
+3. public class A {
+is private Collection collection;
+5. public void set (Collection collection) {
+6. this. collection = collection;
+no
+8.)
+4. import java.util.Map:
+2,
+3. public class B extends A {
+4. public void set (Map<String, String> map) {
+5. ——
+6. }
+ny
+A. set (nap. values()); bd
+B.  super.set(List<String> map); ee
+c— set(super. map); iF
+D. map. forEach((k, v) -> set(v)); a
+@
+, = a
+(32. RoBHOS5, ELUtoewUEeL. (1D) a
+A lavaTls. JSREAYIFI-AGSEBRTEBU
+B. AYIDI-ZAT. BRAY vy KEA-N-S1 KLTRRE
+RETES
+c. MRAY vy KEA-N-S41 FURR XY y ETS. RO
+WREBISTLIETERN
+D. AYIDI-ZBBRLETYITI-ATI. RXV YE
+DRE LINES
+523
 
 
 --- picture_0023.png ---
-設問のコードでは、 条件式がbに合致したときのcase式でbreakを記述して
-いないため、インクリメント後にcもしくはdの処理を実行します。しかし、
-ここでもbreakを記述していないため、eの処理を突行し、こてでbreakして
-switch文を抜けます。ここまでインクリメントが計3回実行されているため、
-変数の値は3になっています。
-wwitch文のdefaultま、どのcase式にも合致しなかった場合の処理を記述する
-ためのものです。 設問のコードでは合致するcaxe式があるため、実行される
-てとはありません。よって、コンソールには3だけが表示され、bが表示され
-ることはありません。以上のことから、選択肢Aが正朋です。
-(第3計 : 問題2
-オーバーライドに関する周二です。
-privateなメンバは、あくまでもそのメンバを定義したクラス内でのみ利用
-可能であるため、サブクラスではオーバーライドできません。 そのため、次
-のように設問のコードにOverrideアノテーションを付けるとコンバイルエ 第12章
-ラーとなります。
-団 オーバーライドを明示した場合
-public ctass B extends At
-8Override
-jrivate void print() (
-System.out.printtn("B):
-}
-mubtic void b() 【
-print0:
-1
-mublic static void main(String.… args) (
-Bb =new B0:
-1.a0):
-b.():
-}
-1
-設天のコードでは、Bのインスタンスを作り、B型の変数でその参照を表って
-います。その後、スーパークラスであるAに定義されたaメソッドを呼び出し
-ています。 aメソッドではprintメソッドを呼び出していますが、ここでAの
-printメソッドが呼び出されるのか、それともBのprintメソッドが呼び出され
+(133. KOFOFSHEIINAL, RTLRESOBRELT. ELS
+DEBUBE. (1 DER)
+1, public class Sample {
+2, public void test (Object{] val) {
+3 System. out. printin("A");
+4)
+5, public void test(long[] val) {
+6 System. out. printin("B");
+7 }
+8. public void test (Object val) {
+8 System. out. printin(*C*);
+0)
+1. }
+1, public class Main {
+2, public static void main(Stringl] args) {
+3 new Sample(). test(new int[3]);
+on)
+5.
+A AnRRENS
+8. BhikReNS
+c chemens
+D.  SampleZ SATIN VL S—DRETS
+E, MaindoATAYIC4IVLS—DHETS
+524
 
 
 --- picture_0024.png ---
- るのかが、この設陸で問われているポイントです。
-
-前述のとおり、privateメソッドはオーバーライ ドできません。そのため、A
-
-に定義したaメゾッドから呼び出すのはAに定義したprintメソッドです。よっ
-
-て、コンソールにはAが表示されます。次に、BクラスのhbメソッドがBのprint
-
-メソッドを呼び出してBが表示されるので、コンソゾールには 「Al」 「B] の順に
-
-表示されます。以上のことから、有選択肢Aが正解です。
-
-なお、Aクラスとgクラスのprintメソッドのアクセス僚飾子をprivate以外に変
-
-更するとオーバーライドが成り立つので、コンソールには 「B」「8」 と表示
-
-されます。
-
-【第6草 : 問題18、26】
-
-for文に関する問題です。
-
-設問のwhile文では、 xの値が10よりも小さい剛、線り返し処理を実行します。
-
-また、コンソールに表示する際のインクリメントで、演算子が後豆されてい
-
-る点がポイントとなります。
-
-後置インクリメントは、インクリメントされる前の値のコピーを戻したあと、
-
-変数の値を1つ増やします。そのため、コンソールにはこのコピー (増やす
-
-前の値) が表示されます。変数xは0で初期化されているため、0一9の値がコ
-
-ンソールに表示されます。よって、0一9の値を表示するfor文を見つければよ
-
-いことになります。
-
-選択肢Aは、for文の初期化式で変数。を宣言し、0で初期化しています。その後、
-
-繰り返し処理ではコンゾールに変数aの値を表示し、インクリメントします。
-
-この処理をaが10よりも小さい間、繰り返します。これにより、コンソール
-
-には0--9の値が表示されます。よっつて、正解です。
-
-選択肢Bは、for文の初牙化式を使わず、for文の前に変数を宣言して0で初期
-
-化しています。ポイントは、インクリメントが前填になっていることです。
-
-前詐インクリメントは、値が参照される前に値を1つ増やし、その結果を戻
-
-します。そのため、変数bの値は1から表示されることになり、while文の結果
-
-とは異なります。よって、誤りです。
-
-選択肢Cは、初期化式と条件式が省略されたfor文です。条件式が省略されて
-
-いる場合、線り返し処理内でbreakしてループを抜ける処理を記述しない限り、
-
-無限ループに陥ります。よって、誤りです。
-
-選択肢Dは、for文の初期化式、条件式、更新文のすべてが記述されており、
-2               変数はは0で初期化されています。ポイントは、インクリメントが操り返し
+(34. RMOPOFSHEIINAI, RILKETOBRELT, ELUEO
+RUBE. (1D)
+1. public class Main {
+2. public static void main(String! ] args) {
+3. intlII] array = new int{2][4l:
+4, arrayl0] = new intII{1, 2, 3, 4);
+5 array[1] = new int[]{1, 2);
+6. for (intl] a: array) {
+1 for (int b: a) {
+8. System. out. print (b);
+9. )
+10. System. out. println();
+i. )
+12. }
+2B. }
+A [1234] [12] eens
+8. [12] M2) eenens
+c. [2] (1200) esemane
+Dd. TYITTI—HHETS ba
+E. RTICHIADAO—ENS £
+(ea
+a
+(135. Rowmoss, socemEEORRUEAL. (DBR) 5
+A lavaDRITRIMIE, RESTOFSSYISEOIYIA SIC a
+KITA IA IVEMUERAT ABE F 4 ILEMUETES ~
+BAIA SIRU ILIV a TEBU, XY KBS—S'y KI
+DybI4—-LOVY—AlCKITHMR—hENTUSDES
+DEFARTS
+c DYNA Slt. EOFS vy bhI4-LERTFSLOILIS
+REMUETS
+D.  -RTHIC. TIAMMBICMHUTO-KANS
+525
 
 
 --- picture_0025.png ---
-処理内と更新文の両方にあるため、0から1つずつではなく2つずつ値が増え、
-「02468] とコンソールに表示されることです。よって、衰りです。
+(ise. ROFOFSLEIYNAIL, MTLECEOBRELT. ELD
+DEBUBEN. (1 DR)
+41. import. java.util funetion,Consuner;
+2.
+3. public class Main {
+4. public static void main(Stringl] args) {
+5 final String val = "Hello, Lanbda";
+6. Consuner<String> func = (val) -> System. out. printin(val);
+1 fune. accept "Hello, Java");
+8. “
+a}
+A. THello, Lambda) £eTRENS
+B. [Hello Java] ExeRENS
+c absense
+0. FINALS DRESS
+E  RABICHOAD-ANs
+(137. ROFOFSHEIINAWL, RILRESOBRELT. EL
+DRBUVBA. (1D3BiR)
+1. public class Main {
+2, public static void main(String!] args) {
+3 String str:
+4 test(str);
+5}
+6. _ private static void test(String str) {
+7 Systen. out. printin(ste);
+8
+a
+A [null] Execs
+8, AlSsenene
+CDNAS PRETS
+D.  RABICHIOAD-AN|
+526
 
-【第4章 : 問題1、4】
-メソッドの定義に関する問題です。引数と戻り値列に状目してください。
-和選択肢Aは、戻り値型をvoidとしていますが、returnで値を戻そうとしていま
-す。居択肢Bは、戻り値型をstringとしていますが、return文で値を戻してい
-ません。よって、これらはコンパイルエラーとなります。
-選択段Cは、戻り値型をbooleanとし、比較涯算の結果をreturmで戻しています。
-メソッド宣言の戻り値型と実際に戻す値の型が一致しており正しく定養され
-ています。
-各択肢Dは、char型の戻り型でちるのに対し、retum文で戻しているのは
-String型です。char型とString型には互換性はないため、コンバパイルエラーと
-なります。
-選択彼Eは、戻り値型をvoidとしていますが、舎を戻さないreturn文を記述し
-ています。このように値を戻さないreturn文は、「制御をてのメソッドの呼び    第12章
-出し元に戻す] という意味です。そのため、「メソッド富言の戻り値を戻さ
-ない] という定義には反しません。
+
+--- picture_0026.png ---
+| il 38. ROFOFSLEINAIL, MT LKEZOBRELT. ELUSO
+BUGS. (1 DEER)
+1, public class Main {
+2, public static void nain(Stringl] args) {
+3. int result = 30 - 12 / (2* 5) +4;
+4, Systen. out. print In (result);
+5. }
+6.)
+A 2hRRENS
+8. snTENS
+c 2ebisRENS
+D.  29nteTENS
+£  30nRReNS
+Oo 39. ROFOISLEIVINAIL, MTLKCZOBRELT. ELUSO
+ROBE. (1 DER)
+1, public class Sample { ba
+2. public static void main(Stringl] args) { é
+3 intl] array = (1, 2, 3, 4, 5); a
+4. int key = 3; a
+5 int ent = 0; @
+s for Gas cru { 8
+sy) { a
+8 continue;
+9. ent++;
+10. )
+1. }
+12. System. out. printin cnt);
+B)
+44.)
+A3
+8 2
+co
+Dd. SUITE S—EETS
+oan
+
+
+--- picture_0027.png ---
+(40. ROFOFSLEIYNAIL, MTLKCEOBRELT. ELVIS
+DEBUBEN. (1 DER)
+1. public class Main (
+2, public static void main(Stringl] args) (
+3. int mum = 0;
+4. Systen.out.printIn(num++ + num + *," + ++mun + nun);
+5. }
+ei
+A [1,22] ERRENS
+B. [2,22] exenens
+c [24] seen]
+Dd. DYN IVLS—DRETS
+[4t. ROPOFS HEIN, RILRESOBRELT. ELUBD
+BBVA. (1 DBR)
+1. public class Main {
+2, public static void main(String] args) {
+3 Stringl] array = {"A*,"B*,"C","D","E"};
+4 for (String str: array) {
+5 if ("B' equals(str)) {
+6 continue;
+7 }
+8 Systes, out. printin(str);
