@@ -1,858 +1,857 @@
-9 if ("C’-equals(str)) {
-10. break;
-11 }
-2 }
-BY
-u. }
-A Tal Ic] caemane
-8B. fA) [el Ic] eens
-c [el Ib] exenans
-bd. Ic] cae]
-EB DNS PRESS
-528
+9 (CC'.equals(str)) {
+10             bresk
+1          }
+12        }
+8. }
+14. 1
+A_ [AI Cl と表示される
+B. 「AJ「B」「cl と表示される
+C。 「Cl ID] と表示される
+D. [Cl と表示される
+E. コンバイルエラーが発生する
+529
 
 
 --- picture_0028.png ---
-(42. RozOFS HINA WL, RAGLRESOBRELT. ELS
-DEBUBEN. (1 DEIR)
-1, public class Sample implements AutoCloseable {
-2. Override
-3. public void close() throus Exception {
-is System. out. println("C");
-5)
-6)
+[| 42. 次のプログラムをコンバイルし、実行したときの結果として、正しいも
+のを選びなさい。(1つ選択)
+1。 pubtic class Sampte imptements AutoClosesbte {
+2.     Override
+3. pbuic void close() throws gyxception (
+旧        System.out.printtn("C):
+5 )
+1
 1. public class Main {
-2, public static void aain(String|] args) {
-Es try (Sample s = new Sample()) {
-4 throw new Exception();
-& } catch (Exception e) {
-6. System. out. printin("A");
-x } finally {
-8. System. out. printin("B");
-9, }
-10. }
-ibe
-t
-a. fal fel [c] cxemense a
-8. TA) [cl fe) cenans a
-cc} TA) fa) caemene fal
-Dd. AUT SETS 6
-i)
-(43. eva Ar vices SBRELT. ELUboeRUEAL. (2
-DER)
-A module-info.javal4. module-pathAOe TZ lc THR TES
-8. java.base@LIAHK-bISE. FNTOIAPNYY—IH'T
-DAK hens
-© AATSETA—MS, module-info javaATSSENTWVE
-inate SIs)
-D. - FIAT, EYa— Wis, EYA-WHMETSF 4 VD
-BUAICAPIEADTES
-E— module-info javal ICIS TRIE)
+2 pubuic ststic veid main(Stringl] srgs) (
+3       try (Sample s = new Sample()) {
+ょ             throw new Exception0:
+|      ) catch (Exception e) {
+6             system.out.println("W):
+記        ) finally
+8             system.out.println("B"):
+9         }
+10.     }
+し り
+上
+A。 「AJ「B」「c] と表示される                          ば
+B [ACTg」 と表示される                           目
+で。 [Cl IAJ「B」 と表示される                          @
+D. コンバイルエラーが発生する                               科
+       時
+| | 43. モジュールシステムに関する説明として、正しいものを選びなさい。(2
+つ選所)
+A    module-info.javaは、module-path内のどこにでも配置できる
+B java.baseをエクスポートすると、すべてのコアバッケージがエ
+クスボートされる
+C。 利用するモジュールは、modvlerinfo.java内で宣言されていな
+ければならない
+D. デフォルトで、モジュールは、モジュールが動作するディレク
+トリ内にはアクセスができる
+FE moduleinfojavaは空にはできない
 529
 
 
 --- picture_0029.png ---
-(44. KoOPOFS HEIN, RILLESOBRELT. ELUBO
-BEVBE. (1 DBR)
-1. class A {
-2 public AO) {
-3 System. out. print(‘A");
-4)
-oa
-1, class B extends A {
-2, public BO) {
-3 System. out. print(*B");
-4)
-5.)
-1. class C extends B {
-2, public ct) {
-3 System. out. print(*C");
-400)
-5.)
-1. public class Sample {
-2, public static void main(Stringl] args) {
-3. new C();
-on)
-5.)
-A [ABC] ERRANS
-8. Ic] emReN]
-c [coal ExeRANs
-Dd. DNL LS— PRESS
-530
+[| 44. 次のプログラムをコンパイル、実行したときの結果として、正しいもの|
+を選びなさい。(1つ選択)
+1. clsss At
+2 ptiea0t
+3          System.out.print('8:
+まま
+9議)
+1 class B extends AT(
+2. ptieBOt
+3          System.out.print("B):
+まま )
+5 1
+1 class C extends B(
+2. ptiec0t
+3         System.ont.print('でり):
+ま )
+5.1
+1 puhtic class Sampte {
+2。 。 putic static void main(Stringl] args) (
+3        new C0:
+4 )
+5.1
+A。 「ABcl と表示される
+B. [Cl と表示される
+C。 「CBAI と表示される
+D. コンバイルエラーが発生する
+5s30
 
 
 --- picture_0030.png ---
-(45. %@7095Lo Ii insert code here] (LASI-KELT. EL
-POBRUBAL). (BIER)
-public abstract class Ttem {
-int mum;
+[| 45. 次のブログラムの 「/ insert code here] に入るコードとして、正しい
+ものを選びなさい。(3つ選択)
+pubtic abstract class rtem (
+int mm
 // insert code here
-}
-A. public void print();
-8. public int caleulate() {
-return nun * 2;
-}
-public abstract int getNum() {
-return nun;
+1
+A pubtic void print0):
+gpubtie in catculate() (
+return num・の
 )
-D. public abstract int test();
-E. public static void sample() {
-If some codes
-}
-(46. RoFOFSHRIIINA IL, RGLRETOBRELT. ELUS 3
-DRBUIEE. (1D) iF
-fa
-El
-1. public class Sample { @
-2 public static void main(Stringl] args) { i
-3. int num = 2; a
-4. int result = (int) Math. round (Math. pow(3.1, nun));
-5. System. out. printIn(result);
-6
-1}
-A sbiRRENS
-8. ohikReN]
-C 1ontEReNS
-D. sheen]
-EDN TS— RESTS
-R  eATRICBIDAD-eNS
+c。 pubtio abstract int getNom() (
+return numi
+)
+D. pubtic abstract int test():
+E pubtie static voiq sampte() {
+// some codes
+)
+[| 46. 次のプログラムをコンバイルし、 実行したときの結果として、正しいも
+のを選びなさい。(1つ選択)                               げ
+間
+1. pubtic class Sampte {
+2     mublic static void aain(Stringll args) {                     間
+3         int mm =                                         尋
+ょ       int resutt = (int) jath.round(Nath.pow(3.1。 mm)):
+       System.ont.println(result):
+6 )
+7.1
+A 8が表示される
+B. 9が表示される
+C。 10が表示される
+D. 3が表示される
+E コンパイルエラーが発生する
+F 実行時に例外がスローされる
 531
 
 
 --- picture_0031.png ---
-i 47. ROADSACMRURVIFSAICERTESXY Y KELT. EL
-USOEBUGA. (1 DBR)
-1, public class A {
-2, public Number test() {
-3 return 100;
-4)
-Sa
-A Override
-public Integer test() (
-return 0;
+口 47. 次のAクラスを継承したサブクラスに定義できるメソッドとして、正し
+いものを須びなさい。(1つ選択)
+1. pubticclsssA
+2. pptic tmber test() (
+3        retum 100:
+まま 1
+|
+Ag0verride
+pubtic Integer test() (
+return 0:
 }
-B.  @Override
-public Number test (int num) {
-return num;
-I
-C eOverride
-public void test() {
-// do sonething
+B. GOverride
+pubtic Number test(int num) {
+return mum
 }
-D. public Number test () throws Exception {
-return 0;
+CeOverride
+pubtic void test() {
+// do something
 }
-(48. xo7OFShERAL, [sample] RRL. ELUIVY Ke
-HUGE. (2018)
-1. public class Sample {
-2, public static void main(Stringl] args) {
-3. System. out. printin(*sample");
-4 }
-5.)
+D. pubtic Namber test() throws Exception {
+return 0:
+}
+[] 48. 次のプログラムを実行し、「sample」 と表示したい。正しいコマンドを
+選びなさい。(2つ選択)
+1 puptic class Sampte {
+2。 。 pubtic static void main(Sringl] args) (
+3          System.ont.printn("sampte'):
+4     }
+5 1
 532
 
 
 --- picture_0032.png ---
-A. java Sample.class
-8. javac Sample. java
-java Sample. class
-c. java Sample
-D. — javac Sample. java
-java Sample
-£ java Sample. java
-49. RoFOISHEIIA I, RTLKETOBRELT. ELUGO
-BBUBEN. (1 DR)
-1. public class Sample {
-2, int a, ;
-3. public Sanple(int a, int b) (
-4 init(a, b);
-5)
-6. public void init (int a, int b) {
-1 this.a=a+ a
-8 this.b = bb;
-9. )
-10. public static void main(String[] args) ( g
-1 inta=2, b= 3; é
-12. Sample s = new Sample(a, b); a
-2. System. out.println(a +", * + b); a
-u. ) @
-5.) a
-A [4,9] eseReNsS
-8. [0,0] ckmnaNs
-c [2,3] exenens
-Dd. AYNCTVLS—HETS
+A jawa Sampte.class
+B javac 8ampte.java
+java sampte.class
+C。 java Sampte
+D. javac Sampte.java
+java Sampte
+E java sample.java
+[| 49. 次のプブログラムをコンバイル、 実行したときの結果として、正しいもの
+を選びなさい。(1つ選択)
+1. mbtic ctass Sampte (
+2 ap
+3. pubtic sampte(int int) (
+1       imit(a D):
+5 )
+6。 pubuic void init(int aint 1) {
+7        this.a =a・a
+8        this.b =D・bp
+9.     }
+10. 。 mbtic static void aain(Stringl] ars) (
+1    inta=2.D=3
+12        Sampte s = new Sample(a 1):                         問
+13.       system.out.println(a+ し ま0):                   是
+1     )                                                  受
+5 1                                                      人
+A [4.9] と表示される
+B. [OL0] と表示される
+C。 [2.3] と表示される
+D. コンパイルエラーが発生する
 533
 
 
 --- picture_0033.png ---
-(50. ROOFS LOIN WIS—RESSHRELT. ELD
-BECCA. (258K)
+| 50. 淡のプログラムのコンバイルエラーを人正する方法として、正しいもの
+を選びなさい。(2つ選択)
 
-1. abstract class Sample {
+1. abstract class Sampte{
 
-2 protected void doProcess() {}
+3     protected void doProcess() {)
 
-3, abstract void doTest(};
+3。 spstract void dorest():
 
-4)
+|
 
-1. public class Test extends Sample {
+1. public cass Test extends Samptet
 
-2, void doProcess() {}
+2。 moi dogmoess() 0
 
-at protected void doTest() {)
+は     protected void doTest() 1
 
-4)
-A Sample7 SADATBOXY y Kepublicle TS
-B. SamplePSADSIBOXY y KEpublicie TS
-c Test? FSADHIBOXY y K€publicle TS
-D. Test7 SADUTAOXY y K€protectediceTS
-E. Test JFAOHIBOXY y KEpubliclc TS
+4
+し3    sampleクラスの2行目のメソッドをpublicにする
+B. sampleクラスの3行目のメソッドをpubhcにする
+て    estクラスの2行目のメソッドをpublicにする
+D. Testクラスの2行目のメソッドをprotectedにする
+E. Testクラスの3行目のメソッドをpublicにする
 
-151. xoI- KicMENTVSBMvaloF—-SHELT. ELVSOE
-BUBAU. (DBR
+[51. 次のコードに記述されている変数valのデータ型として、正しいものを
+選びなさい。(①1つ選択)
 
-var list = new ArrayList«>();
+Yar list = new ArrayList<>():
 
-list. forEach(val -> System. out.println(val));
-A. String
-8. ArrayList
-Object
-D. var
+1ist.forEach(val -> System.out.println(vall):
+A smmg
+BAmayuit
+Cc objet
+pwr
 
 534
 
 
 --- picture_0034.png ---
-| il 52. ROFOISLERTLT [0] ERMLMKL. MainaA2OVealeA
-SI-KELT. ELUBOBBUEAL). (3 DBR)
-1. class Test {
-2, public int num;
-3. public Test(int mua) {
-4. this. nun = num;
-5. )
-6. public int gettum() {
-1 return num;
-8. }
-9. public void modify(int x) {
-40. mun += x;
-1. }
-ww)
-1. public class Main {
-2. public static void main(String[] args) {
-3. Test t = new Test(100);
-4 C7
-5. Systen. out.println(t. getNun()); #
-6) €
-tae) if
-il
-A. this.num = 0; @
-8. num = 0; 6
-ct); 2
-D. t.num = 0; ~
-£  t.getNum() = 0;
-F  t.modify(0);
-G.  t.modify(-t.num) ;
-H.  t.modify(-t. getNum());
+男 52. 次のブログラムを実行して「0」 と表示したい。Mainクラスの空欄に入
+るコードとして、正しいものを選びなさい。 (3つ選択)
+1. cless Test {
+2。 mbteintmm
+3. pubuic Test(int nm) (
+F        this.nm - mm
+5     }
+6。 pic int gedm0(
+7         return nm
+8     }
+9。 pubtic void modify(int 9 【
+10.         mm
+1.     )
+2.1
+1. pubtic class Main 【
+2     pubtic static void main(String[] args) {
+3        Test t・new Test(100):
+3        ヒーエー 「イ
+        System.out.printtn(t.getlm() ):                        総
+6 )                                                  作
+L/計)                                                             げ
+間
+A thisimom = 0:                                      @
+BB mam=0:                                       科
+ctO:                                               是
+DP tnmm-0:                                       ーー
+E tgetNum() = 0
+E tmodify(0):
+GtLmodify(-もnm):
+HEmodify(-もgetNum()):
 535
 
 
 --- picture_0035.png ---
-Oss. ROFOFSLEIYNAIL, RTLECEOBRELT. ELUSD
-BEVBE. (1 DBR)
-1. public class Main {
-2, private String val;
-3. private int mua;
-4, public Main(int num) {
-5 this.oum = nus;
-& 7
-7. public Main() {
-8 this.val = "test";
-8 this.qum = 10;
-0)
-11, public static void main(String[] args) {
-12 Main m = new Wain(20);
-B. System.out.printin(a.val + *, * + m.mun);
-“uo
-15. }
-A. Tull, 20) EseReNS
-B. ftest, 20) ExReNsS
-CDN LS—PRETS
-Dd. RAKRICEINDAD-eNs
-(54. robs, 4797 xr-ZicRMTESIN-KEBUEAL. (29
-aR)
-A. public String methodA();
-8, final void methodB();
-© public void methodC() {
-System. out. printIn("C");
+口ss.  次のプログラムをコンバイル、実行したときの結果として、正しいもの
+を選びなさい。(1つ選択)
+1 pubtic class Main (
+2。 。 private string wa
+3。 private int msi
+4 pubue Mein(int mm) {
+5        this.mum s mum:
+6 1
+7 picain() (
+8        this.val "testt:
+9        this.mum = 10:
+2 }
+1.     public static void main(Stringl] args)
+2         Jain m = ne Rain(20):
+円         System.ont.printntm.vat +*"。*+mLnnm:
+4 }
+15. 1
+A。 Inul 20」 と表示される
+B. Itest 20」 と表示される
+C。 コンバイルエラーが発生する
+D. 実行時に例外がスローされる
+[54. 次の中から、インタフェースに記述できるコードを選びなさい。(2つ
+選択)
+A pubtic String methodA0:
+B. final vod methodB():
+c。 pubtic void methodC() {
+system.out.printtn("C'):
 }
-D. public int 4;
-£. public abstract void methodE();
-F private abstract void methodF();
-G. final void methodG() {
-System. out. printIn("6");
-I
+p. pubtic intd
+Epubtic abstract void methodE():
+F 。 private abstract void methodF():
+G. finat void methodG() {
+system.out.printtn("6'):
+}
 536
 
 
 --- picture_0036.png ---
-(155. RoOFOFSHeIIA IL, RAILRETOBRELT. ELUSO
-RUBE. (1 DR)
-1. interface A {
-2, public void sample();
-3)
-1, interface B extends A (
-2, public void test);
-3)
-1, abstract class C implenents B {
-2. public void test() {
-3. System. out. printin(*A");
-4)
-Cae
-1, class D extends ¢ {
-2, public void test() {
-3 System, out. printin("B");
-4 ) @
-cn ca
-&
-1. public class Main fi
-2. public static void main(Stringl] args) { Ea
-3 Ce = new D(); 2
-4 o.test(); iI
-5) gs
-6}
-A fal csenens
-8. fe] exmans
-© BEYIPI-ATIVNAWLS—VRETS
-D.  CISATIYIANIS—DHETS
-EB DISATIYIIS—DRETS
+[| 55. 次のプログラムをコンバイル、 実行したときの結果として、正しいもの
+を選びなさい。(1つ選択)
+1. interfaceA{
+2。 mblio yoid smple():
+3 1
+1 interfece B extends 4 (
+2。 mbtic veid test0):
+3.1
+1 abstract class C imptements  (
+2。 mbtic yoid test() {
+3        System.out.printtn('A'):
+4ょ 。 )
+1
+1。clsss D etends C (
+2。 mbtic void test() {
+3         system.out.printn('り:
+中     )                                                  総
+9                                                      任
+中
+1 mbtic clsss Main (
+2.。 。 pubtic static void mainlString[] args) (                    明
+3        Cc ne DO                                     回
+4        ctest0:                                         国
+引                                                  に
+51
+A。 「AJ と表示される
+B. [Bl と表示される
+て。 インタフェースでコンバイルエラーが発生する
+D.Cクラスでコンバイルエラーが発生する
+EDクラスでコンバイルエラーが発生する
 537
 
 
 --- picture_0037.png ---
-[156. KOFOFSAEIING, RATLREOBRELT. ELUBO
-BEVBE. (1 DBR)
-1, public class Main {
-2, public static void main(Stringl] args) {
-3 int a= 4;
-4 int b= 8;
-5 inte = bea /2
-6 System.out.printin(a +", "+b +", "+ 0);
-7 }
-8.)
-A [4,108] czeRensS
-B. 14, 10, 10) ckeRANS
-C14, 10,6) eaeRens
-dD. 14,12, 6) ERRENS
-(157. ro 70FSKOBMICASI—KELT, ELUBOsHUEAL
-183, ex57.bSampleFSAONAROLBOETS. (1D)
-/bin/ex57/b/Sample. class
-1. package ex57.a;
+[| 56. 次のプログラムをコンパイル、実行したときの結果として、正しいもの|
+を選びなさい。(1つ選択)
+1 pbtic class Main (
+2. pbtie statie void main(stringl] args) (
+3        inta
+4        intb・角
+5        intc・b*sa/2
+H       system.oot.printtn(a・ し"ュD1 しょgl:
+7     }
+8 1
+A [2108] と表示される
+B. [4,10, 10] と表示される
+C。 [4.10, 6] と表示される
+D. [4 12.6] と表示される
+[| 57. 次のプログラムの空午に入るコードとして、正しいものを選びなさい。
+なお、ex57.b.Sampleクラスのパスは次のとおりとする。 (1つ選択)
+/bin/ex57/b/Sampte-ctass
+1. package ex57.a:
 2
 3
 4
-5. public class Main {
-6. public static void main(Stringl] args) {
-1 Sanple s = new Sanple();
-8
-a)
-A. import ex57.b. Sample:
-B, import ex57.b;
-import bin, ex57.b. Sample:
-D. import bin. ex57.b.+;
+5. pubtic class Main (
+6。 pbtic statie void main(String[] args) (
+7        Sampte s = new Sampte():
+8 1
+1
+A。 import ex57.b.Sempte:
+B. import ex57.b:
+C。 import bin.ex57.b.Sampte:
+D. import bin.ek57.b.
 538
 
 
 --- picture_0038.png ---
-D158. Ro7OFSHeIINAI, RILKETOBRELT. ELUEO
-RUBE. (IDR)
-1. public class Sample {
-2, public static void nain(Stringl] args) {
-3. String a= "A";
-4, a = a.concat("B");
-5 String b= *C";
-cs a = a.concat (b);
-1 a.replace('C’, ‘D');
-8. a = a.concat ();
-9. system, out. printin(a);
-0.)
-1. }
-A [asco] &eRENs
-8. acd] c#eReNS
-[asec] eee
-D. [ABD] caRaNS
-E TABDC) EseRANS
-ba
-fiz
-(159. ROFOISHEIINAWL, RFLRETOBRELT. ELS iF
-ORBUBAV. (DBR) a
-4. public class Sample { (a
-2, patible quciave qraal “AIEEE cops) & a
-3 int nun = 10;
-4 Integer val = Integer. valued (10);
-5. Systen.out.printin(num == val);
-6
-7%, i
-A muchiRRENs
-8. fakeiemeNS
-© DIS —HRETS
-D, -RATHICEDAD-AN|
+[| 58. 次のブログラムをコンバイル、 実行したときの結果として、正しいもの
+を選びなさい。(1つ選択)
+1。 nubtic clase Sampte {
+2。 mbtio static void main(Stringl] ares) (
+3       strig a = 7
+内        ュー aeoncat("B:
+日         string =で5
+較        ュー a.eoncat (0):
+?       areptaee(C'
+        ュー a.concat(D):
+9         System.out.printtn(el:
+130. )
+1
+A [AB] と表示される
+B_ 「AcD]」 と表示される
+で。 [ABcc」 と表示される
+D. 「ABDj と表示される
+E 「ABDcl と表示される
+       尋
+則
+[| 59. 次のプログラムをコンバイルし、実行したときの結果として、正しいも      げ
+のを選びなさい。(1つ選択)                               昌
+1. mublic ctass Sampte {                                  間
+4 ma den cm                    呈
+日         int mm = 10:
+        1nteger val = mteger.value0f0):
+日         System.out.printtn(mum == val:
+s 。 )
+7
+A。 tueが表示される
+B falseが表示される
+て。 コンバイルエラーが発生する
+D. 実行時に例外がスローされる
 539
 
 
 --- picture_0039.png ---
-(60. sxs2nmSazsZ2cP7bAFSI-KELT. ELUBOER
-UBS. (1 DEIR)
-Package sample;
-public class A {
-Hh co
-)
-package sample. sub;
-public class B {
-Hl sce
-)
-A. String val = sample.A.getVal();
-B. import sample. *;
-import sample. sub. +;
-D. String val = A.getVatl);
-Det. rozozs nea WL, WRCRSAVY RERAILRESO
-BRELT. ELUBOERURAL. (1958)
-> java Sample abc
-1, public class Sample {
-2. public static void main(String[] args) {
-3. for (int i= 0; i < args. length; i+) {
-4 System. out. printIn(args[i]);
-5 switch(args[i]) {
-6 case “a”:
-7 continue;
-8 case "b":
-3 fg
-10 continue;
-11 default:
-12 break;
-13. i
-14. }
-6.)
-540 iS
+[| 60. Bクラス内からAクラスにアクセスするコードとして、正しいものを選
+びなさい。(1つ選択)
+Dackage sample:
+pubticclass At
+人 o
+1
+Dackage sample.sub:
+mubtic class B {
+がaa
+!
+A.   String val = sample.A.getVal():
+B   import sample.*:
+C import sampte.sub.
+p。 string val - getat0):
+[61. 次のプログラムをコンバイルし、以下に示すコマンドで実行したときの」
+結果として、正しいものを選びなさい。(1つ選択)
+> jawa Sample abe
+1. pubtic class Sample (
+32     pubtic static void main(String[] args) {
+3       for (int i= 0: 1くargs.1engthz tt) {
+4            System.out.printin(argsil):
+5        switch(args[il) (
+5             Case "at
+7                  continue:
+8             case "DE
+D                  3
+1                  contime
+11               default:
+12                  break:
+3            1
+1せ         }
+二 1
+540               革#
 
 
 --- picture_0040.png ---
-A. fal [bl fel exeReNs
-8. LTS
-TUNIS RETO
-D.  RATSICHINDIAD—ANS
-De2. Rozogsneayitq i, RILKESOBRELT. ELUSO
-BRUTE. (1A)
-1. public class Sample {
-2. public static void main(Stringl] args) {
-3. Test a = new Test();
-ih Test b = new Test();
-5. a.sample();
-6. b.sample();
-1. System. out. printin(a.value + *, * + b.value);
-8. }
-9.)
-1. class Test {
-ra static int value = 0;
-3, ‘int count = 0; g
-4, public void sample() { é
-5 while(count <5) { ia
-6 countt+; a
-1 valuet+; a
-8. } a
-bi } g
-10. }
-A [10,10] eaeReNS
-B. [5,5] C&MENS
-c [s,10) aemans
-Dd, AUNTT SETS
-| P58 |
+A。 [al 「bl [cl と表示される
+B. 無限ループになる
+て。。 コンバイルエラーが発生する
+D. 実行時に例外がスローされる
+| | 62. 次のプログラムをコンバイル、 実行したときの結果として、正しいもの
+を選びなさい。(1つ選択)
+1. public class Sampte
+2.     public static void main(String[] args) {
+3.        Test a = new Test0:
+L       Test b = new Test):
+5         -samplet):
+6.        b.sample():
+7         System.out.printn(a.value +",* + D.value) :
+8.     }
+9.}
+1 clsss Test
+2     static int value = 0:
+3     int comt = 0                                      着
+4 mbtic void sample()
+5        mhle(eomnt <5) 【                               問
+6            Counttt:                                       是
+7           Yaluert                                       軸
+8.         }                                               記
+9     }                                                  き
+10.}
+A [10.10] と表示される
+B.    「5, 5」 と表示される
+で。 「5,10」 と表示される
+D. コンパイルエラーが発生する
+EE
 541
 
 
 --- picture_0041.png ---
-Oo 63. ROFOFSLERMTLT [54321] CAMLKU. BHMICASI—-K
-ELTELUSOBBUBAL, (2058:R)
-1. public class Main {
-2, public static void main(Stringl] args) {
-3. intl] array = {1, 2, 3, 4, 5);
-4 int x = array. length;
-5. a
-6 }
-1}
-A. while( 0 <x) {
-System. out. printIn(arraylx]):
-x
+口 63. 次のブログラムを実行して「54321] と表示したい。 空欄に入るコード
+として正しいものを選びなさい。(2つ選択)
+1 pubtic class Men (
+2. pbtic statie void main(stringl] ars) (
+3      intll array = 1 2.3. 5:
+は         1nt x = arraW.1engthy
+5       トトサザサ]11
+け     }
+7.1
+A mile(0<x)t
+System.out.printtn(arraylx]):
+ーー
 }
-B dot
-=
-System. out. printIn(array[x]):
-} while( 0 < x);
-cdot
-System. out. printIn(array[x]):
-Pann
-} while( 0 < x);
-D. while (0 <x) {
-System. out. printin(array[x]):
+Bdot
+ーー
+System.out.printtn(arraylx]):
+) while(0 でx):
+cmt
+System.out.printtn(arraylx]):
+ーー
+) whitet0 でx):
+p. while (0<(
+System.out.printtn(arraylx]):
 }
-E while (0 <x) {
-System. out. printIn(array[--x])
-y
-|= P69 |
+E while(0<y【
+System.out.printtn(array--x])
+}
+EE
 542
 
 
 --- picture_0042.png ---
-Dea. ROFOISLEIINAIL, MTLREZOBRELT. ELUSDO
-BUEE. (1 DEER)
-1. public class Sample {
-2. public static void main(Stringl] args) {
-3. var i= 3;
-4. var j= 2;
-5. de e2rgsi-2
-6. System. out. print In (i) ;
-1. }
-8. }
-A onteReENS
-8. GhRRANS
-c sAeRANS
-Dd. 12nREN|D
-65. RoPOFS HRI, RILRETOBRELT, ELUEO
-@BUBA. (1DBR) ®
-1. public class Sample { é
-2, public static void aain(String|] args) { g
-3. int a= 2; a
-4 int b= 1; @
-5. if (at+ > +b) {
-6 System. out.print(*A “); |
-1 ) else {
-8. Systen. out.print(*B “);
-a }
-10. System. out.printin(a + ":* +b);
-mu}
-2}
-A [A2t) eeeReNs
-8. [a32] exRens
-c [pat] exnans
-Dd. [a32) exmans
+[Le4.  次のブログラムをコンバイル、実行したときの結果として、正しいもの
+を選びなさい。 (1つ選択)
+1 pubtic class Sampte {
+2. 。 mubtio static void main(String[] args) (
+3       Mari 3
+F       Marj=2
+5    ie dr24107i-2
+6        System.out.printn(il:
+7     }
+8.1
+A 9が表示される
+B. 6が表示される
+で。 3が表示される
+D。 12が表示される
+| | 65. 次のプログラムをコンバイル、 実行したときの結果として、正しいもの
+を選びなさい。(1つ選択)
+1 pubtic class Sampte {
+2 pub static void main(String[] args) (                     問
+3        inta-z                                      題
+4        mtb・セ                                       逐
+日       議(mt > sb) [                                韻
+B            System.out.print('A                            き
+7        ) stse (
+8           System.out.print(B
+骨        }
+10.        Syatem.ont.println(a・:*+ 5
+. )
+12.}
+A [Az1] と表示される
+B. 「A3:2] と表示される
+C。 「B2:1」 と表示される
+D_ 「B3:2」 と表示される
 543
 
 
 --- picture_0043.png ---
-(166. KoOVOFS KING, RATLREOBRELT. ELUBO
-BEVBE. (1 DBR)
-1, class Item {
-2, String nane;
-3. public Ttea(String nase) {
-4 this.nane = nane;
-5 }
-6.)
-1. public class Sample {
-2, public static void main(String!] args) {
-3 Iten[] itens = new Iten{3];
-4. items[1] = new Item(*A");
-5 itens[2] = new Tten("B");
-6 for (Item iten : items) {
-7 Systen. out. printIn ( iten. name) ;
-8 }
-a)
-ww.)
-AOA
+[| 66. 次のプログラムをコンパイル、実行したときの結果として、正しいもの|
+を選びなさい。(1つ選択)
+1. clsss Itemt
+2。 string namer
+3. pbtic rtem(Sring nase) (
+4        this.name - namez
+5     }
+1
+1. pubtic class Samle {
+3     pubtic static void main(Stringl] srgs) {
+3        1teml] items - new Iteml3]:
+ま        ttemsl1] = new Item('A:
+5        itemsl2] = new Item(B:
+6       for (ttem item : items) (
+7            System.out.printtn(item.name):
+8         }
+3 }
+20.1
+AA
 B
-8. null
+BE nul
 A
-8
-CDNAS —PRETS
-D. —ArrayindexOutOfBoundsExceptiond*AO—ENBS
-E, _ NullPointerExceptionXAD—ENS
+B
+C。 コンバイルエラーが発生する
+D. ArrayindexOutOfBoundsExceptionがスローされる
+E. NullointerExceptionがスローされる
 544
 
 
 --- picture_0044.png ---
-(67. savant 74—vy RRL TST EC BBT SBE LT.
-SoLeEPEOSBUBAL. (1DHR)
-A. JavaDBRS-4FSUIB. 1 IS-4 MBRIS OOH
-ABMBEBITUS
-8. JavaldSAMEICRATANSI- KEGRLT, RTERIBLTS
-© JavalsHHN-YILIY aYePIUT—Y ayYOI-KED
-SRL TESS
-D. JavaldRERNIC IN REMUS S
-Des. Roars reHKL RY IISAICEMTESXYY KELT. EL
-USOFBUEAL, (2B)
-1. import java.util.+;
-2.
-3. public class A {
-4, public List<tiumber> test (Set<CharSequence> s) {
-5. return mull;
-6)
-ce)
-t
-A. public Arraybist¢Integer> test (Set<String> s) {~ } F
-8. public List<Integer> test (TreeSet<String> s) { ~~} a
-public List<Integer> test (Set<String> s) { ~ } fal
-D. public List<Object> test (Set<CharSequence> s) { ~ } a
-E. public List<Integer> test (Set<CharSequence> s) { ~ } a
-F public ArrayList«tlunber> test(Set<CharSequence> s) { ~~ } ~
+[| 67. Javaが高いパフォーマンスを実現していることと関連する説明として、
+もっとも週切なものを選びなさい。(1つ選択)
+ん Javaの標準ライブラリは、バイブライン処理を行うための組み
+込み関数を持っている
+B. Javaは天繁に実行されるコードを話視して、 実行を忌伺化する
+て Javaはガベージコレクションをアプリケーションのコードより
+も優先して麗理する
+DJavaは自動的にコードを並列処理する
+| 68. 次のAクラスを経承したサブクラスに定義できるメソッドとして、正し
+いものを選びなさい。(2つ選択)
+1 import java.ut1ら
+2
+3. mubtic ctass 4 (
+4 pubtic List<tumber> test(Set<CharSequence> s) (
+5         retrn nut
+を )
+7.1
+上
+A pubtic ArraytistKTmteger> test(SetString> S) (…}          げば
+B. pubtic rist<Tnteger> test(Teeset<String> s) {… }          自
+c。 pubtic rist<Tnteger> test(Set<String> s) { … )        tg
+D. public List<0bject> test(Set<CharSequence> s) { … ]         個
+E pubtic ristKTnteger> test(Set<CherSequence> s) {… }         是
+F mubtic 』rrayListdNusber> test(Set<CharSemuence s) ( … }      ー
 545
 
 
 --- picture_0045.png ---
-(69. Ko7OFSHeIINGI, RILRESOBRELT. ELUBO
-BEVCE. (1 DBR)
-1, public class Main {
-2, public static void main(Stringl] args) {
-3. String[] array = {"A", “B"};
-4 int i = 0;
-5 while( i ¢ array.length ) {
-6 int j= 0;
-1, do {
-8 +4;
-9 } white ( j < array[i].length() );
-40. Systen. out.printIn(array[i] + *:" + j);
-" ity
-1 }
-Bo)
-crn
-A AQ
-B:2
-Ban
-83
-can
-81
-Dd. RARICEINDAD-eNs
-(70. %o7095Lo [1 insert code here] CASI-KELT. EL
-SORTA, (1 DUR)
-public class Sample {
-public static void main(Stringl] args) {
-// insert code here
-array[0] = 2;
-array[1] = 3;
-System. out.printIn(array[0] + *," + arrayl1]);
+[69. 次のプログラムをコンパイル、実行したときの結果として、正しいもの|
+を選びなさい。(1つ選択)
+1 pbtic class Main (
+2. pbtie statie void main(stringl] args) (
+3       Strinll array = (TB中
+4        nti・0
+5       waite( 1 <array.1ength ) (
+H          ntj・0
+7          wt
+8             1d:
+9          ] white (<arraylil.1ength() ):
+10          System.ont.printtn(arraytl +:"・
+1          |
+2        }
+3. }
+4. 1)
+AA2
+B2
+Bm Ai
+B3
+でAl
+B1
+D. 実行陸に例外がスローされる
+[] 70. 次のプログラムの [/ insert code here]」 に入るコードとして、正しい
+ものを選びなさい。(1つ選択)
+mbtic class Sample 【
+pubtic static void main(Stringl] args) (
+// imsert code here
+arayl0]
+array[1] = 3:
+System.out.println(srrey[0]・ "" ・ srreyl1]):
 }
 )
 546
 
 
 --- picture_0046.png ---
-A. int[] array = new int(2];
-8, int{] array;
-array = int{2];
-©. int array = new int 2];
-D. int array[2];
-71. RO709SHOI27/14 WIS—BBETSHRELT. ELUGD
-@RUGEU, (2DHR)
-4. public class Main {
-2, public static void aain(String|] args) {
-3. try {
-4, if (args. tength == 0) {
-5. sanple(nutl);
-6 ) else {
-7 sanple(args[0]);
-8. )
-9. } catch (RuntineException e) {
-40. Systen. out. printin("error");
-i. )
-mw) ta
-43, __ private static void sanple(String str) ( é
-4 if (str == mull) throw new Exception(); sl
-15. throw new RuntimeException(); a
-1%) =
-ra) a
-A. mainXY y KOBE(Cthrows Exception BMS S
-8. samplexY ¥ KOEE[Cthrows Exception @iGiFS
-© mainxXYy K&samplexy y KOMIICthrows Exception iB
-mss
-D.  samplexYy KOBEBlCthrows ExceptioniSill. catchF
-Dy OWEException<LETS
-E. mainXy y KOBE (throws ExceptionI8iNL. catch FOy
-DOWeErception<AETS
-5a7
+A int[] array = new int[2]:
+B intll array:
+amray = int[2]:
+て。 int array = new int[21:
+D. int arrayl21:
+[| 71. 次のプログラムのコンバイルエラーを修正する方法として、正しいもの
+を選びなさい。(2つ選択)
+1 mbtie class Nan {
+2。 pubic ststic veid main(Stringl] srgs) (
+3.        ty
+ょ          (ergs.ieneth = 0) 【
+5              semptetmtt):
+B          ) stse (
+7               semple(args[0]):
+8            )
+9       ) catch (RuntimeException e) 【
+10            System.out.printin("error'):
+1        )
+22. )                                                  軸
+13. private static voiq sampte(String str) (
+4         補 (str = mlt) throw new Exneption():                  問
+15.         throw new RuntimeException():                             是
+36。 )                                                  回
+7 )                                                      人
+Amainメソッドの宣言にthrows Exceptionを追加する
+B. sampleメソッドの直言にthrows Exceptionを追加する
+で。 mainメソッドとsampleメソッドの両方にthrows Exceptionを師
+加する
+D. sampleメソッドの宣言にthrows Exceptionを造加し、catchブ
+ロックの型をExceptionに変更する
+E。 mainメソッドの宣言にthrows Exceptionを追加し、catchブロッ
+クの型をExceptionに変更する
+547
 
 
 --- picture_0047.png ---
-[1 72. KOFOFSAEIINAL, RILRESOBRELT. ELS
-DEBUBEN. (1 DER)
-1. public class Sanple {
-2, public static final int length - 3;
-3 public static void main(String|] args) {
-4 int[] array = new int{Length];
-5 for (int i= 0; § ¢ 3; is+) {
-6 Systen. out. print (arrayli]);
-7 J
-8 Systen. out.printIn();
-9 Integer{] array2 = new Integer! length];
-40. for (int i= 0; § ¢3; i++) {
-1 System. out. print(array2[i]};
-1 }
-Bo)
-crn
-A. nullnulinull
-000
-B. 000
-000
-< 000
-nulinutinull
-D.—nullnulinull
-nulinullnull
-E  RGBICEIAEAD-ANs
+[| 72. 次のプログラムをコンパイルし、実行したときの結果として、正しいも
+のを選びなさい。(1つ選択)
+1 pubtic class Sampte {
+2. pubtic statie final int length = 3:
+3     public static void main(Stringl] args) (
+4        int[] array = new intltengthl:
+5      for iti=0i<3り人(
+H            system.out.print(arrayHil):
+7         }
+8          System.out.printin():
+9        Tntegerl] array2 = new Integerltength]:
+1        for (iti-0:i<3i inり(
+1             System.out.printtarray2il):
+2         }
+3. }
+4. 1)
+A nulnulnul
+ooo
+g 000
+0o
+c oo
+nulnullnul
+p. nulnulnul
+nulnullnul
+E. 実行時に例外がスローされる
 548
 
 
 --- picture_0048.png ---
-[1 73. ROFOFSHEIINA IL, RAILRETOBRELT. ELUSO
-RUBE. (1D)
-1. public class Main {
-a public static void main(String[] args) {
-3. System. out.println("result=" +2 +3 + 4);
-is System. out. println("result=" + 2 + 3+ 4);
-5)
-6)
-A. result=9
+[| 73. 次のプログラムをコンバイル、 実行したときの結果として、正しいもの
+を選びなさい。(1つ選択)
+1. public ctass Main {
+光     publio static void main(Stringll args) {
+3       System.out.printn('results" +2+3+ 0:
+旧       System.out.println("result=" +2+3・*44:
+5 )
+1
+Aresute9
 result=24
-B.result=9
+Bresut=9
 result=20
-C result=234
+て reswu=234
 result=212
-D.—result=212
+D. rewut=212
 result=212
-(174. os KeRRL tueeRTI-KELTELUBORRUEAU. g
-(DBR) fiz
-iF
-ial
-char{J[] arrayt = {{'a', "b'}, {'e', 'é')}: Ea
-char[|[] array2 = arrayi.clone(); @
-char[] array3 = arrayt[1].clone(); i)
-|
-A arrayi[1] == array3
-8. arrayi[1] == array3[1]
-© arrayi[1] == array2[1]
-D. arrayt. equals(array2)
+[| 74. 次のコードを確認し、trueを戻すコードとして正しいものを選びなさい。        天
+(1つ選択)                                              則
+げ
+間
+earllll arrayt - (ap te ld
+carlll array2 = array1.clone():                             2
+charll array3 = array1l11.clonel):                            間
+財
+A   array1[1] == array3
+B. array1H] == array31]
+で srreytl1] == arrey2H1]
+D. array1.eqnals(array2)
 549
 
 
 --- picture_0049.png ---
-i 75. ROSampleF SAC, SMTRIFM GTI 4 I) Kvaluee BS
-FOXY Y KRCMLEW. XY y KOERELT. ELUSOEBE
-TEV. (1 DIR)
-1, public class Sample {
-2, private String value:
-31
-A. public void setValue(String value) {
-value = value;
-I
-B. public String setValue(String str) {
-String value = str;
-return value;
+口 75. 次のSampleクラスに、引数で受け取った値でフィールドvalueを変更
+するメソッドを追加したい。メソッドの定義として、正しいものを選び
+なさい。(1つ選択)
+1 pubtic class Samle {
+2。 。 private String value
+3
+A pubtic void setWatue(String value) {
+Yalue = value:
 }
-public void setValue(String value) {
-this. value = value;
+B. pubtic String setVatue(String str) 【
+String value = strz
+return value:
 }
-D. public void setValue() {
-this. value = value:
+C。 pubtic void setValue(String vaue) 【
+this.vatue = value:
 }
-[1 76. ROFOFSHERTL, [HELLO] ERTL. BHICASI—K
-ELT, ELUSDEBUBAL. (2H)
-1. import java.util. function. Function;
+p. pubtic void setVatne() 【
+this.vatue = value:
+}
+| 76. 次のプログラムを実行し、「HELLO」と表示したい。 空間に入るコード
+として、正しいものを選びなさい。(2つ選択)
+1 import awautil.function.Fonction:
 2
-3, public class Main {
-4 public static void main(String!] args) {
-5 Function<String, String> func =
-6 System. out. printin (func. apply (*hello")) ;
-7 }
-8.)
+3 pubtic class Main (
+4     pubti static void main(Stringl] args) (
+5        Function<String。 String> fume =
+6         System.out.printtn(fume.appty("hetlo')):
+7     }
+8.1
 550
 
 
 --- picture_0050.png ---
-A. String: : toUpperCase();
-B. x ~> x. toUpperCase();
-© x:toUpperCase();
-D. -x::tollpperCase();
-€, (String x) -> { return x.tollpperCase(); };
-(177. ROFOFSHOBMELT, ELUBORRUTAL. (1938)
-1, public class SanpleException extends Exception ()
-1, public class SubSampleException extends SampleException {}
-1. public class Sample {
-2. public void test(int num) throws SampleException {
-3, if (num < 10) {
-e throw new SubSampleException();
-5 )
-6. }
-ce)
-A. testXY y KTId, SampleExceptionI SAD. EO IISA e
-THNIEZO-THS iF
-8. SampleExceptionls IRAN TES a
-C. SampleExceptionlé OIF THMLENBUERICES fal
-ATS 6
-D. testXYy KTS, Sampletxception Lb AO—THBUEA @
-YNAWLS—-DRETS
+AString::toUpperCase():
+B    x -> x.toUpperCase():
+c xrtoUpperCase0):
+D xi:toUpperCase():
+E (String 2 -> (return x.toUpperCase0): ]:
+[| 77. 次のプログラムの説明として、正しいものを選びなさい。(1つ選択)
+1。 pubtie class SampeException extends Exception ()
+1。 pubiie class SubSamptePxception extends SampteBxception 1
+1. public class Sampte {
+2.     public void test(int num) throws SampleException {
+3 mm<10) {
+四             throw new SubSampleException():
+日         )
+5     }
+7.1
+A   testメソッドでは、sampleExceptionクラスか、そのサブクラス      内
+であればスローできる                                    げ
+BsampleEceptionは奏査例外である                         自
+て。 sampleExceptionはブログラムで対負しきれないときに使う例       fg
+外である                                             箇
+D. testメソッドでは、sampleExceptionしかスローできないためコ       是
+ンパイルエラーが発生する
 551
 
 
 --- picture_0051.png ---
-[1 78. KOFOFSHEIINAWTSE, MIBTIYINA ISM
-D.. (1 DIR)
-1, public class Main {
-2, public static void main(Stringl] args) {
-3 sanple();
-4 int a= b;
-5 int b = nus;
-& 7
-7. private static void sample() {
-a System. out. printin (nun);
-e J
-10, static int num;
-1. }
-A 388
-8. 4B
-© sf
-o 8GB
-[1 79. ROFOFSHEIINA, RGLLESOBRELT. ELUBO
-BUG. (1038)
-1, public class Main {
-2, public static void main(Stringl] args) {
-3 int{] array = {2, 3, 4);
-4 int[] array2 = array. clone();
-5 array2[0] = 5;
-a for (int i: array) {
-1 Systen. out. printIn(i);
-a }
-9)
-10.)
-A [2] [3] [a] exeens
-8. 15] 13) [al eaeRens
-CDNAS PRESS
-D.  - RABICHIOAD-ANS
+[| 78. 次のプログラムをコンパイルすると、休行目でコンバイルエラーになる
+か。(1つ選択)
+1 pubtic class Main (
+2. pbtie statie void main(stringl] args) (
+3        semple():
+4        nt a・b
+5        int D = nm
+6 1
+7。 。 private static void sampte() {
+8         System.out.println(nml:
+隊     }
+10. static int nm
+11.1
+A 3行目
+B. 4行目
+C。 5本目
+p. 8目
+[] 79 次のプログラムをコンバイル、 実行したときの結果として、正しいもの
+を選びなさい。(1つ選択)
+1 puptic class Main (
+2. pubtic statie void main(stringll args) (
+3       imtll array = 12 3 引:
+3        intl] array2 = array.clone():
+5       arraW20] 5
+H       for (int i : array) (
+?             System.ont.println():
+8         }
+3}
+20.
+A_ 2] は] 「4] と表示される
+B. [5] 3 「4] と表示される
+C。 コンバイルエラーが発生する
+D. 実行時に例外がスローされる
 552
 
 
 --- picture_0052.png ---
-80. rozOFSnes4 I, RILRETOBRELT. ELUSO
-BUGS. (1 DEER)
-1. public class Main (
-2. public static void main(String[] args) {
-3. int nun = 0;
-4. String[] array = ("A", "B*, “C*, "D");
-5. for (String s : array) {
-6. switch(s) (
-1 case “D":
-8. case “A:
-9. ua -= 1;
-40. break;
-u. case "BY:
-2 nun;
-8 case “C":
-4 un += 2;
-15, }
-16 )
-a System. out. print1n(oun);
-18. ) @
-19. } fE
-fy
-Pa
-A shRRENS |
-8 abies @
-ches 6
-D. AYN LIS —-hRETS. a
-~
+[| 80. 次のプログラムをコンバイル、 実行したときの結果として、正しいもの
+を選びなさい。 (1つ選択)
+1 mubtic ctass Jain (
+2.。 pubtic static void main(String[] args) (
+3        int mum = 0:
+ょ      stringll array = ("WC DP:
+5       for (String s : array) {
+6         switch(s) (
+7            case 9
+8               ease "rt
+9                 num
+10.               break:
+宙           cese BE
+12                nom
+由            ease GE
+由                   maez
+15.          }
+円        )
+7         System.out.printtn(num):
+18.    )                                             総
+19.1                                                仁
+軸
+げ
+A。 3が表示される                                    目
+B. 4が表示される                                    ⑧
+C。 -1が表示される                                    鐘
+D. コンバイルエラーが発生する                            に!
+      ー
 553
